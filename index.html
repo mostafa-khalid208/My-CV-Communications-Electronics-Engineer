@@ -14,6 +14,14 @@
         margin: 0;
         padding: 0;
     }
+[lang="ar"] {
+            direction: rtl;
+            text-align: right;
+        }
+        [lang="en"] {
+            direction: ltr;
+            text-align: left;
+        }
 
 
         h1 {
@@ -157,6 +165,9 @@ footer p {
         transform: translateY(20px); /* ينزلق من الأسفل */
         animation: fadeIn 1.5s ease-in-out forwards;
     }
+.hidden {
+    display: none;
+}
 
 @media (max-width: 768px) {
     header {
@@ -232,60 +243,119 @@ header p {
 
     </style>
 </head>
-<body>
+<body lang="en">
     <header>
         <img src="https://github.com/user-attachments/assets/473eb39f-160b-41ec-b021-6e2ae2d561fc" alt="Mostafa Khalid Sallam" class="profile-img">
-        <h1>Mostafa Khalid Sallam</h1>
-        <p><strong>Communications & Electronics Engineer</p>
+        <h1 class="en" >Mostafa Khalid Sallam</h1>
+        <p class="en" ><strong>Communications & Electronics Engineer</p>
+
+
+            <h1 class="ar hidden" >مصطفى خالد سلام</h1>
+        <p class="ar hidden" ><strong>مهندس اتصالات والكترونيات</p>
+
     </header>
+<div>
+        <!-- Language Toggle Buttons -->
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('ar')">العربية</button>
+    </div>
 
     <nav>
         <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work-experiences">Work</a></li>
-            <li><a href="#education">Education</a></li>
-<li><a href="#projects">Project</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#certificates">Certificates</a></li>
+            <li class="en" ><a href="#contact">Contact</a></li>
+            <li class="en"><a href="#about">About</a></li>
+            <li class="en"><a href="#work-experiences">Work</a></li>
+            <li class="en"><a href="#education">Education</a></li>
+                    <li class="en"><a href="#projects">Project</a></li>
+            <li class="en"><a href="#skills">Skills</a></li>
+            <li class="en"><a href="#experience">Experience</a></li>
+            <li class="en"><a href="#certificates">Certificates</a></li>
+
         </ul>
+<ul>
+            <li class="ar hidden" ><a href="#contact">التواصل</a></li>
+            <li class="ar hidden"><a href="#about">عني</a></li>
+            <li class="ar hidden"><a href="#work-experiences">العمل</a></li>
+            <li class="ar hidden"><a href="#education">التعليم</a></li>
+                    <li class="ar hidden"><a href="#projects">المشاريع</a></li>
+            <li class="ar hidden"><a href="#skills">المهارات</a></li>
+            <li class="ar hidden"><a href="#experience">الخبرة</a></li>
+            <li class="ar hidden"><a href="#certificates">الشهادات</a></li>
+
+        </ul>
+
     </nav>
 
 <section id="contact">
-        <h2>Contact Information</h2>
+        <h2 class="en">Contact Information</h2>
+        <h2 class="ar hidden">معلومات الاتصال</h2>
+
         <ul>
-            <li><strong>Phone:</strong> +201060770591</li>
-            <li><strong>Email:</strong> <a href="mailto:mostafa.khalid.sallam208@gmail.com">mostafa.khalid.sallam208@gmail.com</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mostafa-khalid-b516911aa/">Profile</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/mostafa-khalid208">GitHub Profile</a></li>
-<li><strong>Military status:</strong> exempt </li>
-            <li><strong>Location:</strong> Kafr Essam, Tanta, El Gharbia, Egypt</li>
+            <li class="en"><strong>Phone:</strong> +201060770591</li>
+            <li class="en"><strong>Email:</strong> <a href="mailto:mostafa.khalid.sallam208@gmail.com">mostafa.khalid.sallam208@gmail.com</a></li>
+            <li class="en"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mostafa-khalid-b516911aa/">Profile</a></li>
+            <li class="en"><strong>GitHub:</strong> <a href="https://github.com/mostafa-khalid208">GitHub Profile</a></li>
+                   <li class="en"><strong>Military status:</strong> exempt </li>
+            <li class="en"><strong>Location:</strong> Kafr Essam, Tanta, El Gharbia, Egypt </li>
         </ul>
+
+              <ul>
+            <li class="ar hidden"><strong>الهاتف:</strong> +201060770591</li>
+            <li class="ar hidden"><strong>البريد الالكترونى:</strong> <a href="mailto:mostafa.khalid.sallam208@gmail.com">mostafa.khalid.sallam208@gmail.com</a></li>
+            <li class="ar hidden"><strong>لينكدان (LinkedIn) :</strong> <a href="https://www.linkedin.com/in/mostafa-khalid-b516911aa/">Profile</a></li>
+            <li class="ar hidden"><strong> جيت هاب (GitHub) :</strong> <a href="https://github.com/mostafa-khalid208">GitHub Profile</a></li>
+                   <li class="ar hidden"><strong>الحالة العسكرية:</strong>  معفى </li>
+            <li class="ar hidden"><strong>العنوان:</strong> كفر عصام، طنطا، الغربية، مصر</li>
+        </ul>
+
     </section>
 
 <section id="about">
-    <h2>About Me</h2>
-    <p>
+    <h2 class="en" >About Me</h2>
+    <h2 class="ar hidden" >عنى</h2>
+    <p class="en">
         A motivated and detail-oriented Communications and Electronics Engineer with a GPA of 3.58/4.0 (Excellent). Gained practical experience as a Teaching Assistant in the Department of Electrical and Communication Engineering, specializing in e-learning, academic guidance, and educational quality assurance. Passionate about contributing to innovative projects in telecommunications and electronics.
     </p>
-    <p>
+    <p class="en">
         Trained extensively in mobile communication technologies, including GSM, GPRS, EDGE, UMTS, HSPA, LTE, and 5G (NR), with hands-on expertise in RF planning, drive testing, and post-processing analysis. Certified in CCNA (Cisco Certified Network Associate), covering networking fundamentals such as switching, routing, wireless essentials, and network automation.
     </p>
-    <p>
+    <p class="en">
         Skilled in programming languages like Python, C++, and Dart, and adept at using tools such as VS Code, Flutter, and Arduino for engineering solutions. Proficient in using advanced software like MATLAB, Simulink, AutoCAD, Revit, and TEMS Investigation for technical and telecommunications tasks.
     </p>
-    <p>
+    <p class="en">
         Strong problem-solving abilities, effective communication, and a proactive approach to learning and teamwork make me an asset for innovative projects in the fields of telecommunications, electronics, and networking.
     </p>
+
+
+
+
+<p class="ar hidden">
+مهندس اتصالات وإلكترونيات متحمس ودقيق يتمتع بمعدل تراكمي 3.58/4.0 (امتياز). اكتسب خبرة عملية كمساعد تدريس في قسم الهندسة الكهربائية والاتصالات، متخصصًا في التعلم الإلكتروني، والإرشاد الأكاديمي، وضمان جودة التعليم. شغوف بالمساهمة في مشاريع مبتكرة في مجال الاتصالات والإلكترونيات.</p>
+
+    <p class="ar hidden">
+تلقيت تدريبًا مكثفًا في تقنيات الاتصالات المتنقلة، بما في ذلك GSM، GPRS، EDGE، UMTS، HSPA، LTE، و5G (NR)، مع خبرة عملية في تخطيط الترددات اللاسلكية (RF)، واختبارات القيادة (Drive Testing)، وتحليل ما بعد المعالجة. حاصل على شهادة CCNA (Cisco Certified Network Associate)، مع تغطية أساسيات الشبكات مثل التبديل (Switching)، والتوجيه (Routing)، وأساسيات الشبكات اللاسلكية، وأتمتة الشبكات.</p>
+
+    <p class="ar hidden">
+ماهرة في لغات البرمجة مثل Python وC++ وDart، ومتمكن من استخدام أدوات مثل VS Code وFlutter وArduino لتطوير الحلول الهندسية. متمكن من استخدام برامج متقدمة مثل MATLAB، Simulink، AutoCAD، Revit، وTEMS Investigation للمهام التقنية والهندسية في مجال الاتصالات. </p>
+
+    <p class="ar hidden">
+أتميز بقدرات قوية في حل المشكلات، ومهارات تواصل فعّالة، ونهج استباقي في التعلم والعمل الجماعي، مما يجعلني إضافة قيمة للمشاريع المبتكرة في مجالات الاتصالات، الإلكترونيات، والشبكات.</p>
+
 </section>
 
 <section id="work-experiences">
-    <h2>Work Experiences</h2>
-<li><strong>Teaching Assistant at Valley Institute for Engineering & Technology:</strong> 
+    <h2 class="en">Work Experiences</h2>
+    <h2 class="ar hidden">خبرات العمل</h2>
+<p class="en"><strong>Teaching Assistant at Valley Institute for Engineering & Technology In Obour City :</strong> 
             <br> Worked as a Teaching Assistant in the Department of Electrical and Communication Engineering for one term (September - December 2024).
             <br> Specializing in academic teaching, academic guidance, e-learning, and educational quality assurance.
-        </li>
+        </p>
+
+<p class="ar hidden"><strong>  معيد في معهد الوادي العالي للهندسة والتكنولوجيا بالعبور:  </strong> 
+            <br> عملت معيد في قسم الهندسة الكهربائية والاتصالات لمدة فصل دراسي واحد (سبتمبر - ديسمبر 2024).
+            <br> تخصصت في التدريس الأكاديمي والتوجيه الأكاديمي والتعليم الإلكتروني وضمان الجودة التعليمية.
+        </p>
+
     
 </section>
 
@@ -293,18 +363,28 @@ header p {
     
 
     <section id="education">
-        <h2>Education</h2>
-        <p><strong>Bachelor's Degree in Communication and Electronics Engineering</strong> <a href="https://drive.google.com/file/d/1MFr-KQmtQr2J17H0kYjmXdXix_NB91ue/view?usp=drive_link"> (Bachelor's Degree) </a></p>
-        <p>Valley Institute for Engineering & Technology<a href="https://sva.edu.eg/"> (SVA) </a></p>
-        <p>Graduated: July 2024</p>
-        <p>GPA: 3.58/4.0 (Excellent)</p>
+        <h2 class="en">Education</h2>
+        <h2 class="ar hidden">التعليم</h2>
+        <p class="en"><strong>Bachelor's Degree in Communication and Electronics Engineering</strong> <a href="https://drive.google.com/file/d/1MFr-KQmtQr2J17H0kYjmXdXix_NB91ue/view?usp=drive_link"> (Bachelor's Degree) </a></p>
+        <p class="en">Valley Institute for Engineering & Technology In Obour City<a href="https://sva.edu.eg/"> (SVA) </a></p>
+        <p class="en">Graduated: July 2024</p>
+        <p class="en">GPA: 3.58/4.0 (Excellent)</p>
+
+
+<p class="ar hidden"><strong>بكالوريوس في هندسة الاتصالات والالكترونيات</strong> <a href="https://drive.google.com/file/d/1MFr-KQmtQr2J17H0kYjmXdXix_NB91ue/view?usp=drive_link"> ( البكالوريوس) </a></p>
+        <p class="ar hidden">معهد الوادي العالي للهندسة والتكنولوجيا بالعبور<a href="https://sva.edu.eg/"> (SVA) </a></p>
+        <p class="ar hidden">تخرجت: يوليو 2024</p>
+        <p class="ar hidden">المعدل التراكمي: 3.58/4.0 (امتياز)</p>
+
 
 
     </section>
 
 <section id="projects">
-        <h2>Graduation Project</h2>
-        <ul>
+        <h2 class="en">Graduation Project</h2>
+        <h2 class="ar hidden">مشروع التخرج</h2>
+
+        <ul class="en">
             <li><p>
                 <strong>Graduation Project (A+):</strong>
                 Smart Technology Applications in Agriculture<br>
@@ -315,102 +395,211 @@ header p {
    </p>
             </li>
         </ul>
+
+
+<ul class="ar hidden">
+            <li><p>
+                <strong>مشروع التخرج (أ+):</strong>
+                تطبيقات التكنولوجيا الذكية في الزراعة<br>
+                <em>وصف:</em> قمت بتطوير نظام ري ذكي يعتمد على تقنيات إنترنت الأشياء (IoT) والذكاء الاصطناعي (AI) لتعزيز الإنتاجية الزراعية وتحقيق الاستدامة.
+         
+
+                <a href="https://github.com/mostafa-khalid208/SMART-TECHNOLOGY-APPLICATIONS-IN-AGRICULTURE"> المشروع علي GitHub </a>
+   </p>
+            </li>
+        </ul>
+
     </section>
 
     <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
+        <h2  class="en">Technical Skills</h2>
+        <h2  class="ar hidden">المهارات التقنية</h2>
+
+        <ul class="en">
             <li><strong>Programming Languages:</strong> Python, C++, Dart</li>
             <li><strong>Tools & Technologies:</strong> VS Code, Flutter, FlutterFlow, ESP32, Arduino Uno, Firebase</li>
             <li><strong>Networking:</strong> Cisco Packet Tracer, CCNA</li>
             <li><strong>Telecommunications:</strong> TEMS Investigation, Atoll</li>
             <li><strong>Office Tools:</strong> Microsoft Office (Excel, Word, PowerPoint)</li>
         </ul>
+
+
+<ul class="ar hidden">
+            <li><strong>لغات البرمجة (Programming Languages) :</strong> Python, C++, Dart</li>
+            <li><strong>الأدوات والتقنيات (Tools & Technologies):</strong> VS Code, Flutter, FlutterFlow, ESP32, Arduino Uno, Firebase</li>
+            <li><strong>الشبكات (Networking) :</strong> Cisco Packet Tracer, CCNA</li>
+            <li><strong>الاتصالات السلكية واللاسلكية (Telecommunications) :</strong> TEMS Investigation, Atoll</li>
+            <li><strong>أدوات مايكروسوفت أوفيس (Office Tools) :</strong> أدوات مايكروسوفت أوفيس (Excel, Word, PowerPoint)</li>
+        </ul>
+
     </section>
 
     <section id="experience">
-        <h2>Training & Experiences</h2>
-        <ul>
+        <h2 class="en">Training & Experiences</h2>
+        <h2 class="ar hidden">التدريب والخبرات</h2>
+
+        <ul class="en">
             <li><strong>Telecom Egypt (WE):</strong> Cisco Certified Network Associate (CCNA 200-301)  <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view"> Cisco_CCNA (200-301)_ Telecom Egypt ( WE ) </a></li>
             <li><strong>Trust Telecom Academy:</strong> Mobile package (2G, 3G, 4G, 5G)<a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view"> Mobile Package </a></li>
             <li><strong>Gharbia Engineers Syndicate:</strong> Basics of Electrical Engineering <a href="https://drive.google.com/file/d/1rrimcnFc7t5JAYcAwGuLVM7HWERIoQjB/view"> Gharbia Engineers Syndicate </a></li>
             <li><strong>Robotech EG:</strong> Fundamentals of Embedded Systems <a href="https://drive.google.com/file/d/1A7u9JWa605lTKatqVeOsNFSEqymMuSTZ/view"> Embedded Systems </a></li>
         </ul>
+
+
+<ul class="ar hidden">
+            <li><strong>المصرية للاتصالات (WE):</strong> Cisco Certified Network Associate (CCNA 200-301)  <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view"> Cisco_CCNA (200-301)_ Telecom Egypt ( WE ) </a></li>
+            <li><strong> أكاديمية تراست للاتصالات (Trust Telecom Academy) :</strong> Mobile package (2G, 3G, 4G, 5G)<a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view"> Mobile Package </a></li>
+            <li><strong>نقابة المهندسين بالغربية:</strong> أساسيات الهندسة الكهربائية <a href="https://drive.google.com/file/d/1rrimcnFc7t5JAYcAwGuLVM7HWERIoQjB/view"> Gharbia Engineers Syndicate </a></li>
+            <li><strong>Robotech EG:</strong> أساسيات الأنظمة المدمجة <a href="https://drive.google.com/file/d/1A7u9JWa605lTKatqVeOsNFSEqymMuSTZ/view"> Embedded Systems </a></li>
+        </ul>
+
     </section>
 
     <section id="courses">
-        <h2>Courses & Trainings</h2>
+        <h2 class="en">Courses & Trainings</h2>
+        <h2 class="ar hidden">الدورات والتدريبات</h2>
+
+        <ul class="en">
+    <li>
+        <strong>TELECOM EGYPT (WE) (2023):</strong>
+        Cisco Certified Network Associate (CCNA 200-301)
         <ul>
-            
-            <li>
-                <strong>TELECOM EGYPT (WE) (2023):</strong>
-                Cisco Certified Network Associate (CCNA 200-301)
-                    <li>Introduction to Networks</li>
-<li>Switching, Routing, and Wireless Essentials</li>
-                    <li>Enterprise Networking, Security, and Automation</li>
-<li>-------------------------------------------------------- </li>
-            </li>
-            <li>
-                <strong>TRUST TELECOM ACADEMY (2023):</strong> Mobile Package<br>
-                <ul>
-                    <li>GSM, GPRS, EDGE, CDMA, UMTS, and HSPA</li>
-                    <li>LTE, LTE-A, and LTE-A Pro</li>
-                    <li>2G, 3G, and 4G Drive Test & Post Processing</li>
-                    <li>5G (NR) Mobile Technology</li>
-                    <li>5G and 4G RF Planning</li>
-                    <li>Instructor: Eng.Waleed Elsafoury </li>
-<li>-------------------------------------------------------- </li>
-                </ul>
-            </li>
-            <li>
-                <strong>GHARBIA ENGINEERS SYNDICATE (2022):</strong> Basics of Electrical Engineering<br>
-                <ul>
-                    <li>Protection</li>
-                    <li>Distribution Network Automation</li>
-                    <li>Fundamentals of Electrical Power Systems Engineering</li>
-                    <li>Fundamentals of Communications</li>
-<li>-------------------------------------------------------- </li>
-                </ul>
-            </li>
-            <li>
-                <strong>English Courses:</strong>
-                <ul>
-                    <li>English Level (1, 2, and 3), Creative Group, May 2019</li>
-                    <li>English (A2), Edraak, July 2021</li>
-<li>-------------------------------------------------------- </li>
-                </ul>
-            </li>
-            <li>
-                <strong>Technical Courses:</strong>
-                <ul>
-                    <li>Fundamental of Embedded System, Robotech EG, November 2021</li>
-                    <li>Electrical Distribution, Udemy, June 2022</li>
-                    <li>Solar Energy Using AutoCAD and PVsyst, Udemy, August 2022</li>
-                    <li>Revit (MEP), Udemy, August 2022</li>
-                    <li>Analog IC Design, Mahara Tech, July 2022</li>
-                    <li>Telecom Basics, Udemy, February 2023</li>
-                </ul>
-            </li>
+            <li>Introduction to Networks</li>
+            <li>Switching, Routing, and Wireless Essentials</li>
+            <li>Enterprise Networking, Security, and Automation</li>
         </ul>
-<p>-------------------------------------------------------- </p>
-                </ul>
-            </li>
-            <p>
-                <strong>Programming Courses:</strong>
-                <ul>
-                    <p>Mastering Programming by Dart _ A Comprehensive Course in [Arabic] , December 2024</p>
-                   
-                </ul>
-            </p>
+    </li>
+<p>------------------------------</p>
+    <li>
+        <strong>TRUST TELECOM ACADEMY (2023):</strong> Mobile Package
+        <ul>
+            <li>GSM, GPRS, EDGE, CDMA, UMTS, and HSPA</li>
+            <li>LTE, LTE-A, and LTE-A Pro</li>
+            <li>2G, 3G, and 4G Drive Test & Post Processing</li>
+            <li>5G (NR) Mobile Technology</li>
+            <li>5G and 4G RF Planning</li>
+            <li>Instructor: Eng.Waleed Elsafoury</li>
         </ul>
+    </li>
+<p>------------------------------</p>
+
+    <li>
+        <strong>GHARBIA ENGINEERS SYNDICATE (2022):</strong> Basics of Electrical Engineering
+        <ul>
+            <li>Protection</li>
+            <li>Distribution Network Automation</li>
+            <li>Fundamentals of Electrical Power Systems Engineering</li>
+            <li>Fundamentals of Communications</li>
+        </ul>
+    </li>
+    <p>------------------------------</p>
+
+    <li>
+        <strong>English Courses:</strong>
+        <ul>
+            <li>English Level (1, 2, and 3), Creative Group, May 2019</li>
+            <li>English (A2), Edraak, July 2021</li>
+        </ul>
+    </li>
+<p>------------------------------</p>
+
+    <li>
+        <strong>Technical Courses:</strong>
+        <ul>
+            <li>Fundamental of Embedded System, Robotech EG, November 2021</li>
+            <li>Electrical Distribution, Udemy, June 2022</li>
+            <li>Solar Energy Using AutoCAD and PVsyst, Udemy, August 2022</li>
+            <li>Revit (MEP), Udemy, August 2022</li>
+            <li>Analog IC Design, Mahara Tech, July 2022</li>
+            <li>Telecom Basics, Udemy, February 2023</li>
+        </ul>
+    </li>
+<p>------------------------------</p>
+
+<li>
+        <strong>Programming Courses:</strong>
+        <ul>
+            <li>Mastering Programming by Dart - A Comprehensive Course in [Arabic], December 2024</li>
+        </ul>
+    </li>
+</ul>
+
+<ul class="ar hidden">
+    <li>
+        <strong>المصرية للاتصالات (WE) (2023):</strong>
+        Cisco Certified Network Associate (CCNA 200-301)
+        <ul>
+            <li>Introduction to Networks</li>
+            <li>Switching, Routing, and Wireless Essentials</li>
+            <li>Enterprise Networking, Security, and Automation</li>
+        </ul>
+    </li>
+<p>------------------------------</p>
+
+    <li>
+        <strong>أكاديمية تراست للاتصالات (Trust Telecom Academy) (2023):</strong> Mobile Package
+        <ul>
+            <li>GSM, GPRS, EDGE, CDMA, UMTS, and HSPA</li>
+            <li>LTE, LTE-A, and LTE-A Pro</li>
+            <li>2G, 3G, and 4G Drive Test & Post Processing</li>
+            <li>5G (NR) Mobile Technology</li>
+            <li>5G and 4G RF Planning</li>
+            <li>المحاضر : المهندس وليد الصفوري</li>
+        </ul>
+    </li>
+<p>------------------------------</p>
+
+    <li>
+        <strong>نقابة المهندسين بالغربية (2022):</strong> أساسيات الهندسة الكهربائية
+        <ul>
+            <li>الحماية</li>
+            <li>أتمتة شبكات التوزيع</li>
+            <li>أساسيات هندسة أنظمة الطاقة الكهربائية</li>
+            <li>أساسيات الاتصالات</li>
+        </ul>
+    </li>
+    <p>------------------------------</p>
+
+    <li>
+        <strong>الدورات اللغة الانجليزية:</strong>
+        <ul>
+            <li>English Level (1, 2, and 3), Creative Group, May 2019</li>
+            <li>English (A2), Edraak, July 2021</li>
+        </ul>
+    </li>
+<p>------------------------------</p>
+
+    <li>
+        <strong>الدورات الفنية:</strong>
+        <ul>
+            <li>أساسيات النظام المدمج, Robotech EG, نوفمبر 2021</li>
+            <li>التوزيع الكهربائي, Udemy, يونيو 2022</li>
+            <li>الطاقة الشمسية باستخدام AutoCAD و PVsyst, Udemy, أغسطس 2022</li>
+            <li>ريفيت Revit (MEP), Udemy, أغسطس 2022</li>
+            <li>تصميم الدائرة المتكاملة التناظرية, Mahara Tech, يوليو 2022</li>
+            <li>أساسيات الاتصالات, Udemy, فبراير 2023</li>
+        </ul>
+    </li>
+<p>------------------------------</p>
+
+<li>
+        <strong>دورات البرمجة:</strong>
+        <ul>
+            <li>إتقان البرمجة بواسطة Dart - دورة شاملة باللغة العربية، ديسمبر 2024</li>
+        </ul>
+    </li>
+</ul>
+
 
     </section>
 
     
 
     <section id="certificates">
-        <h2>Certificates & Honors</h2>
-        <ul>
+        <h2 class="en">Certificates & Honors</h2>
+        <h2 class="ar hidden">"الشهادات والتكريمات"</h2>
+
+        <ul class="en">
             <li>SVA Certificate of Honor for obtaining first place in Communications and Electronics Engineering (2024)  <a href="https://drive.google.com/file/d/1rIGoV_gi1LCeWBuLEclC2f-QxGcViedk/view?usp=drive_link">Certificate of Honor and Appreciation SVA</a>
 </li>
             <li>CCNA Certification from Telecom Egypt (2023) <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view">Cisco_CCNA (200-301)_ Telecom Egypt ( WE )</a></li>
@@ -419,12 +608,54 @@ header p {
             <li>Certificate of Honor for assisting in e-learning during COVID-19 pandemic (2020)<a href="https://drive.google.com/file/d/1zlKThV118BnG0Zp20Q9IeyPy2rT9P8RP/view"> COA_SVA </a></li>
 
         </ul>
+
+
+ <ul class="ar hidden">
+            <li>شهادة تكريم من SVA لحصولى على المركز الأول في هندسة الاتصالات والإلكترونيات (2024)  <a href="https://drive.google.com/file/d/1rIGoV_gi1LCeWBuLEclC2f-QxGcViedk/view?usp=drive_link">شهادة تكريم وتقدير من SVA</a>
+</li>
+            <li>شهادة CCNA من شركة المصرية للاتصالات (2023) <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view">Cisco_CCNA (200-301)_ المصرية للاتصالات ( WE )</a></li>
+            <li>شهادة تدريب (Mobile Package) (أكاديمية تراست للاتصالات (Trust Telecom Academy)) (2023)<a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view"> Mobile Package </a></li>
+            <li>شهادة تكريم وتقدير من SVA لحصولى على المركز الثالث في قسم الهندسة الكهربائية (2022)<a href="https://drive.google.com/file/d/19l4Pc1FtbySo5GCFcxa-T9q_adMRsmFT/view?usp=drive_link"> شهادة تكريم وتقدير من SVA </a></li>
+            <li>شهادة تكريم للمساعدة في التعلم الإلكتروني خلال جائحة كوفيد-19 (2020)<a href="https://drive.google.com/file/d/1zlKThV118BnG0Zp20Q9IeyPy2rT9P8RP/view"> شهادة تكريم وتقدير من SVA </a></li>
+
+        </ul>
+
     </section>
 
-<footer>
+<footer class="en">
         <p>&copy; 2024 Mostafa Khalid Sallam. All Rights Reserved.</p>
         <p>Developed with  🤍 ✨ by Eng - Mostafa Khalid Sallam.</p>
     </footer>
+
+<footer class="ar hidden">
+        <p>&copy; 2024 مصطفى خالد سلام. جميع الحقوق محفوظة.</p>
+        <p>تم التطوير بـ 🤍 ✨ بواسطة المهندس - مصطفى خالد سلام.</p>
+    </footer>
+
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLanguage = localStorage.getItem('language') || 'en';
+            changeLanguage(savedLanguage);
+        });
+
+        function changeLanguage(language) {
+            // Update the language attribute of <body>
+            document.body.lang = language;
+            localStorage.setItem('language', language);
+
+            // Show/Hide elements based on the selected language
+            const enElements = document.querySelectorAll('.en');
+            const arElements = document.querySelectorAll('.ar');
+
+            if (language === 'en') {
+                enElements.forEach(el => el.classList.remove('hidden'));
+                arElements.forEach(el => el.classList.add('hidden'));
+            } else if (language === 'ar') {
+                enElements.forEach(el => el.classList.add('hidden'));
+                arElements.forEach(el => el.classList.remove('hidden'));
+            }
+        }
+    </script>
 
 
 </body>
