@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -15,51 +16,43 @@
         <p class="en"><strong>Communications & Electronics Engineer</strong></p>
         <h1 class="ar hidden">مصطفى خالد سلام</h1>
         <p class="ar hidden"><strong>مهندس اتصالات وإلكترونيات</strong></p>
-        <div class="lang-toggle">
-            <button onclick="changeLanguage('en')">English</button>
-            <button onclick="changeLanguage('ar')">العربية</button>
+        <div class="controls">
+            <div class="lang-toggle">
+                <i class="fas fa-globe"></i>
+                <button onclick="changeLanguage('en')">English</button>
+                <button onclick="changeLanguage('ar')">العربية</button>
+            </div>
+            <button id="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </button>
         </div>
     </header>
 
-    <nav>
-        <ul class="en">
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work-experiences">Work</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Project</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#certificates">Certificates</a></li>
-            <li>
-                <select id="language-switcher" onchange="changeLanguage(this.value)">
-                    <option value="en">English</option>
-                    <option value="ar">العربية</option>
-                </select>
-            </li>
-        </ul>
-        <ul class="ar hidden">
-            <li><a href="#contact">التواصل</a></li>
-            <li><a href="#about">عني</a></li>
-            <li><a href="#work-experiences">العمل</a></li>
-            <li><a href="#education">التعليم</a></li>
-            <li><a href="#projects">المشاريع</a></li>
-            <li><a href="#skills">المهارات</a></li>
-            <li><a href="#experience">الخبرة</a></li>
-            <li><a href="#courses">الدورات</a></li>
-            <li><a href="#certificates">الشهادات</a></li>
-            <li>
-                <select id="language-switcher" onchange="changeLanguage(this.value)">
-                    <option value="ar">العربية</option>
-                    <option value="en">English</option>
-                </select>
-            </li>
+    <nav id="home-nav">
+        <ul>
+            <li class="en"><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            <li class="en"><a href="#about" onclick="showSection('about')">About</a></li>
+            <li class="en"><a href="#work-experiences" onclick="showSection('work-experiences')">Work</a></li>
+            <li class="en"><a href="#education" onclick="showSection('education')">Education</a></li>
+            <li class="en"><a href="#projects" onclick="showSection('projects')">Project</a></li>
+            <li class="en"><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+            <li class="en"><a href="#experience" onclick="showSection('experience')">Experience</a></li>
+            <li class="en"><a href="#courses" onclick="showSection('courses')">Courses</a></li>
+            <li class="en"><a href="#certificates" onclick="showSection('certificates')">Certificates</a></li>
+            <li class="ar hidden"><a href="#contact" onclick="showSection('contact')">التواصل</a></li>
+            <li class="ar hidden"><a href="#about" onclick="showSection('about')">عني</a></li>
+            <li class="ar hidden"><a href="#work-experiences" onclick="showSection('work-experiences')">العمل</a></li>
+            <li class="ar hidden"><a href="#education" onclick="showSection('education')">التعليم</a></li>
+            <li class="ar hidden"><a href="#projects" onclick="showSection('projects')">المشاريع</a></li>
+            <li class="ar hidden"><a href="#skills" onclick="showSection('skills')">المهارات</a></li>
+            <li class="ar hidden"><a href="#experience" onclick="showSection('experience')">الخبرة</a></li>
+            <li class="ar hidden"><a href="#courses" onclick="showSection('courses')">الدورات</a></li>
+            <li class="ar hidden"><a href="#certificates" onclick="showSection('certificates')">الشهادات</a></li>
         </ul>
     </nav>
 
     <main>
-        <section id="contact" data-aos="fade-up">
+        <section id="contact" data-aos="fade-up" class="section hidden">
             <h2 class="en">Contact Information</h2>
             <h2 class="ar hidden">معلومات الاتصال</h2>
             <ul class="en">
@@ -108,9 +101,11 @@
                 <li><strong>الحالة العسكرية:</strong> معفى</li>
                 <li><strong>العنوان:</strong> كفر عصام، طنطا، الغربية، مصر</li>
             </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="about" data-aos="fade-up">
+        <section id="about" data-aos="fade-up" class="section hidden">
             <h2 class="en">About Me</h2>
             <h2 class="ar hidden">عني</h2>
             <p class="en">
@@ -137,9 +132,11 @@
             <p class="ar hidden">
                 أتميز بقدرات قوية في حل المشكلات، ومهارات تواصل فعّالة، ونهج استباقي في التعلم والعمل الجماعي، مما يجعلني إضافة قيمة للمشاريع المبتكرة في مجالات الاتصالات، الإلكترونيات، والشبكات.
             </p>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="work-experiences" data-aos="fade-up">
+        <section id="work-experiences" data-aos="fade-up" class="section hidden">
             <h2 class="en">Work Experiences</h2>
             <h2 class="ar hidden">خبرات العمل</h2>
             <p class="en"><strong>Teaching Assistant at Valley Institute for Engineering & Technology In Obour City:</strong> 
@@ -150,9 +147,11 @@
                 <br> عملت معيدًا في قسم الهندسة الكهربائية والاتصالات لمدة فصل دراسي واحد (سبتمبر - ديسمبر 2024).
                 <br> تخصصت في التدريس الأكاديمي، والتوجيه الأكاديمي، والتعليم الإلكتروني، وضمان الجودة التعليمية.
             </p>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="education" data-aos="fade-up">
+        <section id="education" data-aos="fade-up" class="section hidden">
             <h2 class="en">Education</h2>
             <h2 class="ar hidden">التعليم</h2>
             <p class="en"><strong>Bachelor's Degree in Communication and Electronics Engineering</strong> <a href="https://drive.google.com/file/d/1MFr-KQmtQr2J17H0kYjmXdXix_NB91ue/view?usp=drive_link" target="_blank">(Bachelor's Degree)</a></p>
@@ -163,9 +162,11 @@
             <p class="ar hidden">معهد الوادي العالي للهندسة والتكنولوجيا بالعبور <a href="https://sva.edu.eg/" target="_blank">(SVA)</a></p>
             <p class="ar hidden">تخرجت: يوليو 2024</p>
             <p class="ar hidden">المعدل التراكمي: 3.58/4.0 (امتياز)</p>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="projects" data-aos="fade-up">
+        <section id="projects" data-aos="fade-up" class="section hidden">
             <h2 class="en">Graduation Project</h2>
             <h2 class="ar hidden">مشروع التخرج</h2>
             <ul class="en">
@@ -178,9 +179,11 @@
                     <em>وصف:</em> قمت بتطوير نظام ري ذكي يعتمد على تقنيات إنترنت الأشياء (IoT) والذكاء الاصطناعي (AI) لتعزيز الإنتاجية الزراعية وتحقيق الاستدامة.<br>
                     <a href="https://github.com/mostafa-khalid208/SMART-TECHNOLOGY-APPLICATIONS-IN-AGRICULTURE" target="_blank">المشروع على GitHub</a></p></li>
             </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="skills" data-aos="fade-up">
+        <section id="skills" data-aos="fade-up" class="section hidden">
             <h2 class="en">Technical Skills</h2>
             <h2 class="ar hidden">المهارات التقنية</h2>
             <ul class="en">
@@ -197,9 +200,11 @@
                 <li><strong>الاتصالات السلكية واللاسلكية:</strong> TEMS Investigation, Atoll</li>
                 <li><strong>أدوات مايكروسوفت أوفيس:</strong> مايكروسوفت أوفيس (Excel, Word, PowerPoint)</li>
             </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="experience" data-aos="fade-up">
+        <section id="experience" data-aos="fade-up" class="section hidden">
             <h2 class="en">Training & Experiences</h2>
             <h2 class="ar hidden">التدريب والخبرات</h2>
             <ul class="en">
@@ -214,9 +219,11 @@
                 <li><strong>نقابة المهندسين بالغربية:</strong> أساسيات الهندسة الكهربائية <a href="https://drive.google.com/file/d/1rrimcnFc7t5JAYcAwGuLVM7HWERIoQjB/view" target="_blank">نقابة المهندسين بالغربية</a></li>
                 <li><strong>Robotech EG:</strong> أساسيات الأنظمة المدمجة <a href="https://drive.google.com/file/d/1A7u9JWa605lTKatqVeOsNFSEqymMuSTZ/view" target="_blank">الأنظمة المدمجة</a></li>
             </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="courses" data-aos="fade-up">
+        <section id="courses" data-aos="fade-up" class="section hidden">
             <h2 class="en">Courses & Trainings</h2>
             <h2 class="ar hidden">الدورات والتدريبات</h2>
             <ul class="en">
@@ -325,9 +332,11 @@
                     </ul>
                 </li>
             </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
 
-        <section id="certificates" data-aos="fade-up">
+        <section id="certificates" data-aos="fade-up" class="section hidden">
             <h2 class="en">Certificates & Honors</h2>
             <h2 class="ar hidden">الشهادات والتكريمات</h2>
             <ul class="en">
@@ -344,6 +353,8 @@
                 <li>شهادة تكريم وتقدير من SVA لحصولي على المركز الثالث في قسم الهندسة الكهربائية (2022) <a href="https://drive.google.com/file/d/19l4Pc1FtbySo5GCFcxa-T9q_adMRsmFT/view?usp=drive_link" target="_blank">شهادة تكريم وتقدير من SVA</a></li>
                 <li>شهادة تكريم للمساعدة في التعلم الإلكتروني خلال جائحة كوفيد-19 (2020) <a href="https://drive.google.com/file/d/1zlKThV118BnG0Zp20Q9IeyPy2rT9P8RP/view" target="_blank">شهادة تكريم وتقدير من SVA</a></li>
             </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
         </section>
     </main>
 
