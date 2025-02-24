@@ -1,0 +1,232 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+[lang="ar"] {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+
+[lang="en"] {
+    direction: ltr;
+    text-align: left;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #a2060a, #ff6b6b), url('https://github.com/user-attachments/assets/b22d2155-fce2-4f7e-a8f5-ec1fe94417d9');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.lang-toggle {
+    margin-top: 20px;
+}
+
+.lang-toggle button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #fff;
+    color: #a2060a;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-toggle button:hover {
+    background: #a2060a;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 15px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(135deg, #a2060a, #ff6b6b);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+nav select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+}
+
+/* Sections */
+section {
+    margin: 30px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color: #a2060a;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: none; /* Remove default bullets */
+}
+
+section li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    padding-inline-start: 20px; /* Space before text */
+    position: relative; /* For custom bullet positioning */
+}
+
+/* Optional: Add custom bullet if desired */
+section li::before {
+    content: "•"; /* Custom bullet */
+    color: #a2060a; /* Bullet color */
+    font-size: 1.2rem;
+    position: absolute;
+    inset-inline-start: 0; /* Position bullet at the start based on direction */
+    transform: translateY(-2px); /* Adjust vertical alignment */
+}
+
+section a {
+    color: #a2060a;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+section a:hover {
+    color: #ff6b6b;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 40px 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+}
+
+/* AOS Animations */
+[data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+[data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
