@@ -1,77 +1,129 @@
-// Initialize AOS and load initial settings
 document.addEventListener('DOMContentLoaded', () => {
+    // 1. Initialize Animations
     AOS.init({
-        duration: 1000,
-        once: true,
+        duration: 800,
+        easing: 'ease-in-out',
+        once: false
     });
 
-    // Load saved language and theme
-    const savedLanguage = localStorage.getItem('language') || 'en';
+    // 2. Load Saved Preferences
+    const savedLang = localStorage.getItem('language') || 'en';
     const savedTheme = localStorage.getItem('theme') || 'light';
-    changeLanguage(savedLanguage);
+    
+    changeLanguage(savedLang);
     if (savedTheme === 'dark') {
         document.body.classList.add('dark');
-        document.getElementById('theme-toggle').innerHTML = '<i class="fas fa-sun"></i>';
-    } else {
-        document.getElementById('theme-toggle').innerHTML = '<i class="fas fa-moon"></i>';
+        updateThemeIcon(true);
     }
 
-    // Show home page initially
-    showHome();
+    // 3. Initialize Typed.js (Typing Effect)
+    initTyped(savedLang);
+
+    // 4. Security Measures (Privacy)
+    enableSecurity();
 });
 
-// Language Switcher
-function changeLanguage(language) {
-    document.body.lang = language;
-    localStorage.setItem('language', language);
+/* === Language Switcher === */
+function changeLanguage(lang) {
+    document.body.lang = lang;
+    localStorage.setItem('language', lang);
 
-    const enElements = document.querySelectorAll('.en');
-    const arElements = document.querySelectorAll('.ar');
+    // Toggle Visibility
+    document.querySelectorAll('.en').forEach(el => {
+        el.classList.toggle('hidden', lang !== 'en');
+    });
+    document.querySelectorAll('.ar').forEach(el => {
+        el.classList.toggle('hidden', lang !== 'ar');
+    });
 
-    if (language === 'en') {
-        enElements.forEach(el => el.classList.remove('hidden'));
-        arElements.forEach(el => el.classList.add('hidden'));
-    } else if (language === 'ar') {
-        enElements.forEach(el => el.classList.add('hidden'));
-        arElements.forEach(el => el.classList.remove('hidden'));
-    }
+    // Update Buttons Style
+    document.getElementById('btn-en').classList.toggle('active-lang', lang === 'en');
+    document.getElementById('btn-ar').classList.toggle('active-lang', lang === 'ar');
+
+    // Re-init Typed.js for new language
+    initTyped(lang);
 }
 
-// Toggle Theme (Dark/Light)
+/* === Typed.js Setup === */
+let typedInstance;
+function initTyped(lang) {
+    if(typedInstance) { typedInstance.destroy(); }
+
+    const stringsEn = ["Communications and Electronics Engineer (ECE Engineer)", "Jr. Flutter Developer", "Jr.Machine Learning Eng."];
+    const stringsAr = ["مهندس اتصالات وإلكترونيات", "مطور Flutter مبتدئ", "مهندس تعلم آلي مبتدئ"];
+
+    typedInstance = new Typed(lang === 'en' ? '.typed-text-en' : '.typed-text-ar', {
+        strings: lang === 'en' ? stringsEn : stringsAr,
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+        showCursor: true
+    });
+}
+
+/* === Theme Toggle === */
 function toggleTheme() {
-    const body = document.body;
-    const themeToggle = document.getElementById('theme-toggle');
-    body.classList.toggle('dark');
-
-    if (body.classList.contains('dark')) {
-        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-        localStorage.setItem('theme', 'dark');
-    } else {
-        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-        localStorage.setItem('theme', 'light');
-    }
+    document.body.classList.toggle('dark');
+    const isDark = document.body.classList.contains('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    updateThemeIcon(isDark);
 }
 
-// Show a specific section
+function updateThemeIcon(isDark) {
+    const icon = document.querySelector('#theme-toggle i');
+    icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+}
+
+/* === Navigation Logic === */
 function showSection(sectionId) {
-    const sections = document.querySelectorAll('.section');
-    const homeNav = document.getElementById('home-nav');
-    sections.forEach(section => {
-        if (section.id === sectionId) {
-            section.classList.remove('hidden');
-        } else {
-            section.classList.add('hidden');
+    // Hide all sections
+    document.querySelectorAll('.content-card').forEach(sec => {
+        sec.classList.add('hidden');
+        sec.classList.remove('active-section');
+    });
+
+    // Show target section
+    const target = document.getElementById(sectionId);
+    if(target) {
+        target.classList.remove('hidden');
+        target.classList.add('active-section');
+        // Trigger Animation refresh
+        setTimeout(() => AOS.refresh(), 100);
+    }
+
+    // Update Sidebar Active State
+    document.querySelectorAll('.nav-links a').forEach(link => link.classList.remove('active'));
+    // Simple logic to highlight current link (can be improved)
+    event.currentTarget.classList.add('active');
+
+    // Close mobile menu if open
+    document.getElementById('sidebar').classList.remove('active-mobile');
+    
+    // Smooth Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* === Mobile Menu === */
+function toggleMobileMenu() {
+    document.getElementById('sidebar').classList.toggle('active-mobile');
+}
+
+/* === Security Features (Privacy) === */
+function enableSecurity() {
+    // Disable Right Click
+    document.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+    });
+
+    // Disable Keyboard Shortcuts for Inspector
+    document.addEventListener('keydown', (e) => {
+        // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+        if (
+            e.key === 'F12' || 
+            (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) || 
+            (e.ctrlKey && e.key === 'U')
+        ) {
+            e.preventDefault();
         }
     });
-    homeNav.classList.add('hidden');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-// Show home page
-function showHome() {
-    const sections = document.querySelectorAll('.section');
-    const homeNav = document.getElementById('home-nav');
-    sections.forEach(section => section.classList.add('hidden'));
-    homeNav.classList.remove('hidden');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
