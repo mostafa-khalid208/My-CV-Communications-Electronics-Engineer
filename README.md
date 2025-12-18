@@ -7,8 +7,11 @@ with a premium **Glassmorphism UI**, **Dark/Light Mode**, and smooth animations.
 ---
 
 ## ✨ Live Preview
-🔗 **Portfolio Website:**  
+🔗 **Old Portfolio Website:**  
 👉 https://mostafa-khalid208.github.io/Old_My-CV-Communications-Electronics-Engineer/
+
+🔗 **New Portfolio Website:**  
+👉 https://mostafa-khalid208.github.io/My-CV-Communications-Electronics-Engineer/
 
 ---
 
@@ -75,3 +78,4 @@ The website is designed to be:
 ├── styles.css        # Styling & themes (Light / Dark)
 ├── scripts.js        # Logic (language, theme, animations)
 └── README.md         # Project documentation
+
