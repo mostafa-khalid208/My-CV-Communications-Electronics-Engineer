@@ -1,253 +1,0 @@
-[
-  {
-    "id": 1,
-    "category": "ai",
-    "image": "https://img.freepik.com/free-photo/rpa-concept-with-blurry-hand-touching-screen_23-2149311914.jpg",
-    "link": "#",
-    "tags": [
-      "#AI",
-      "#DeepLearning",
-      "#Future"
-    ],
-    "date": "2025-01-15",
-    "title": {
-      "en": "The Future of AI in Agriculture",
-      "ar": "مستقبل الذكاء الاصطناعي في الزراعة"
-    },
-    "summary": {
-      "en": "How Deep Learning and IoT are transforming modern farming efficiency.",
-      "ar": "كيف يغير التعلم العميق وإنترنت الأشياء كفاءة الزراعة الحديثة."
-    },
-    "content": {
-      "en": "<p>Artificial Intelligence (AI) and the Internet of Things (IoT) are revolutionizing agriculture, creating what is known as 'Smart Farming'. By integrating sensors, drones, and machine learning algorithms, farmers can now monitor crop health, soil moisture, and weather conditions in real-time.</p><h3>Key Technologies</h3><ul><li><strong>IoT Sensors:</strong> Monitor soil moisture and temperature.</li><li><strong>Drones:</strong> Aerial surveillance for crop health.</li><li><strong>Deep Learning:</strong> Detect plant diseases early.</li></ul><p>This integration leads to higher yields, reduced resource usage, and sustainable farming practices.</p>",
-      "ar": "<p>يُحدث الذكاء الاصطناعي (AI) وإنترنت الأشياء (IoT) ثورة في الزراعة، مما يخلق ما يعرف بـ 'الزراعة الذكية'. من خلال دمج أجهزة الاستشعار والطائرات بدون طيار وخوارزميات التعلم الآلي، يمكن للمزارعين الآن مراقبة صحة المحاصيل ورطوبة التربة والظروف الجوية في الوقت الفعلي.</p><h3>التقنيات الرئيسية</h3><ul><li><strong>أجهزة استشعار IoT:</strong> مراقبة رطوبة التربة ودرجة الحرارة.</li><li><strong>طائرات الدرون:</strong> المراقبة الجوية لصحة المحاصيل.</li><li><strong>التعلم العميق:</strong> اكتشاف أمراض النباتات مبكراً.</li></ul><p>يؤدي هذا التكامل إلى زيادة المحاصيل وتقليل استهلاك الموارد وممارسات زراعية مستدامة.</p>"
-    }
-  },
-  {
-    "id": 2,
-    "category": "telecommunications",
-    "image": "https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041848.jpg",
-    "link": "#",
-    "tags": [
-      "#5G",
-      "#Telecom",
-      "#Network"
-    ],
-    "date": "2024-12-20",
-    "title": {
-      "en": "Understanding 5G NR Architecture",
-      "ar": "فهم معمارية الجيل الخامس 5G NR"
-    },
-    "summary": {
-      "en": "A deep dive into the standalone and non-standalone architectures of 5G.",
-      "ar": "نظرة متعمقة في معماريات الجيل الخامس المستقلة وغير المستقلة."
-    },
-    "content": {
-      "en": "<p>5G New Radio (NR) is the global standard for a unified, more capable 5G wireless air interface. It delivers significantly faster and more responsive mobile broadband experiences.</p><h3>Architectures</h3><p>There are two main modes of 5G deployment:</p><ul><li><strong>Non-Standalone (NSA):</strong> Relies on existing 4G LTE infrastructure for control signaling while using 5G for data transmission. This allows for faster deployment.</li><li><strong>Standalone (SA):</strong> Uses a new 5G Core network, enabling full 5G capabilities such as ultra-low latency and network slicing.</li></ul><p>Understanding these architectures is crucial for network planning and optimization.</p>",
-      "ar": "<p>الراديو الجديد للجيل الخامس (5G NR) هو المعيار العالمي لواجهة هوائية لاسلكية موحدة وأكثر قدرة للجيل الخامس. إنه يوفر تجارب نطاق عريض متنقل أسرع بكثير وأكثر استجابة.</p><h3>المعاريات</h3><p>هناك وضعان رئيسيان لنشر الجيل الخامس:</p><ul><li><strong>غير المستقل (NSA):</strong> يعتمد على البنية التحتية الحالية لشبكات 4G LTE لإشارات التحكم مع استخدام 5G لنقل البيانات. هذا يسمح بنشر أسرع.</li><li><strong>المستقل (SA):</strong> يستخدم شبكة 5G Core جديدة، مما يتيح قدرات 5G الكاملة مثل الكمون المنخفض للغاية وتقسيم الشبكة.</li></ul><p>فهم هذه المعاريات أمر بالغ الأهمية لتخطيط الشبكات وتحسينها.</p>"
-    }
-  },
-  {
-    "id": 3,
-    "category": "programming",
-    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg",
-    "link": "#",
-    "tags": [
-      "#Flutter",
-      "#Dart",
-      "#MobileApp"
-    ],
-    "date": "2024-11-10",
-    "title": {
-      "en": "State Management in Flutter",
-      "ar": "إدارة الحالة (State Management) في فلاتر"
-    },
-    "summary": {
-      "en": "Comparing BLoC, Cubit, and Provider for scalable apps.",
-      "ar": "مقارنة بين BLoC و Cubit و Provider للتطبيقات القابلة للتوسع."
-    },
-    "content": {
-      "en": "<p>State management is one of the most critical topics in Flutter development. Choosing the right approach determines how maintainable and scalable your application will be.</p><h3>Popular Solutions</h3><ul><li><strong>Provider:</strong> Simple and effective, great for beginners and smaller apps.</li><li><strong>Cubit:</strong> A subset of BLoC, easier to use, offering a great balance between simplicity and power.</li><li><strong>BLoC (Business Logic Component):</strong> The standard for large-scale enterprise applications, relying on streams and events.</li></ul><p>For most medium-to-large projects, Cubit or BLoC is recommended to separate business logic from UI code effectively.</p>",
-      "ar": "<p>إدارة الحالة هي واحدة من أهم المواضيع في تطوير Flutter. اختيار النهج الصحيح يحدد مدى قابلية الصيانة والتوسع لتطبيقك.</p><h3>الحلول الشائعة</h3><ul><li><strong>Provider:</strong> بسيط وفعال، ممتاز للمبتدئين والتطبيقات الصغيرة.</li><li><strong>Cubit:</strong> مجموعة فرعية من BLoC، أسهل في الاستخدام، ويوفر توازناً رائعاً بين البساطة والقوة.</li><li><strong>BLoC (Business Logic Component):</strong> المعيار لتطبيقات المؤسسات واسعة النطاق، يعتمد على التدفقات (Streams) والأحداث (Events).</li></ul><p>بالنسبة لمعظم المشاريع المتوسطة إلى الكبيرة، يوصى بـ Cubit أو BLoC لفصل منطق العمل عن كود واجهة المستخدم بفعالية.</p>"
-    }
-  },
-  {
-    "id": 4,
-    "category": "political_economic",
-    "image": "https://img.freepik.com/free-photo/coins-paper-money-globe-white-statistic-form_23-2148188199.jpg",
-    "link": "#",
-    "tags": [
-      "#Economy",
-      "#Egypt",
-      "#TechMarket"
-    ],
-    "date": "2024-10-05",
-    "title": {
-      "en": "The Economic Impact of Tech Startups",
-      "ar": "الأثر الاقتصادي للشركات الناشئة التقنية"
-    },
-    "summary": {
-      "en": "Analyzing how startups contribute to the national GDP.",
-      "ar": "تحليل كيفية مساهمة الشركات الناشئة في الناتج المحلي الإجمالي."
-    },
-    "content": {
-      "en": "<p>Tech startups are becoming a major engine for economic growth. By driving innovation, creating high-value jobs, and attracting foreign investment, they play a pivotal role in modern economies.</p><h3>Contribution to GDP</h3><p>Startups contribute to the GDP not only through their direct revenue but also by digitizing traditional industries. In Egypt, the tech ecosystem is growing rapidly.</p><h3>Job Creation</h3><p>These companies require skilled labor, pushing the demand for software engineers, data scientists, and digital marketers, thus raising the average income and skill level of the workforce.</p>",
-      "ar": "<p>تصبحت الشركات الناشئة التقنية محركاً رئيسياً للنمو الاقتصادي. من خلال دفع الابتكار، وخلق وظائف عالية القيمة، وجذب الاستثمار الأجنبي، فإنها تلعب دوراً محورياً في الاقتصادات الحديثة.</p><h3>المساهمة في الناتج المحلي الإجمالي</h3><p>تساهم الشركات الناشئة في الناتج المحلي الإجمالي ليس فقط من خلال إيراداتها المباشرة ولكن أيضاً من خلال رقمنة الصناعات التقليدية. في مصر، ينمو النظام البيئي التقني بسرعة.</p><h3>خلق فرص العمل</h3><p>تتطلب هذه الشركات عمالة ماهرة، مما يدفع الطلب على مهندسي البرمجيات وعلماء البيانات والمسوقين الرقميين، وبالتالي رفع متوسط الدخل ومستوى المهارة للقوى العاملة.</p>"
-    }
-  },
-  {
-    "id": 5,
-    "category": "optical",
-    "image": "https://img.freepik.com/free-photo/fiber-optics-lights-abstract-background_23-2148813354.jpg",
-    "link": "#",
-    "tags": [
-      "#Fiber",
-      "#Light",
-      "#Communication"
-    ],
-    "date": "2025-02-21",
-    "title": {
-      "en": "Understanding Optical Fiber",
-      "ar": "فهم الألياف الضوئية"
-    },
-    "summary": {
-      "en": "Optical fiber transmits data at the speed of light. Learn why it is faster than copper cables.",
-      "ar": "تنقل الألياف الضوئية البيانات بسرعة الضوء. تعرف على سبب كونها أسرع من الكابلات النحاسية."
-    },
-    "content": {
-      "en": "<h3>What is Optical Fiber?</h3><p>Optical fiber is a flexible, transparent fiber made by drawing glass (silica) or plastic to a diameter slightly thicker than that of a human hair.</p><h3>How it Works?</h3><p>It functions as a waveguide, or 'light pipe', to transmit light between the two ends of the fiber using the principle of <strong>Total Internal Reflection</strong>.</p><ul><li>High Bandwidth</li><li>Low Attenuation</li><li>Immunity to Interference</li></ul>",
-      "ar": "<h3>ما هي الألياف الضوئية؟</h3><p>الألياف الضوئية عبارة عن ألياف مرنة وشفافة مصنوعة عن طريق سحب الزجاج (السيليكا) أو البلاستيك بقطر أسمك قليلاً من شعر الإنسان.</p><h3>كيف تعمل؟</h3><p>تعمل كدليل موجي، أو 'أنبوب ضوء'، لنقل الضوء بين طرفي الألياف باستخدام مبدأ <strong>الانعكاس الداخلي الكلي</strong>.</p><ul><li>نطاق ترددي عالي (High Bandwidth)</li><li>فقد قليل للإشارة (Low Attenuation)</li><li>مقاومة للتداخل (Immunity to Interference)</li></ul>"
-    }
-  },
-  {
-    "id": 6,
-    "category": "tips_warnings",
-    "image": "https://scontent.fcai21-2.fna.fbcdn.net/v/t39.30808-6/476205905_2491797614485317_1235466788415525676_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tWe06lbTUjwQ7kNvwGFdWVi&_nc_oc=AdlcfW20vdgHYOypRse2FaJ9-PnlpV3mgwM3maveYBcfyRtPiDN7WgPUplTx3g3CHMg&_nc_zt=23&_nc_ht=scontent.fcai21-2.fna&_nc_gid=uGA6cbyXR1mVIe3TS-lwRQ&oh=00_AfpIGj6OKf4dpWrKTi2eF7EwYk58NAVWJVYOmb9y2vN2LA&oe=6967B3AA",
-    "link": "#",
-    "tags": [
-      "#اسوأ_العصور",
-      "#التعليم",
-      "#أطفال_المستقبل",
-      "#الشدة_المستنصرية"
-    ],
-    "date": "2025-03-01",
-    "title": {
-      "ar": "هل نحن نعيش اسوأ العصور علي الاطلاق ؟",
-      "en": "Are We Living the Worst Era Ever?"
-    },
-    "summary": {
-      "ar": "مقال يناقش فكرة أسوأ العصور وتأثير سهولة وصول المعلومة على المجتمع، مع التأكيد على دور التعليم وبناء الأجيال القادمة.",
-      "en": "An article discussing the concept of the worst eras and the impact of easy access to information on society, emphasizing education and the formation of future generations."
-    },
-    "content": {
-      "ar": "<p>هل نحن نعيش اسوأ العصور علي الاطلاق ؟</p><p>الاجابة هي ( لا ) نحن نعيش عصر من الاسوأ و ليس الاسوأ ،فهل هذا يعني انتا لم نصل آلي الاسوأ بعد الاجابة نعم و ماهو الملاذ لكي لا نصل الي الاسوأ علي الاطلاق الحل بسيط جدًا و هو معرفة السبب اولًا لكي نجد له الحل و السبب بكل بساطة و من الدرجة الاولي ( سهولة وصول المعلومة ) ، و هل يعد سهولة وصول المعلومة شئ ضار بالمجتمع ؟</p><p><a href=\"https://m.facebook.com/story.php?story_fbid=1620999108231843&id=100009653074283\" target=\"_blank\">https://m.facebook.com/story.php?story_fbid=1620999108231843&id=100009653074283</a></p><p>سيأتي الان شخص ليختلف معي و لكن انا اقول له نحن في نفس الصف و الطريق لكن اتركني اشرح لك وجهة النظر الخاصة بي ، فماذا كنت ستقول ؟ ستقول ان سهولة وصول المعلومة جعلت التعلم و العلم اسهل ، فسأرد عليك و اقول نعم لكن توقف هنا قليلا و قل لي هل كل العلوم و المعلومات نافعة و صحيحة ؟ بالطبع (لا )</p><p>و هذا المقصود بكلامي السابق ان سهولة وصول المعلومة اصبحت نقمة بعد ما كان من المفترص ان تصبح نعمة ، فليس جميع ما علي الانترنت نافع ولا كل ما عليه ضار و لكن نحن من نختار الطريق فعندما نتوقف عن الاعجاب و نشر الغباء و البلطجة و النفاق و التقاليد و العادات السامة الغربية وقتها فقط لن نصل الي الاسوأ</p><p>الحل بكل بساطة هو ان نسقي الورد الصغير ( اجيال المستقبل ) بالعلم النافع و الدين السليم و ان نعلمهم من الصغر كيفية التفكير السليم ، و بذلك نضمن ان عند غيابنا لن يكون التأثير علية سهل فهو الان يعلم الضار و النافع يعلم التفرقة بين الصالح و المنافق و في تلك اللحظة و مع ذلك الجيل المُفكر المتدين لن نذهب الي اسوأ العصور او علي الاقل سنبطئ الوصل الي هناك ، و عن اسوء العصور فيكتب التاريخ المنتصر القوي و لم يكن وقتها سوشيال ميديا ليعبر عبرها الفقراء و المستضعفين عن رأيهم ،  و في النهاية و عن اسوأ فهل احد يعلم عصر الشدة المستنصرية ؟</p><p>#اسوأ_العصور&nbsp;&nbsp;#التعليم #أطفال_المستقبل<br>#الشدة_المستنصرية 👇🏻</p><p><a href=\"https://m.facebook.com/story.php?story_fbid=1170409499957475&id=100009653074283\" target=\"_blank\">https://m.facebook.com/story.php?story_fbid=1170409499957475&id=100009653074283</a></p><p>.................</p><p><a href=\"https://m.facebook.com/story.php?story_fbid=2179044252271735&id=444173532425491\" target=\"_blank\">https://m.facebook.com/story.php?story_fbid=2179044252271735&id=444173532425491</a></p>",
-      "en": "<p>Are we living the worst era ever?</p><p>The answer is (No). We are living in an era that is among the worst, but not the absolute worst. Does this mean that we have not yet reached the worst? Yes. So what is the refuge that prevents us from reaching the worst of all? The solution is very simple: identifying the cause first in order to find the solution. The primary and fundamental cause is the ease of access to information. But is easy access to information harmful to society?</p><p><a href=\"https://m.facebook.com/story.php?story_fbid=1620999108231843&id=100009653074283\" target=\"_blank\">https://m.facebook.com/story.php?story_fbid=1620999108231843&id=100009653074283</a></p><p>Someone may now disagree with me, but I say to them: we are on the same side and walking the same path—allow me to explain my perspective. What would you say? You would say that easy access to information has made learning and education easier. I would reply: yes, but pause for a moment and tell me—are all sciences and all information beneficial and correct? Of course not.</p><p>This is exactly what I meant earlier: easy access to information has turned into a curse after it was meant to be a blessing. Not everything on the internet is beneficial, and not everything is harmful—but we are the ones who choose the path. When we stop liking and spreading stupidity, thuggery, hypocrisy, and toxic Western traditions, only then will we avoid reaching the worst.</p><p>The solution is simply to nurture the small flowers (future generations) with beneficial knowledge and sound faith, and to teach them from an early age how to think properly. In doing so, we ensure that when we are gone, they will not be easily influenced. They will know what is harmful and what is beneficial, and they will be able to distinguish between the righteous and the hypocrite. At that moment, with such a thoughtful and principled generation, we will not descend into the worst eras—or at the very least, we will slow the path toward them. As for the worst eras, history is written by the victorious and the powerful, and at that time there was no social media through which the poor and the oppressed could express their voices. Finally, when speaking of the worst eras, does anyone know about the era of the Mustansirid Famine?</p><p>#Worst_Eras #Education #Future_Generations<br>#Mustansirid_Famine 👇🏻</p><p><a href=\"https://m.facebook.com/story.php?story_fbid=1170409499957475&id=100009653074283\" target=\"_blank\">https://m.facebook.com/story.php?story_fbid=1170409499957475&id=100009653074283</a></p><p>.................</p><p><a href=\"https://m.facebook.com/story.php?story_fbid=2179044252271735&id=444173532425491\" target=\"_blank\">https://m.facebook.com/story.php?story_fbid=2179044252271735&id=444173532425491</a></p>"
-    }
-  },
-{
-  "id": 7,
-  "category": "other",
-  "image": "https://scontent.fcai21-3.fna.fbcdn.net/v/t39.30808-6/477005560_2491799291151816_8124104158850112075_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=o4qYQkXUHoQQ7kNvwEyH-cn&_nc_oc=Admcmi_g9G52VfXeLVm7XWkmLqUTQwGxIfr7t1Kj_Pw_ufq7aHTZufDjL4xgcgd1Nn8&_nc_zt=23&_nc_ht=scontent.fcai21-3.fna&_nc_gid=VUUSbra-RGFeLqmXH3xd8g&oh=00_AfqlcoNdwnVYPixO7MKMC-26TiLUCPmeeDArm8jRn8nWag&oe=696793CC",
-  "link": "#",
-  "tags": [
-    "#القصاص",
-    "#فتاة_المنصورة",
-    "#العدل",
-    "#الترند",
-    "#الشهرة_السلبية"
-  ],
-  "date": "2025-03-02",
-  "title": {
-    "ar": "سؤال مُحير ؟",
-    "en": "A Confusing Question?"
-  },
-  "summary": {
-    "ar": "طرح حاد يناقش قضية فتاة المنصورة من منظور شرعي وأخلاقي، ويرفض استغلال الجرائم في صناعة الترند والتفاعل.",
-    "en": "A strong argument addressing the Mansoura girl case from a moral and Islamic perspective, rejecting the exploitation of crimes for engagement and trends."
-  },
-  "content": {
-    "ar": "<p>سؤال مُحير ؟ 🤔</p><p>في حادثة فتاة المنصورة</p><p>-هو مش انت اثبت ان الق*اتل متزن عقليا ؟<br>= ايوة</p><p>- و اثبت كمان انه لي سوابق و انه هددها اكتر من مرة و دي مش الاولي ؟<br>= ايوه</p><p>- الق*تل المُرتب و التهديد المسبق مش دة يسمي ق*تل عمد مع سبق الاصرار و الترصد ؟<br>= ايوه</p><p>🔴 طب حضرتك هيفرق معايا اية رأي الناس في القا*تل او المق*توله ؟ 🤔</p><p>= الامر سهل جدًا من قت*ل يق*تل ( يعدم ) سهلة و بسيطة</p><p>* قال الله سبحانه وتعالى :{وَكَتَبْنَا عَلَيْهِمْ فِيهَا أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ وَالْأَنفَ بِالْأَنفِ وَالْأُذُنَ بِالْأُذُنِ وَالسِّنَّ بِالسِّنِّ وَالْجُرُوحَ قِصَاصٌ ۚ فَمَن تَصَدَّقَ بِهِ فَهُوَ كَفَّارَةٌ لَّهُ ۚ وَمَن لَّمْ يَحْكُم بِمَا أَنزَلَ اللَّهُ فَأُولَٰئِكَ هُمُ الظَّالِمُونَ}<br>سورة المائدة ، الآية ٤٥</p><p>* قال الله سبحانه وتعالى : {وَمَن يَقْتُلْ مُؤْمِنًا مُّتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ خَالِدًا فِيهَا وَغَضِبَ اللَّهُ عَلَيْهِ وَلَعَنَهُ وَأَعَدَّ لَهُ عَذَابًا عَظِيمًا} سورة النساء،الآية ٩٣</p><p>* وقال الله سبحانه وتعالى : {يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِي الْقَتْلَى ۖ الْحُرُّ بِالْحُرِّ وَالْعَبْدُ بِالْعَبْدِ وَالْأُنثَىٰ بِالْأُنثَىٰ ۚ فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗفَمَنِ اعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُ عَذَابٌ أَلِيمٌ} سورة البقرة ،الآية ١٧٨</p><p>صدق الله العظيم العظيم</p><p>- مش هيفرق معانا ق*تل مين و عشان اية و قت*له ازاي لان احنا مش اهل للدية</p><p>*قال رسول الله صلّى الله عليه وسلّم:<br>\"مَن قُتِلَ له قَتِيلٌ فَهو بخَيْرِ النَّظَرَيْنِ: إمَّا أنْ يُفْدَى، وإمَّا أنْ يُقْتَلَ\"<br>الراوي : أبو هريرة | المحدث : الألباني | المصدر : صحيح الجامع | خلاصة حكم المحدث : صحيح | التخريج : أخرجه البخاري (112)، ومسلم (1355)، وأبو داود (4505)، والترمذي (1405)، والنسائي (4785) واللفظ له، وابن ماجه (2624)، وأحمد (7242)</p><p>- و طالما توافرة فيه كل الصفات السابقة التعمد و الاصرار و التهديد و الاتزان العقلي و طبعا طلب اهل المقتول بمعاقبة الجاني خلاص مجهود حضرتك مشكور و كل حاجة بس انا و انت عارفين انت بتعمل كدة لية عشان التفاعل ( الريأكت و الكومنتات ) فمش وقته و خلي عندك دم</p><p>- و اي صفحة من نوعية حزين علي الحصل في و حزين للحصل ل و حقيقة مروعة عن القا*تل و المق*تول ( الرابط اول كومنت ) و الكلام ده في الاوقات الزي دي بيكون احسن وقت عشان تطلع عب*يد التفاعل و امثالهم كل الصفحات دي بعملها الغاء متابعة في الوقت دة ✍🏻</p><p>- عبيد الترند و الشهرة السلبية 👇🏻</p><p><a href=\"https://fb.watch/dN8NDPOoVx/\" target=\"_blank\">https://fb.watch/dN8NDPOoVx/</a></p>",
-    "en": "<p>A confusing question? 🤔</p><p>In the Mansoura girl incident</p><p>- Didn’t you prove that the k*ller was mentally stable?<br>= Yes</p><p>- And you also proved that he had a criminal record and that he threatened her more than once, and that this was not the first time?<br>= Yes</p><p>- Premeditated k*lling and prior threats—doesn’t that qualify as intentional murder with premeditation and lying in wait?<br>= Yes</p><p>🔴 So tell me, why should I care about people’s opinions regarding the k*ller or the v*ctim? 🤔</p><p>= The matter is very simple: whoever k*lls should be k*lled (executed). Simple and straightforward.</p><p>* Allah Almighty says: {And We ordained for them therein a life for a life, an eye for an eye, a nose for a nose, an ear for an ear, a tooth for a tooth, and for wounds is legal retribution. But whoever gives up his right as charity, it is an expiation for him. And whoever does not judge by what Allah has revealed—then it is those who are the wrongdoers.}<br>Surah Al-Ma'idah, Verse 45</p><p>* Allah Almighty says: {And whoever kills a believer intentionally—his recompense is Hell, wherein he will abide eternally, and Allah has become angry with him and has cursed him and has prepared for him a great punishment.} Surah An-Nisa, Verse 93</p><p>* Allah Almighty also says: {O you who have believed, prescribed for you is legal retribution for those murdered—the free for the free, the slave for the slave, and the female for the female. But whoever is pardoned by his brother anything, then there should be a suitable follow-up and payment to him with good conduct. This is an alleviation from your Lord and a mercy. But whoever transgresses after that will have a painful punishment.} Surah Al-Baqarah, Verse 178</p><p>Allah Almighty has spoken the truth.</p><p>- It does not matter to us who was k*lled, why they were k*lled, or how it happened, because we are not the ones entitled to blood money.</p><p>* The Messenger of Allah (peace and blessings be upon him) said:<br>\"Whoever has a relative killed has two options: either he accepts blood money, or the k*ller is executed.\"<br>Narrated by Abu Huraira | Authenticated by Al-Albani | Source: Sahih Al-Jami‘ | Ruling: Authentic</p><p>- As long as all the conditions are met—intent, premeditation, prior threats, mental stability, and the family of the victim demanding punishment—then that’s it. Your effort is appreciated, but you and I both know why this is being done: for engagement (reactions and comments). This is not the time—have some decency.</p><p>- Any page that posts content like “sad about what happened to…” or “a shocking truth about the k*ller and the v*ctim (link in first comment)”—times like these are prime opportunities for engagement slaves and their likes. I unfollow all such pages immediately ✍🏻</p><p>- Slaves of trends and negative fame 👇🏻</p><p><a href=\"https://fb.watch/dN8NDPOoVx/\" target=\"_blank\">https://fb.watch/dN8NDPOoVx/</a></p>"
-  }
-},
-{
-  "id": 8,
-  "category": "other",
-  "image": "https://scontent.fcai21-2.fna.fbcdn.net/v/t39.30808-6/480155551_2496171120714633_3767791918864384356_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0x341HniMpMQ7kNvwGkH6Ky&_nc_oc=AdljynHv2ET2AG-KaDWtouE2m6O0R2ZDdAAdQMtEnrvG6BYsJaaFNH6JiLfBQLdI228&_nc_zt=23&_nc_ht=scontent.fcai21-2.fna&_nc_gid=4vDS8joefRC0glzpPrkRPg&oh=00_AfocxF9ueBrZwofmJkyWOE2UOgsRU0RLWD92RKXgqdMNTA&oe=6967A580",
-  "link": "#",
-  "tags": [
-    "#لا_تستسلم",
-    "#النجاح",
-    "#الفشل",
-    "#المعرفة",
-    "#التاريخ",
-    "#السبب",
-    "#الحل"
-  ],
-  "date": "2025-03-03",
-  "title": {
-    "ar": "هل يكفي أن نعرف الخطأ فقط؟",
-    "en": "Is It Enough to Identify the Mistake Only?"
-  },
-  "summary": {
-    "ar": "طرح فكري يؤكد أن معرفة الخطأ وحدها لا تكفي، بل يجب البحث عن السبب والحل، مستشهدًا بدروس من التاريخ والعلوم والهندسة.",
-    "en": "An intellectual perspective emphasizing that identifying mistakes is not enough; understanding causes and solutions is essential, supported by historical and scientific examples."
-  },
-  "content": {
-    "ar": "<p>هل يكفي أن نعرف الخطأ أو المخطئ فقط و نتجاهل السبب و الحل ؟</p><p>بالطبع لا، فعند وجود الخطأ يجب أن يكون هناك سبب و أيضًا هناك حل ليس بالضرورة ان يكون الحل فوري و لكن لكل مشكلة حل و هذا ما يمكن أن نتعلمه من التاريخ و قصص النجاح.</p><p>فمثلا نفترض ان هذا الخطأ هو خطأ حسابي أو في معادلة هل من الطبيعي ان عندما تقف امامه مشكلة و لا يستطيع إكمال الحل ان يتركها بلا حل لو كانت إجابتك ( ايوة و فيها اية)، بالطبع هي مشكلة كبيرة لان اذا فكر كل العلماء في الطب و الهندسة و الرياضيات و العلوم و التاريخ و الجغرافيا و غيرهم الكثير مثل تفكيرك فمن المفترض أن نكون في العصر الحجري الان و لتحسين الصورة سنقول الحجري الحديث.</p><p>فعند حدوث اول خطأ أو مشكلة حقيقة لن يفكر احد لماذا لا و ما هو السبب و حتى عندما يعرفوا السبب و لو بالصدفة لن يفكروا في الحل بل سيكتفون بقول ذلك خطأ لا تفعل ذلك و عندما يظهر فيهم المفكر و يقول لماذا لا لن يكون لديهم الرد بالتأكيد غير هذا ما وجدنا عليه أباءنا و أجدادنا بل و يمكن أن يصل الموضوع الي نبذ ذلك المفكر بعيدًا عنهم.</p><p>فلنا في قصص الأهرامات عبرة امحوتب اول مهندس و فلكي و طبيب كتب عنه و عرف في التاريخ المصري القديم فهو اول من فكر بالشكل الهرمي عندما صمم هرم سقارة المدرج ( هرم زوسر).</p><p>فكانت العادات و التقاليد وقتها ان يدفن الملك في حجرة يعلوها درج واحد و لكن امحوتب اول من فكر في وضع اكتر من درج على شكل هرمي، و جاء من بعده الملك سنفرو اول ملوك الأسرة الرابعة ليفكر بعمل الهرم بشكله المستوى الطبيعي.</p><p>و لكن حدث خطأ في الحسابات و التربة فظهر الهرم كما هو موجود الآن منحني و يسمى الهرم المنحنى، لو وقف من جاءوا بعده هنا و عند ذلك الخطأ دون معرفة سبب أو حل المشكلة كان هناك احتمال ان نفقد علامة من علامات مصر الأهرامات الثلاث و عجيبة من عجائب الدنيا السبعة الهرم الأكبر.</p><p>و بعد ذلك توالت الأهرامات باحجامها المختلفة و بل بنوا بعدها ابو الهول و المعابد و السدود.</p><p>نصل الي عصر قريب 1798 يوجد فيه نابليون يفكر بشق قناة بين البحر الأحمر و البحر المتوسط و لكن لخطأ في الحسابات لمنسوب البحرين تختفي الفكرة و يرحل نابليون عن مصر مع الاحتلال الفرنسي.</p><p>ننتقل الي 1854 دلي سيبس يعيد الحسابات و يعرض المشروع مره اخرى و يتم الموافقة علية و يفتتح المشروع بنجاح في عصر الخديو اسماعيل.</p><p>فماذا كان سيحدث اذا لما ينظر احد للمشكلة و ماهو سببها و ما هو حلها؟ بالمختصر كانت سوف تخسر مصر قناة بحرية من أهم القنوات حول العالم و مصدر رئيسي للدخل المصري.</p><p>نترك هذا العصر نصل الي عصر قريب اكثر ما بعد الملكية و أسرة محمد علي عندما وضعت فكرة السد العالي لأول مرة على طاولة القرار.</p><p>و كان أول من فكر في السد العالي حسب المؤرخين هو \"الحسن بن الهيثم\" من أكثر من ألف سنة حيث عاش في فترة من 965م إلى 1029م و لكن بالتأكيد حدثت له مشكلة و هي عدم توافر الإمكانيات و الالات اللازمة.</p><p>لنقف هنا قليلا و نفكر ماذا لو لم توجد الالات الي الان و لما يفكر احد في حل مشكلة توقف مشاريع و أفكار عظيمة بسبب ندرة الإمكانيات و الالات اللازمة.</p><p>لنعد الي السد العالي فعندما بدأ العمل بالسد كانت هناك مشكلة؟ و هي أن بناء السد سوف يغرق معبد ابوسمبل.</p><p>فتم تقطيع المعبد بالكامل و نقله الي مكان آخر مع المحافظة على تعامد الشمس على وجه رمسيس الثاني مرتين في السنة يومي 22 فبراير و 22 اكتوبر.</p><p>فماذا اذا لم نبحث عن الحل و ضحينا بمشروع مثل السد العالي الذي يحمي مصر من الفيضانات و الجفاف و يولد الطاقة الكهربائية أو ضحينا بمعبد و بظاهرة سياحية عالمية؟</p><p>>>في النهاية الخطأ هو بداية معرفة جديدة و ليس نهاية المعرفة <<<</p>",
-    "en": "<p>Is it enough to identify the mistake or the wrongdoer while ignoring the cause and the solution?</p><p>Of course not. Whenever a mistake exists, there must be a cause and also a solution. The solution does not have to be immediate, but every problem has a solution—this is what history and success stories teach us.</p><p>For example, suppose the mistake is a mathematical or equation error. Is it normal to stop solving the problem and leave it unresolved? If your answer is “yes, what’s the problem?”, then that is a serious issue.</p><p>If all scientists in medicine, engineering, mathematics, science, history, and geography thought this way, we would still be living in the Stone Age—perhaps the modern Stone Age at best.</p><p>At the first real mistake or problem, no one would ask why it happened or what caused it. Even if they accidentally discovered the cause, they would not search for a solution. They would simply say, “This is wrong, don’t do it.”</p><p>And when a thinker appears and asks “Why not?”, the only answer would be: “This is what we inherited from our fathers and grandfathers,” and that thinker might even be socially rejected.</p><p>The stories of the pyramids offer a lesson. Imhotep, the first engineer, astronomer, and physician in ancient Egyptian history, was the first to think of the pyramid shape when he designed the Step Pyramid of Saqqara (Djoser’s Pyramid).</p><p>At that time, tradition dictated that kings be buried in a chamber topped by a single level, but Imhotep introduced multiple steps forming a pyramid.</p><p>Later, King Sneferu, the first ruler of the Fourth Dynasty, attempted the smooth-sided pyramid. A miscalculation in soil and angles resulted in the Bent Pyramid.</p><p>If later builders had stopped at this mistake without searching for its cause or solution, Egypt might have lost one of its greatest symbols—the Great Pyramid, one of the Seven Wonders of the Ancient World.</p><p>Afterward came more pyramids of various sizes, followed by the Sphinx, temples, and dams.</p><p>In 1798, Napoleon considered digging a canal between the Red Sea and the Mediterranean, but due to incorrect sea-level calculations, the idea was abandoned.</p><p>In 1854, Ferdinand de Lesseps recalculated the levels, reintroduced the project, and the Suez Canal was successfully inaugurated during the reign of Khedive Ismail.</p><p>Had no one revisited the problem, Egypt would have lost one of the world’s most important waterways and a major source of national income.</p><p>Moving closer to modern times, the idea of the High Dam was first proposed during the era after the Muhammad Ali dynasty.</p><p>Historians say that the first to conceive the High Dam was Alhassan Ibn Al-Haytham over a thousand years ago, between 965 and 1029 AD, but he lacked the necessary tools and technology.</p><p>Let us pause and imagine if no one had ever tried to solve the problem of limited tools—how many great ideas would have died?</p><p>When construction of the High Dam began, a major problem arose: Abu Simbel Temple would be submerged.</p><p>The solution was extraordinary—the entire temple was dismantled and relocated, preserving the solar alignment phenomenon that occurs twice a year on February 22 and October 22.</p><p>What if we had refused to search for a solution? Would we sacrifice the High Dam that protects Egypt from floods and droughts, or sacrifice an irreplaceable historical monument?</p><p>>> In the end, a mistake is the beginning of new knowledge, not the end of it. <<<</p>"
-  }
-},
-{
-  "id": 9,
-  "category": "other",
-  "image": "https://scontent.fcai21-2.fna.fbcdn.net/v/t39.30808-6/473298952_2470000099998402_6762989014645315013_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wtf5Ru3UIbYQ7kNvwFDsp9W&_nc_oc=AdkJU4f80UeZp20WHLIXJUeGO0YiOuQuTyhAtn9KNmTUVlKd13PTNxVMI2blqDmlOYw&_nc_zt=23&_nc_ht=scontent.fcai21-2.fna&_nc_gid=6_Of2UWrmayH7X_hSqcHkg&oh=00_Afr6YbNBKo5k8gZ3-ZWDuvA5yqPGDG7atunKhvyXAileGA&oe=6967A8CD",
-  "link": "#",
-  "tags": [
-    "#راى_شخصي",
-    "#فيلم",
-    "#ثقافة",
-    "#سينما",
-    "#تقييم"
-  ],
-  "date": "2025-03-04",
-  "title": {
-    "ar": "هو الموضوع وصل لي wine مع الملوخية",
-    "en": "The Issue Reached Wine with Mulukhiyah"
-  },
-  "summary": {
-    "ar": "تحليل شخصي لفيلم مأخوذ من النسخة الإيطالية بشكل مباشر، مع نقد لمواءمة الفيلم للثقافة المحلية وطرح المشاكل المجتمعية.",
-    "en": "A personal analysis of a film directly adapted from the Italian version, critiquing its adaptation to local culture and its handling of social issues."
-  },
-  "content": {
-    "ar": "<p>هو الموضوع وصل لي wine مع الملوخية لحد هنا و stop 🙄🤚</p><p>الموضوع ده ميتسكتش عليه أبدًا 😂💔</p><p>#راى_شخصي 👇</p><p>طبعًا عن الفيلم فهو فيلم متاخد copy بعدين paste على طول بالحوار بالقصة بكل حاجة بالشخصيات بالأحداث من نسخة إيطالية و النسخة الإيطالية اتعمل منها ١٧ نسخة مختلفة و احنا النسخة العربية ال ١٨.</p><p>لكن المؤلف تقريبا مسمعش عن حاجة اسمها فرق ثقافات أو محبش يتعب نفسه بعد السيناريو بحيث انه يتناول مشاكل مجتمعية موجودة عندنا فعلا و في خلاف فيها و يسيبك تحكم انت.</p><p>لا هو حط مشاكل زي الشركة الاجنبية عايزة تروج ليها لأجل الدولارات، واحد جيله قصة هيحطها زي ما هي و ياخد عليها دولارات من غير حتى ما يتعب نفسه.</p><p>فتروح تلاقي حاطط الد... ياثة كحدث جانبي كده ملوش اي اهمية بيظهر في نص الحوار يقاطعهم شوية و بعدين يعدي عادي كحرية شخصية، و بعدها برده الخيانة و العلاقات خارج إطار الزواج. الهو احنا open-minded جدًا و طالما غلطت و بعدها العلاقة انتهت so what.</p><p>وبعدها ندخل نلاقي الزوج و الزوجة المصرية، الزوجة بتكلم واحد نت و بتبعتله صور (مش محتاجة توضيح) و الزوج كل ألفاظه شمال تقريبا، هو لو طلع جملة تتفهم يمين هيخسر الروشنة.</p><p>الفيلم عايزها و في الاخر كل الفاتوا دول الأسوية، الناس الطبيعية في قصة المؤلف يقف هنا، لا نتفليكس تزعل، حطط شذ...وذ بقى.</p><p>طب احطه شخص مريض أو في عيب واحد؟ لا بالعكس، الناس الطبيعية الفوق واخدين درجة شياطين بامتياز مع مرتبة الشرف و الشيطان يسقف لهم.</p><p>لكن الغير طبيعي و ضد الطبيعة البشرية هو ال cute و متعلم و بيدور على شغل و غلبان و منكسر و يصعب على الكافر.</p><p>ترجع تقول لي الفيلم عادي لما كل واحد طبيعي طالع في دور ابليس و الوحيد فيهم المش على الطبيعة البشرية طالع بالصفات دي؟ عايز ترجع تقول لي ده فيلم عادي؟ لا مش عادي و عمره ما كان عادي و العمله مكنش مستني انه يكون عادي 🙄✍🏻</p><p>#اصحاب_ولا 🤔</p>",
-    "en": "<p>The issue reached wine with Mulukhiyah up to this point, and stop 🙄🤚</p><p>This topic cannot be left unspoken 😂💔</p><p>#Personal_Opinion 👇</p><p>Regarding the film, it’s basically a copy-paste adaptation from the Italian version, with dialogue, story, characters, and events. The Italian version had 17 different adaptations, and we got the 18th, the Arabic version.</p><p>The author seems unaware of cultural differences or didn’t bother to adapt the scenario to address real social issues locally, leaving it for the audience to judge.</p><p>He included problems like the foreign company wants to promote for dollars. He uses the story as-is and takes money without effort.</p><p>For example, he adds irrelevant side events, like the “wine” incident, shown briefly in dialogue and then passed over as personal freedom. Then there are affairs outside marriage. We’re supposedly open-minded: if someone errs and the relationship ends, so what?</p><p>Then we see the Egyptian husband and wife. The wife chats online and sends photos (self-explanatory), and the husband’s words are almost all inappropriate. If a sentence appears even remotely right, it loses the film’s “edginess.”</p><p>The film wants it that way: in the end, all those morally upright characters are shown as villains. The author stops here; Netflix doesn’t care. Throw in some eccentricities.</p><p>Should he make one character sick or flawed? No. Instead, the “normal” characters are shown as highly devilish with honors, and the devil applauds them.</p><p>But the abnormal character, against human nature, is the cute, educated, struggling, modest one. This makes it hard for the unempathetic viewer.</p><p>And you’d say the film is normal when all the “normal” characters play devils and the only human-nature-abiding character has those traits? No, it’s not normal, never was, and the creators never intended it to be ordinary 🙄✍🏻</p><p>#Friends_or_Not 🤔</p>"
-  }
-},
-{
-  "id": 10,
-  "category": "science",
-  "image": "https://scontent.fcai21-4.fna.fbcdn.net/v/t39.30808-6/472366736_2467828496882229_164594638891925136_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=a3MW4A41ZZUQ7kNvwERNKKM&_nc_oc=AdnAp3uVByldcU8Xr4CtHePh0pBvUAsIMmev1NI9v9azsjuKa3x_FiHzcTHD7HPg-r8&_nc_zt=23&_nc_ht=scontent.fcai21-4.fna&_nc_gid=En8gNwbkLEjnookmbr7uBg&oh=00_AfpFAKA0J7fgf7lqbz1um2N54P98uwI1XjDidI_xOXAElw&oe=69679DAA",
-  "link": "#",
-  "tags": [
-    "#الأتوثانية",
-    "#محمد_ثروت_حسن",
-    "#أحمد_زويل",
-    "#فيزياء",
-    "#اكتشافات_علمية"
-  ],
-  "date": "2025-03-05",
-  "title": {
-    "ar": "من الفيوم للعالمية.. حكاية محمد ثروت حسن والأتوثانية",
-    "en": "From Fayoum to the World: The Story of Mohamed Tharwat Hassan and Attosecond"
-  },
-  "summary": {
-    "ar": "تغطية لاكتشاف العالم المصري محمد ثروت حسن لمقياس جديد للسرعة يُعرف بالأتوثانية، وتطبيقاته المحتملة في علوم الإلكترونيات والكمبيوتر.",
-    "en": "Coverage of Egyptian scientist Mohamed Tharwat Hassan’s discovery of a new speed scale called attosecond, and its potential applications in electronics and computing."
-  },
-  "content": {
-    "ar": "<p>🔵 حينما كشف العالم المصري الراحل أحمد زويل عن الفمتوثانية قبل 30 عاما، أحدث اكتشافه ثورة في معرفتنا بالذرات وكيفية رؤية حركتها والتحكم فيها، حتى نال عنها جائزة نوبل في الكيمياء سنة 1999.</p><p>والآن يأتي عالم مصري آخر ويقدم للعالم تطويرا لإنجاز زويل في صورة مقياس زمني أو سرعة جديدة تسمى الأتوثانية (attosecond)، والتي تعادل 1 من ألف من الفمتوثانية.</p><p>👈 الاكتشاف الجديد، يعد العالم بتطبيقات تحدث ثورة في مجالات عديدة على رأسها سرعة الكمبيوتر والهواتف المحمولة التي ستزيد بسبب هذا الاكتشاف الجديد بمعدلات لم تكن متخيلة.</p><p>👈 العالم المصري، الدكتور محمد ثروت حسن، ابن محافظة الفيوم والحاصل على بكالوريوس الهندسة من جامعة القاهرة فرع الفيوم، هو الآن أستاذ في قسم الفيزياء والضوء بجامعة أريزونا الأمريكية ويقود فريقا من العلماء فيها، وتمكن من قياس وتحديد هذه السرعة الجديدة، المسجلة باسمه في موسوعة جنيس للأرقام القياسية.</p><p>💬 في حديث لـ Optica.org يشرح حسن اكتشافه قائلا: \"إن الأتوثانية مقارنة بالثانية الواحدة تماثل الثانية بالنسبة لعمر الكون كله. وإذا كانت الذرات والجزيئات تقاس سرعتها بالفيمتوثانية، فإن الآن يمكننا رؤية حركة الإلكترون بل والتحكم فيه\".</p><p>سرعة الإلكترون الفائقة، التي تمكنه من الدوران حول محيط الأرض في 18 ثانية فقط، كانت تجعل من المستحيل رؤيته بأي تلسكوب أو كاميرا حديثة قبل أن تنجح أبحاث د. حسن، التي حصلت على تمويل يتجاوز المليون دولار، في ابتكار الكاميرا الأولى من نوعها في العالم التي تستطيع تسجيل ما تراه بسرعة الأتوثانية.</p><p>👈 ومؤخرا نشرت مجلة \"نيتشر فوتونيكس\" العلمية بحثا شارك فيه د. حسن، تمكن ليس فقط من رؤية الإلكترون أثناء حركته بل أيضا التحكم فيه وتوجيهه. مما يمهد الطريق لثورة هائلة في تسريع معالجة البيانات وتشفير المعلومات التي تستخدم في الكمبيوترات وفي التواصل مع الأقمار الصناعية.</p><p>📌 مصدر</p><p><a href=\"https://www.scientificamerican.com/.../in-the-footsteps.../\" target=\"_blank\">https://www.scientificamerican.com/.../in-the-footsteps.../</a></p>",
-    "en": "<p>🔵 When the late Egyptian scientist Ahmed Zewail revealed the femtosecond 30 years ago, his discovery revolutionized our understanding of atoms and how to see and control their movement, earning him the Nobel Prize in Chemistry in 1999.</p><p>Now, another Egyptian scientist introduces a development of Zewail’s achievement in the form of a new time or speed scale called the attosecond, which equals 1/1000 of a femtosecond.</p><p>👈 This new discovery promises applications that could revolutionize many fields, including increasing the speed of computers and mobile phones in ways previously unimaginable.</p><p>👈 The Egyptian scientist, Dr. Mohamed Tharwat Hassan, born in Fayoum and holding a bachelor's degree in engineering from Cairo University, Fayoum branch, is now a professor in the Department of Physics and Optics at the University of Arizona, leading a team of scientists. He successfully measured and defined this new speed, recorded in his name in the Guinness World Records.</p><p>💬 In an interview with Optica.org, Hassan explains his discovery: \"An attosecond compared to one second is like a second compared to the entire age of the universe. If atoms and molecules were measured in femtoseconds, now we can see and even control the motion of electrons.\"</p><p>The extreme speed of the electron, which allows it to orbit the Earth in just 18 seconds, made it impossible to see with any modern telescope or camera before Dr. Hassan’s research, funded with over a million dollars, succeeded in inventing the world’s first camera capable of recording at attosecond speed.</p><p>👈 Recently, the scientific journal \"Nature Photonics\" published research involving Dr. Hassan, where not only could the electron be observed in motion, but it could also be controlled and guided. This paves the way for a massive revolution in accelerating data processing and encrypting information used in computers and satellite communications.</p><p>📌 Source</p><p><a href=\"https://www.scientificamerican.com/.../in-the-footsteps.../\" target=\"_blank\">https://www.scientificamerican.com/.../in-the-footsteps.../</a></p>"
-  }
-}
-]
