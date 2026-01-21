@@ -1,0 +1,981 @@
+[
+  {
+    "id": 1,
+    "type": "course",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/DywLfKZk/Picsart-25-02-08-13-49-29-114.jpg",
+    "instructor": "Mostafa Khalid Sallam",
+    "rating": 4.9,
+    "students": 893,
+    "duration": "12h 59m",
+    "price": {
+      "current": "349.99 egp",
+      "original": ""
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?referralCode=F62C4C8E618017AF4D3B",
+    "date": "2025-02-01",
+    "tags": [
+      "#Telecommunications",
+      "#Networking",
+      "#SignalProcessing"
+    ],
+    "title": {
+      "en": "Introduction to Telecommunications: A Beginner's Guide",
+      "ar": "أساسيات الاتصالات السلكية واللاسلكية"
+    },
+    "summary": {
+      "en": "A comprehensive theoretical and practical introduction to modern telecommunication systems.",
+      "ar": "مقدمة شاملة نظرية وعملية في أنظمة الاتصالات الحديثة."
+    },
+    "description": {
+      "en": "<h3>What you'll learn</h3><ul><li>The fundamentals of communication engineering and its importance</li><li>The history and evolution of communication systems</li><li>Types of communication networks (wired and wireless)</li><li>Key concepts in signals and systems</li><li>Time and frequency domain analysis</li><li>Types of filters: Low Pass, High Pass, Band Pass, Band Stop</li><li>Fourier Series, Fourier Transform, Laplace Transform, Z-Transform</li><li>Analog modulation techniques (AM, FM, PM)</li><li>Digital modulation techniques (ASK, FSK, PSK, QAM)</li><li>Differences between analog and digital systems and communications</li><li>Analog to Digital Conversion (ADC) and Digital to Analog Conversion (DAC)</li><li>Sampling, quantization, encoding, PAM and PCM</li><li>Fundamentals of optical communications</li><li>Light sources, frequency bands, and light propagation</li><li>Optical fiber systems and applications</li><li>Satellite communication systems and applications</li><li>Error correction, encoding, and communication protocols</li></ul><h3>Course Content</h3><p>6 sections • 42 lectures • Total length: 12h 59m</p><h3>Requirements</h3><ul><li>Basic computer skills</li><li>Basic knowledge of mathematics (algebra, trigonometry, basic calculus)</li><li>Basic physics concepts related to waves and signals</li><li>No prior experience in communication engineering is required</li><li>Curiosity and interest in communication technologies</li></ul><h3>Description</h3><p>This course provides a complete and detailed introduction to telecommunication engineering, combining strong theoretical foundations with practical concepts. It is designed for beginners, students, and aspiring engineers who want to understand how modern communication systems work and evolve.</p><p>The course starts with the fundamentals of telecommunications and their role in everyday life, followed by an in-depth exploration of communication networks, signals and systems, and mathematical tools used in signal analysis.</p><p>Students will gain a solid understanding of analog and digital modulation techniques, signal processing concepts, optical communication systems, and satellite communications. By the end of the course, learners will be well-prepared for advanced studies or professional careers in telecommunications, networking, and signal processing.</p>",
+      "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات هندسة الاتصالات وأهميتها</li><li>تاريخ وتطور أنظمة الاتصالات</li><li>أنواع شبكات الاتصالات السلكية واللاسلكية</li><li>مفاهيم الإشارات والأنظمة</li><li>تحليل الإشارات في المجالين الزمني والترددي</li><li>أنواع الفلاتر: منخفضة، عالية، ممرر نطاق، مانع نطاق</li><li>سلاسل وتحويلات فورييه، لابلاس، و Z-Transform</li><li>تقنيات التضمين التناظرية (AM, FM, PM)</li><li>تقنيات التضمين الرقمية (ASK, FSK, PSK, QAM)</li><li>الفرق بين الأنظمة والاتصالات التناظرية والرقمية</li><li>التحويل من تناظري إلى رقمي (ADC) والعكس (DAC)</li><li>أخذ العينات، التكميم، الترميز، PAM و PCM</li><li>أساسيات الاتصالات الضوئية</li><li>مصادر الضوء ونطاقات التردد وانتشار الضوء</li><li>أنظمة الألياف الضوئية وتطبيقاتها</li><li>أنظمة الاتصالات عبر الأقمار الصناعية وتطبيقاتها</li><li>تصحيح الأخطاء، التشفير، وبروتوكولات الاتصال</li></ul><h3>محتوى الدورة</h3><p>6 أقسام • 42 محاضرة • إجمالي المدة: 12 ساعة و59 دقيقة</p><h3>المتطلبات</h3><ul><li>مهارات أساسية في استخدام الكمبيوتر</li><li>معرفة أساسية بالرياضيات (الجبر، المثلثات، والتفاضل البسيط)</li><li>مفاهيم فيزيائية أساسية خاصة بالموجات والإشارات</li><li>لا يشترط وجود خبرة سابقة في هندسة الاتصالات</li><li>الرغبة في التعلم واستكشاف تقنيات الاتصالات</li></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة مقدمة شاملة ومفصلة لهندسة الاتصالات السلكية واللاسلكية، حيث تجمع بين الأسس النظرية والتطبيقات العملية. تم تصميمها خصيصًا للمبتدئين والطلاب والمهندسين الطموحين الراغبين في فهم كيفية عمل أنظمة الاتصالات الحديثة وتطورها.</p><p>تبدأ الدورة بشرح أساسيات الاتصالات ودورها في الحياة اليومية، ثم تنتقل إلى دراسة شبكات الاتصالات، والإشارات والأنظمة، والأدوات الرياضية المستخدمة في تحليل الإشارات.</p><p>بنهاية الدورة، سيكون لدى المتعلم فهم قوي لتقنيات التضمين، ومعالجة الإشارات، والاتصالات الضوئية والفضائية، مما يؤهله للدراسة المتقدمة أو العمل المهني في مجالات الاتصالات، الشبكات، ومعالجة الإشارات.</p>"
+    }
+  },
+{
+  "id": 2,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/DywLfKZk/Picsart_25_02_08_13_49_29_114.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "12h 59m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4ml3REBdkhIEN5Kk3_egIxV",
+  "video_url": "https://youtu.be/aWa5yS0BqyE",
+  "date": "2025-02-01",
+  "tags": [
+    "#Telecommunications",
+    "#Networking",
+    "#SignalProcessing"
+  ],
+  "title": {
+    "en": "Introduction to Telecommunications: A Beginner's Guide",
+    "ar": "أساسيات الاتصالات السلكية واللاسلكية"
+  },
+  "summary": {
+    "en": "A comprehensive theoretical and practical introduction to modern telecommunication systems.",
+    "ar": "مقدمة شاملة نظرية وعملية في أنظمة الاتصالات الحديثة."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>The fundamentals of communication engineering and its importance</li><br><li>The history and evolution of communication systems</li><br><li>Types of communication networks (wired and wireless)</li><br><li>Key concepts in signals and systems</li><br><li>Time and frequency domain analysis</li><br><li>Types of filters: Low Pass, High Pass, Band Pass, Band Stop</li><br><li>Fourier Series, Fourier Transform, Laplace Transform, Z-Transform</li><br><li>Analog modulation techniques (AM, FM, PM)</li><br><li>Digital modulation techniques (ASK, FSK, PSK, QAM)</li><br><li>Differences between analog and digital systems and communications</li><br><li>Analog to Digital Conversion (ADC) and Digital to Analog Conversion (DAC)</li><br><li>Sampling, quantization, encoding, PAM and PCM</li><br><li>Fundamentals of optical communications</li><br><li>Light sources, frequency bands, and light propagation</li><br><li>Optical fiber systems and applications</li><br><li>Satellite communication systems and applications</li><br><li>Error correction, encoding, and communication protocols</li></ul><h3>Course Content</h3><p>6 sections • 42 lectures • Total length: 12h 59m</p><h3>Requirements</h3><ul><li>Basic computer skills</li><br><li>Basic knowledge of mathematics (algebra, trigonometry, basic calculus)</li><br><li>Basic physics concepts related to waves and signals</li><br><li>No prior experience in communication engineering is required</li><br><li>Curiosity and interest in communication technologies</li></ul><h3>Description</h3><p>This course provides a complete and detailed introduction to telecommunication engineering, combining strong theoretical foundations with practical concepts. It is designed for beginners, students, and aspiring engineers who want to understand how modern communication systems work and evolve.</p><p>The course starts with the fundamentals of telecommunications and their role in everyday life, followed by an in-depth exploration of communication networks, signals and systems, and mathematical tools used in signal analysis.</p><p>Students will gain a solid understanding of analog and digital modulation techniques, signal processing concepts, optical communication systems, and satellite communications. By the end of the course, learners will be well-prepared for advanced studies or professional careers in telecommunications, networking, and signal processing.</p><h3>Watch the Video</h3><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/aWa5yS0BqyE\" title=\"Introduction to Telecommunications\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات هندسة الاتصالات وأهميتها</li><br><li>تاريخ وتطور أنظمة الاتصالات</li><br><li>أنواع شبكات الاتصالات السلكية واللاسلكية</li><br><li>مفاهيم الإشارات والأنظمة</li><br><li>تحليل الإشارات في المجالين الزمني والترددي</li><br><li>أنواع الفلاتر: منخفضة، عالية، ممرر نطاق، مانع نطاق</li><br><li>سلاسل وتحويلات فورييه، لابلاس، و Z-Transform</li><br><li>تقنيات التضمين التناظرية (AM, FM, PM)</li><br><li>تقنيات التضمين الرقمية (ASK, FSK, PSK, QAM)</li><br><li>الفرق بين الأنظمة والاتصالات التناظرية والرقمية</li><br><li>التحويل من تناظري إلى رقمي (ADC) والعكس (DAC)</li><br><li>أخذ العينات، التكميم، الترميز، PAM و PCM</li><br><li>أساسيات الاتصالات الضوئية</li><br><li>مصادر الضوء ونطاقات التردد وانتشار الضوء</li><br><li>أنظمة الألياف الضوئية وتطبيقاتها</li><br><li>أنظمة الاتصالات عبر الأقمار الصناعية وتطبيقاتها</li><br><li>تصحيح الأخطاء، التشفير، وبروتوكولات الاتصال</li></ul><h3>محتوى الدورة</h3><p>6 أقسام • 42 محاضرة • إجمالي المدة: 12 ساعة و59 دقيقة</p><h3>المتطلبات</h3><ul><li>مهارات أساسية في استخدام الكمبيوتر</li><br><li>معرفة أساسية بالرياضيات (الجبر، المثلثات، والتفاضل البسيط)</li><br><li>مفاهيم فيزيائية أساسية خاصة بالموجات والإشارات</li><br><li>لا يشترط وجود خبرة سابقة في هندسة الاتصالات</li><br><li>الرغبة في التعلم واستكشاف تقنيات الاتصالات</li></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة مقدمة شاملة ومفصلة لهندسة الاتصالات السلكية واللاسلكية، حيث تجمع بين الأسس النظرية والتطبيقات العملية. تم تصميمها خصيصًا للمبتدئين والطلاب والمهندسين الطموحين الراغبين في فهم كيفية عمل أنظمة الاتصالات الحديثة وتطورها.</p><p>تبدأ الدورة بشرح أساسيات الاتصالات ودورها في الحياة اليومية، ثم تنتقل إلى دراسة شبكات الاتصالات، والإشارات والأنظمة، والأدوات الرياضية المستخدمة في تحليل الإشارات.</p><p>بنهاية الدورة، سيكون لدى المتعلم فهم قوي لتقنيات التضمين، ومعالجة الإشارات، والاتصالات الضوئية والفضائية، مما يؤهله للدراسة المتقدمة أو العمل المهني في مجالات الاتصالات، الشبكات، ومعالجة الإشارات.</p><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/aWa5yS0BqyE\" title=\"أساسيات الاتصالات السلكية واللاسلكية\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+ },
+{
+  "id": 27,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://img.youtube.com/vi/asG9jDfDT1w/maxresdefault.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "1h 36m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4mZiU--T0jdvEqSnPkeO1Jh",
+  "date": "2025-11-09",
+  "tags": [
+    "#Telecommunications",
+    "#CommunicationEngineering",
+    "#Networks",
+    "#EngineeringBasics",
+    "#HistoryOfTelecom"
+  ],
+  "title": {
+    "en": "Introduction to the History of Telecommunications",
+    "ar": "مقدمة في تاريخ الاتصالات السلكية واللاسلكية"
+  },
+  "summary": {
+    "en": "An introductory course that explains the fundamentals of telecommunication engineering, its role in daily life, and the historical evolution of communication systems.",
+    "ar": "كورس تمهيدي يشرح أساسيات هندسة الاتصالات، دورها في حياتنا اليومية، والتطور التاريخي لأنظمة الاتصالات."
+  },
+  "description": {
+    "en": "<h3>Course Overview</h3><p>This course provides a beginner-friendly introduction to telecommunication engineering, covering its importance, real-life applications, and historical development.</p><br><h3>📡 Topics Covered</h3><ul><li>What is Telecommunication Engineering?</li><br><li>The Role of Telecommunication in Everyday Life</li><br><li>History of Telecommunication Systems</li><br><li>Communication Network Types and Applications</li></ul><br><h3>Course Videos</h3><ul><li>1_What is Telecommunication Engineering? – 21:18</li><br><li>2_The Role of Telecommunication Engineering in Everyday Life – 24:06</li><br><li>3_The History of Telecommunication Systems – 22:01</li><br><li>4_Communication Network Types & Applications – 28:32</li></ul><br><h3>Watch the Course</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/asG9jDfDT1w\" title=\"Introduction to the History of Telecommunications\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>نظرة عامة على الدورة</h3><p>كورس تمهيدي يوضح ما هي هندسة الاتصالات، أهميتها، تطبيقاتها في الحياة اليومية، والتطور التاريخي لأنظمة الاتصالات.</p><br><h3>📡 الموضوعات التي يتم شرحها</h3><ul><li>ما هي هندسة الاتصالات؟</li><br><li>دور هندسة الاتصالات في حياتنا اليومية</li><br><li>تاريخ أنظمة الاتصالات</li><br><li>أنواع شبكات الاتصال وتطبيقاتها</li></ul><br><h3>فيديوهات الكورس</h3><ul><li>1_What is Telecommunication Engineering? – 21:18</li><br><li>2_The Role of Telecommunication Engineering in Everyday Life – 24:06</li><br><li>3_The History of Telecommunication Systems – 22:01</li><br><li>4_Communication Network Types & Applications – 28:32</li></ul><br><h3>شاهد الكورس</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/asG9jDfDT1w\" title=\"مقدمة في تاريخ الاتصالات السلكية واللاسلكية\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 28,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://img.youtube.com/vi/WWcNzYTHzb8/maxresdefault.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "3h 13m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4nKccqyh4sgdOkh36WmVbt1",
+  "date": "2025-11-09",
+  "tags": [
+    "#Telecommunications",
+    "#Signals",
+    "#Modulation",
+    "#Fourier",
+    "#EngineeringBasics"
+  ],
+  "title": {
+    "en": "Theoretical Fundamentals of Telecommunications",
+    "ar": "الأساسيات النظرية للاتصالات السلكية واللاسلكية"
+  },
+  "summary": {
+    "en": "A foundational theoretical course covering signals, transforms, filters, and modulation techniques in telecommunication engineering.",
+    "ar": "كورس نظري تأسيسي يشرح الإشارات، التحويلات، الفلاتر، وتقنيات التضمين في هندسة الاتصالات."
+  },
+  "description": {
+    "en": "<h3>Course Overview</h3><p>This course introduces the theoretical fundamentals of telecommunication systems, starting from basic signal concepts to modulation techniques.</p><br><h3>📡 Topics Covered</h3><ul><li>Analog and Digital Signals</li><br><li>Time & Frequency Domain</li><br><li>Filters: Low Pass, High Pass, Band Pass, Band Stop</li><br><li>Fourier Series & Fourier Transform</li><br><li>Laplace Transform & Z-Transform</li><br><li>The Telecommunication Process</li><br><li>Analog Modulation (AM, FM, PM)</li><br><li>Digital Modulation (ASK, FSK, PSK, QAM)</li></ul><br><h3>Course Videos</h3><ul><li>5_Analog Signals – 19:58</li><br><li>6_Digital Signals – 33:47</li><br><li>7_Time & Frequency Domain – 14:21</li><br><li>8_Filters – 11:06</li><br><li>9_Fourier Series – 22:01</li><br><li>10_Fourier Transform – 13:03</li><br><li>11_Laplace Transform – 14:38</li><br><li>12_Z Transform – 15:02</li><br><li>13_The Telecommunication Process – 18:47</li><br><li>14_Analog Modulation – 23:30</li><br><li>15_Digital Modulation – 37:06</li></ul><br><h3>Watch the Course</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/WWcNzYTHzb8\" title=\"Theoretical Fundamentals of Telecommunications\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>نظرة عامة على الدورة</h3><p>يقدم هذا الكورس الأساسيات النظرية لأنظمة الاتصالات، بداية من مفاهيم الإشارات وحتى تقنيات التضمين.</p><br><h3>📡 الموضوعات التي يتم شرحها</h3><ul><li>الإشارات التماثلية والرقمية</li><br><li>مجال الزمن ومجال التردد</li><br><li>الفلاتر: منخفض، مرتفع، نطاقي، وإيقاف نطاق</li><br><li>متسلسلة فورييه وتحويل فورييه</li><br><li>تحويل لابلاس وتحويل Z</li><br><li>عملية الاتصالات</li><br><li>التضمين التماثلي AM, FM, PM</li><br><li>التضمين الرقمي ASK, FSK, PSK, QAM</li></ul><br><h3>فيديوهات الكورس</h3><ul><li>5_Analog Signals – 19:58</li><br><li>6_Digital Signals – 33:47</li><br><li>7_Time & Frequency Domain – 14:21</li><br><li>8_Filters – 11:06</li><br><li>9_Fourier Series – 22:01</li><br><li>10_Fourier Transform – 13:03</li><br><li>11_Laplace Transform – 14:38</li><br><li>12_Z Transform – 15:02</li><br><li>13_The Telecommunication Process – 18:47</li><br><li>14_Analog Modulation – 23:30</li><br><li>15_Digital Modulation – 37:06</li></ul><br><h3>شاهد الكورس</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/WWcNzYTHzb8\" title=\"الأساسيات النظرية للاتصالات السلكية واللاسلكية\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 29,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://img.youtube.com/vi/GAn0sQoB1jk/maxresdefault.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "2h 40m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4kkvxUb6tiUl0321pf9slpI",
+  "date": "2025-11-09",
+  "tags": [
+    "#SignalsAndSystems",
+    "#Telecommunications",
+    "#EngineeringBasics",
+    "#Convolution",
+    "#SignalProcessing"
+  ],
+  "title": {
+    "en": "Fundamentals of Signals and Systems (Telecommunications)",
+    "ar": "أساسيات الإشارات والأنظمة (الاتصالات السلكية واللاسلكية)"
+  },
+  "summary": {
+    "en": "A fundamental course covering signals and systems concepts essential for telecommunication engineering students.",
+    "ar": "كورس تأسيسي يشرح مفاهيم الإشارات والأنظمة الأساسية لطلاب هندسة الاتصالات."
+  },
+  "description": {
+    "en": "<h3>Course Overview</h3><p>This course introduces the core principles of signals and systems used in telecommunication engineering, with clear explanations and practical examples.</p><br><h3>📡 Topics Covered</h3><ul><li>What is a Signal & System</li><br><li>Classification of Signals</li><br><li>Operations on Signals</li><br><li>Elementary Signals</li><br><li>System Properties</li><br><li>Convolution</li><br><li>Signal Representation using Amplitude & Phase</li><br><li>Problem Solving</li></ul><br><h3>Course Videos</h3><ul><li>16_What is Signal & System – 15:01</li><br><li>17_Classification of Signals – 19:22</li><br><li>18_Operations on Signals – 25:47</li><br><li>19_Elementary Signals – 21:32</li><br><li>20_System Properties – 25:32</li><br><li>21_Convolution – 18:32</li><br><li>22_Expressing the Signal by Amplitude and Phase – 10:59</li><br><li>23_Problems – 28:08</li></ul><br><h3>Watch the Course</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/GAn0sQoB1jk\" title=\"Fundamentals of Signals and Systems\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>نظرة عامة على الدورة</h3><p>يقدم هذا الكورس شرحًا مبسطًا ومتكاملًا لأساسيات الإشارات والأنظمة المستخدمة في هندسة الاتصالات.</p><br><h3>📡 الموضوعات التي يتم شرحها</h3><ul><li>ما هي الإشارة والنظام</li><br><li>تصنيف الإشارات</li><br><li>العمليات على الإشارات</li><br><li>الإشارات الأولية</li><br><li>خصائص الأنظمة</li><br><li>الالتفاف (Convolution)</li><br><li>تمثيل الإشارة بالسعة والطور</li><br><li>حل مسائل تطبيقية</li></ul><br><h3>فيديوهات الكورس</h3><ul><li>16_What is Signal & System – 15:01</li><br><li>17_Classification of Signals – 19:22</li><br><li>18_Operations on Signals – 25:47</li><br><li>19_Elementary Signals – 21:32</li><br><li>20_System Properties – 25:32</li><br><li>21_Convolution – 18:32</li><br><li>22_Expressing the Signal by Amplitude and Phase – 10:59</li><br><li>23_Problems – 28:08</li></ul><br><h3>شاهد الكورس</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/GAn0sQoB1jk\" title=\"أساسيات الإشارات والأنظمة\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 30,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://img.youtube.com/vi/jaHx9DDHjNU/maxresdefault.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "2h 25m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4mKGYQOqlTmtE4arz_pDAOV",
+  "date": "2025-11-09",
+  "tags": [
+    "#AnalogCommunications",
+    "#DigitalCommunications",
+    "#Telecommunications",
+    "#ADC",
+    "#DAC",
+    "#PCM",
+    "#Sampling"
+  ],
+  "title": {
+    "en": "Fundamentals of Analog and Digital Communications",
+    "ar": "أساسيات الاتصالات التناظرية والرقمية"
+  },
+  "summary": {
+    "en": "A foundational course explaining analog and digital communication systems, conversion processes, and practical signal processing techniques.",
+    "ar": "كورس تأسيسي يشرح أنظمة الاتصالات التناظرية والرقمية وعمليات التحويل ومعالجة الإشارات عمليًا."
+  },
+  "description": {
+    "en": "<h3>Course Overview</h3><p>This course introduces the essential concepts of analog and digital communication systems with clear explanations and real engineering examples.</p><br><h3>📡 Topics Covered</h3><ul><li>Difference between Analog and Digital Systems</li><br><li>Analog to Digital Conversion (ADC)</li><br><li>Types of ADC Converters</li><br><li>Sampling Theory</li><br><li>Practical Sampling & PAM</li><br><li>PAM Demodulation & Quantization</li><br><li>Pulse Code Modulation (PCM)</li><br><li>Digital to Analog Conversion (DAC)</li></ul><br><h3>Course Videos</h3><ul><li>24_The Difference between Analog and Digital Systems – 26:30</li><br><li>25_Analog to Digital Conversion (ADC) – 10:20</li><br><li>26_Types of ADC Converters – 11:44</li><br><li>27_Sampling – 20:48</li><br><li>28_Practical Sampling (PAM) – 10:52</li><br><li>29_PAM Demodulation & Quantization – 10:11</li><br><li>30_Encoding Pulse Code Modulation (PCM) – 13:39</li><br><li>31_Digital to Analog Conversion (DAC) – 20:40</li></ul><br><h3>Watch the Course</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/jaHx9DDHjNU\" title=\"Fundamentals of Analog and Digital Communications\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>نظرة عامة على الدورة</h3><p>يقدم هذا الكورس شرحًا واضحًا ومتكاملًا لأساسيات الاتصالات التناظرية والرقمية مع أمثلة تطبيقية.</p><br><h3>📡 الموضوعات التي يتم شرحها</h3><ul><li>الفرق بين الأنظمة التناظرية والرقمية</li><br><li>التحويل من تناظري إلى رقمي (ADC)</li><br><li>أنواع محولات ADC</li><br><li>نظرية أخذ العينات</li><br><li>أخذ العينات عمليًا و PAM</li><br><li>فك تضمين PAM والتكميم</li><br><li>الترميز باستخدام PCM</li><br><li>التحويل من رقمي إلى تناظري (DAC)</li></ul><br><h3>فيديوهات الكورس</h3><ul><li>24_The Difference between Analog and Digital Systems – 26:30</li><br><li>25_Analog to Digital Conversion (ADC) – 10:20</li><br><li>26_Types of ADC Converters – 11:44</li><br><li>27_Sampling – 20:48</li><br><li>28_Practical Sampling (PAM) – 10:52</li><br><li>29_PAM Demodulation & Quantization – 10:11</li><br><li>30_Encoding Pulse Code Modulation (PCM) – 13:39</li><br><li>31_Digital to Analog Conversion (DAC) – 20:40</li></ul><br><h3>شاهد الكورس</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/jaHx9DDHjNU\" title=\"أساسيات الاتصالات التناظرية والرقمية\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 31,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://img.youtube.com/vi/QQ3b4IgnJAQ/maxresdefault.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "1h 41m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4kRc39hL0KTMrtqi4EJgoQK",
+  "date": "2025-11-09",
+  "tags": [
+    "#OpticalCommunications",
+    "#FiberOptics",
+    "#Telecommunications",
+    "#OpticalFiber",
+    "#LightPropagation",
+    "#Networking"
+  ],
+  "title": {
+    "en": "Fundamentals of Optical Communications",
+    "ar": "أساسيات الاتصالات الضوئية"
+  },
+  "summary": {
+    "en": "An introductory course covering the fundamentals of optical communication systems, fiber optics, and their applications.",
+    "ar": "كورس تمهيدي يشرح أساسيات الاتصالات الضوئية، الألياف الضوئية، ومكونات أنظمة الاتصالات الحديثة."
+  },
+  "description": {
+    "en": "<h3>Course Overview</h3><p>This course provides a clear and simple introduction to optical communications, suitable for both specialists and non-specialists.</p><br><h3>📡 Topics Covered</h3><ul><li>Introduction to Optical Communications</li><br><li>Optical Sources</li><br><li>Optical Fiber Medium</li><br><li>Types of Optical Detectors</li><br><li>Fundamentals of Light Propagation in Optical Fibers</li><br><li>Optical Communication Systems</li><br><li>Components of Optical Fiber Networks</li><br><li>Applications of Optical Fiber Communications</li></ul><br><h3>Watch the Course</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/QQ3b4IgnJAQ\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>نظرة عامة على الكورس</h3><p>يقدم هذا الكورس شرحًا مبسطًا لأساسيات الاتصالات الضوئية، مناسب للمتخصصين وغير المتخصصين.</p><br><h3>📡 الموضوعات</h3><ul><li>مقدمة في الاتصالات الضوئية</li><br><li>مصادر الضوء</li><br><li>الألياف الضوئية</li><br><li>الكواشف الضوئية</li><br><li>انتشار الضوء داخل الألياف</li><br><li>أنظمة الاتصالات الضوئية</li><br><li>مكونات شبكات الألياف</li><br><li>التطبيقات العملية</li></ul><br><h3>شاهد الكورس</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/QQ3b4IgnJAQ\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 32,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://img.youtube.com/vi/3rVJyuXZpuM/maxresdefault.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "1h 10m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4kEQZBfFCUB3rrlXU7A_LLX",
+  "date": "2025-11-09",
+  "tags": [
+    "#SatelliteCommunications",
+    "#Telecommunications",
+    "#SatelliteSystems",
+    "#FrequencyBands",
+    "#Modulation",
+    "#ErrorCorrection"
+  ],
+  "title": {
+    "en": "Fundamentals of Satellite Communications",
+    "ar": "أساسيات الاتصالات بالأقمار الصناعية"
+  },
+  "summary": {
+    "en": "An introductory course covering the fundamentals of satellite communication systems, their components, modulation techniques, and applications.",
+    "ar": "كورس تمهيدي يشرح أساسيات أنظمة الاتصالات بالأقمار الصناعية، مكوناتها، طرق التضمين، وتطبيقاتها."
+  },
+  "description": {
+    "en": "<h3>Course Overview</h3><p>This course introduces satellite communication systems, suitable for both specialists and non-specialists.</p><br><h3>📡 Topics Covered</h3><ul><li>Introduction to Satellite Communications</li><br><li>Fundamentals of Satellite Communication Systems</li><br><li>Satellite Components Used in Communications</li><br><li>Frequency Bands and Modulation Techniques</li><br><li>Error Correction, Encoding, Communication Protocols, and Applications</li></ul><br><h3>Watch the Course</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/3rVJyuXZpuM\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>نظرة عامة على الكورس</h3><p>يقدم هذا الكورس شرحًا مبسطًا لأنظمة الاتصالات بالأقمار الصناعية، مناسب للمتخصصين وغير المتخصصين.</p><br><h3>📡 الموضوعات</h3><ul><li>مقدمة في الاتصالات بالأقمار الصناعية</li><br><li>أساسيات أنظمة الاتصالات بالأقمار الصناعية</li><br><li>مكونات الأقمار المستخدمة في الاتصالات</li><br><li>النطاقات الترددية وتقنيات التضمين</li><br><li>تصحيح الأخطاء، التشفير، بروتوكولات الاتصال، والتطبيقات</li></ul><br><h3>شاهد الكورس</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/3rVJyuXZpuM\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 3,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/8zC2bszj/Cover.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "3h 17m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4nscHyM1shP1Jnwtq3ZqHwi",
+  "date": "2025-11-11",
+  "tags": [
+    "#DigitalCommunications",
+    "#SignalProcessing",
+    "#PAM",
+    "#PCM"
+  ],
+  "title": {
+    "en": "Digital Communications",
+    "ar": "الاتصالات الرقمية"
+  },
+  "summary": {
+    "en": "Fundamentals of digital communication systems including sampling, quantization, PCM, and delta modulation.",
+    "ar": "أساسيات أنظمة الاتصالات الرقمية بما يشمل أخذ العينات، التكمية، PCM، وتعديل دلتا."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Fundamentals of digital communications</li><br><li>The communication process and system elements</li><br><li>Modes of communication and communication channels</li><br><li>Sampling process in time and frequency domains</li><br><li>Pulse Amplitude Modulation (PAM)</li><br><li>Practical sampling techniques</li><br><li>Quantization concepts and types</li><br><li>Uniform quantizer characteristics</li><br><li>Quantization noise and SNR derivation</li><br><li>Pulse Code Modulation (PCM)</li><br><li>Elements of PCM systems</li><br><li>Encoding and line coding techniques</li><br><li>Delta Modulation (DM)</li></ul><h3>Course Content</h3><ul><li>Introduction to Digital Communications (52:19)</li><br><li>Quantization (1:01:29)</li><br><li>PCM – Pulse Code Modulation (45:56)</li><br><li>Delta Modulation (37:40)</li></ul><h3>Description</h3><p>This course provides a clear and practical introduction to digital communication systems. It focuses on the core concepts required to understand how digital information is transmitted efficiently and reliably.</p><p>Students will explore sampling, quantization, PAM, PCM, and delta modulation with practical explanations and problem-oriented discussions. This course is ideal for beginners and engineering students who want to build a strong foundation in digital communications.</p><h3>Watch the Video</h3><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/LwhnQZiHM3w\" title=\"Digital Communications\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات الاتصالات الرقمية</li><br><li>عملية الاتصال وعناصر نظام الاتصال</li><br><li>طرق الاتصال وقنوات الاتصال</li><br><li>أخذ العينات في المجالين الزمني والترددي</li><br><li>تشكيل سعة النبضة (PAM)</li><br><li>أخذ العينات العملي</li><br><li>مفاهيم وأنواع التكمية</li><br><li>خصائص المكيم الموحد</li><br><li>ضوضاء التكمية واشتقاق نسبة الإشارة إلى الضوضاء</li><br><li>تعديل رمز النبضة (PCM)</li><br><li>العناصر الأساسية لنظام PCM</li><br><li>الترميز ورمز الخط</li><br><li>تعديل دلتا (Delta Modulation)</li></ul><h3>محتوى الدورة</h3><ul><li>مقدمة في أساسيات الاتصالات الرقمية (52:19)</li><br><li>التكمية (1:01:29)</li><br><li>PCM – تعديل رمز النبضة (45:56)</li><br><li>Delta Modulation – تعديل دلتا (37:40)</li></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة شرحًا مبسطًا وعمليًا لأساسيات أنظمة الاتصالات الرقمية، مع التركيز على المفاهيم الجوهرية التي يعتمد عليها نقل المعلومات الرقمية.</p><p>تشمل الدورة أخذ العينات، التكمية، PAM، PCM، وتعديل دلتا، مع أمثلة عملية تساعد الطالب على الفهم التطبيقي. الدورة مناسبة للمبتدئين وطلاب الهندسة وكل من يريد بناء أساس قوي في الاتصالات الرقمية.</p><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/LwhnQZiHM3w\" title=\"الاتصالات الرقمية\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+  {
+  "id": 4,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/Jh0kNfgK/Cover.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "3h 50m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4nu3IuRuaePTRXIVQ6O1lcR",
+  "video_url": "https://youtu.be/7L0RfG0vz5Y",
+  "date": "2025-11-13",
+  "tags": [
+    "#Microprocessors",
+    "#AssemblyLanguage",
+    "#DigitalSystems"
+  ],
+  "title": {
+    "en": "Fundamentals of Microprocessors",
+    "ar": "اساسيات المعالجات الدقيقة"
+  },
+  "summary": {
+    "en": "Learn the core concepts of microprocessors, microcontrollers, and assembly programming for digital systems.",
+    "ar": "تعلم المفاهيم الأساسية للمعالجات الدقيقة والمتحكمات الدقيقة ولغة التجميع للأنظمة الرقمية."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Comparison between microprocessor, microcontroller, and microcomputer</li><br><li>Definitions, components, uses, memory, cost, and power consumption</li><br><li>Programming and development basics</li><br><li>Real-time performance and practical examples</li><br><li>Instruction fetch and execute cycle</li><br><li>Microprocessor unit (MPU), program counter, and instruction decoder</li><br><li>Memory and instruction cycle with sample programs</li><br><li>Introduction to assembly language and its applications</li><br><li>Comparison between assembly and high-level languages</li><br><li>Integer storage, signed integers, two's complement, and conversions</li><br><li>Fundamentals of microprocessor design: CISC vs RISC, pipelined execution, superscalar architecture</li><br><li>Registers, flags, integer and character constants</li><br></ul><h3>Course Content</h3><ul><li>1_Introduction (43:22)</li><br><li>2_Instruction Fetch and Execute Cycle (58:07)</li><br><li>3_Introduction to Assembly Language (31:34)</li><br><li>4_Fundamentals of Microprocessor Design (40:02)</li><br><li>5_Fundamentals of Assembly Language (45:57)</li><br></ul><h3>Description</h3><p>This course provides a practical and detailed introduction to microprocessors, microcontrollers, and assembly programming. Students will explore system components, instruction cycles, and programming essentials with real-world examples.</p><p>By the end of the course, learners will have a solid understanding of microprocessor architecture, instruction execution, and assembly language programming, preparing them for digital system design and embedded programming.</p><h3>Video</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/7L0RfG0vz5Y\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>مقارنة بين المعالج الدقيق والمتحكم الدقيق والحاسوب الدقيق</li><br><li>التعريفات، المكونات، الاستخدامات، الذاكرة، التكلفة واستهلاك الطاقة</li><br><li>أساسيات البرمجة والتطوير</li><br><li>الأداء في الوقت الحقيقي وأمثلة عملية</li><br><li>دورة جلب التعليمات وتنفيذها</li><br><li>وحدة المعالج الدقيق (MPU)، عداد البرنامج، ومفكك التعليمات</li><br><li>الذاكرة ودورة التعليمات مع أمثلة برامج</li><br><li>مقدمة في لغة التجميع وتطبيقاتها</li><br><li>مقارنة بين لغة التجميع واللغات عالية المستوى</li><br><li>تخزين الأعداد الصحيحة، الأعداد الصحيحة الموقعة، المكمل الثنائي، والتحويلات</li><br><li>أساسيات تصميم المعالج الدقيق: CISC و RISC، التنفيذ المتسلسل، والهندسة Superscalar</li><br><li>السجلات، Flags، والثوابت العددية والحرفية</li><br></ul><h3>محتوى الدورة</h3><ul><li>1_مقدمة (43:22)</li><br><li>2_جلب وتنفيذ التعليمات (58:07)</li><br><li>3_مقدمة في لغة التجميع (31:34)</li><br><li>4_أساسيات تصميم المعالج الدقيق (40:02)</li><br><li>5_أساسيات لغة التجميع (45:57)</li><br></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة شرحًا عمليًا ومفصلاً للمعالجات الدقيقة، المتحكمات الدقيقة، ولغة التجميع. يستكشف الطلاب مكونات النظام، دورات التعليمات، وأساسيات البرمجة مع أمثلة واقعية.</p><p>بنهاية الدورة، سيكون لدى المتعلم فهم قوي لهندسة المعالج الدقيق، تنفيذ التعليمات، ولغة التجميع، مما يؤهله لتصميم الأنظمة الرقمية وبرمجة الأنظمة المدمجة.</p><h3>الفيديو</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/7L0RfG0vz5Y\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+  {
+  "id": 5,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/15WRG8QS/cover.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "3h 00m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4nfOFsnX8nfdD35tSAmM_oJ",
+  "video_url": "https://youtu.be/HbZovJrFw8s",
+  "date": "2025-11-13",
+  "tags": [
+    "#C++",
+    "#ProgrammingFundamentals",
+    "#Algorithms"
+  ],
+  "title": {
+    "en": "Programming Fundamentals Using C++",
+    "ar": "أساسيات البرمجة باستخدام C++"
+  },
+  "summary": {
+    "en": "Learn C++ programming basics, data types, operators, control structures, loops, and functions.",
+    "ar": "تعلم أساسيات البرمجة باستخدام C++، أنواع البيانات، المشغلات، هياكل التحكم، الحلقات، والدوال."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Programming basics and problem-solving approaches</li><br><li>Algorithm design and flowcharts</li><br><li>Basic definitions and computer system overview</li><br><li>Writing your first program in C++</li><br><li>C++ data types and primitive types</li><br><li>Operators: increment/decrement, assignment, relational</li><br><li>Conditional statements: if, switch</li><br><li>Loops: for, while, do/while</li><br><li>Functions in C++</li></ul><h3>Course Content</h3><ul><li>1_Introduction (40:40)</li><br><li>2_C++ Data Type (40:46)</li><br><li>3_C++ Operators (41:18)</li><br><li>4_Looping and Conditional Statements in C++ (1:01:37)</li><br><li>5_Functions in C++ (36:47)</li></ul><h3>Description</h3><p>This course provides a step-by-step introduction to programming using C++. Students will start from the basics of problem analysis and algorithm design, and gradually explore data types, operators, control structures, loops, and functions.</p><p>By the end of this course, learners will be able to write simple C++ programs, understand the core concepts of programming, and build a strong foundation for advanced topics.</p><h3>Watch the Video</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/HbZovJrFw8s\" title=\"Programming Fundamentals Using C++\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات البرمجة وأساليب حل المشكلات</li><br><li>تصميم الخوارزميات ومخططات التدفق</li><br><li>التعريفات الأساسية ونظام الحاسوب</li><br><li>كتابة البرنامج الأول بلغة C++</li><br><li>أنواع البيانات الأساسية في C++</li><br><li>المشغلات: زيادة/نقصان، التعيين، العلاقات</li><br><li>الجمل الشرطية: if و switch</li><br><li>الحلقات: for، while، do/while</li><br><li>الدوال في C++</li></ul><h3>محتوى الدورة</h3><ul><li>1_مقدمة (40:40)</li><br><li>2_أنواع بيانات C++ (40:46)</li><br><li>3_مشغلات C++ (41:18)</li><br><li>4_الحلقات والجمل الشرطية في C++ (1:01:37)</li><br><li>5_الدوال في C++ (36:47)</li></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة مقدمة خطوة بخطوة لتعلم البرمجة باستخدام C++. يبدأ الطلاب بأساسيات تحليل المشكلات وتصميم الخوارزميات، ثم يستكشفون أنواع البيانات والمشغلات، وهياكل التحكم، والحلقات، والدوال.</p><p>بنهاية الدورة، سيكون لدى المتعلم القدرة على كتابة برامج C++ بسيطة، وفهم المفاهيم الأساسية للبرمجة، وبناء قاعدة قوية للمواضيع المتقدمة.</p><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/HbZovJrFw8s\" title=\"أساسيات البرمجة باستخدام C++\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 6,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/Bv0ztCwr/Cover.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "5h 00m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4lmzJUzn86kfo2wNot9yzZ9",
+  "video_url": "https://youtu.be/clSC0r7rwI0",
+  "date": "2025-11-10",
+  "tags": [
+    "#Electronics",
+    "#Circuits",
+    "#Semiconductors",
+    "#Transistors",
+    "#OpAmps"
+  ],
+  "title": {
+    "en": "Electronic Circuits I",
+    "ar": "الدوائر الإلكترونية 1"
+  },
+  "summary": {
+    "en": "Basic electronic circuits covering semiconductors, diodes, transistors, MOSFETs, op-amps, and power amplifiers.",
+    "ar": "الدوائر الإلكترونية الأساسية التي تغطي أشباه الموصلات، الصمامات الثنائية، الترانزستورات، MOSFET، المضخمات العملياتية ومضخمات الطاقة."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Introduction to semiconductors, N-type & P-type</li><br><li>Diode (PN-Junction) concepts, forward/reverse bias, importance</li><br><li>Bipolar Junction Transistors (BJT): structure, operation, characteristics, modes, examples</li><br><li>MOSFETs: working principle, types, modes, characteristics, examples</li><br><li>Operational Amplifiers (Op-Amps): definition, symbol, practical model, ideal OP-AMPs, inverting/non-inverting amplifier, summing amplifier, difference amplifier, voltage follower</li><br><li>Power Amplifiers: definition, classification, classes, summary, Class A amplifier examples</li></ul><h3>Course Content</h3><ul><li>1_Introduction: N-type & P-type Semiconductor, Diode (PN-Junction) (53:06)</li><br><li>2_BJT Bipolar Junction Transistor (1:12:29)</li><br><li>3_MOSFET (Metal Oxide Semiconductor Field Effect Transistor) (1:03:14)</li><br><li>4_Operational Amplifiers Op Amp (57:06)</li><br><li>5_Power Amplifiers (53:39)</li></ul><h3>Description</h3><p>This course provides simple but clear coverage of basic electronic circuits to get started on a solid foundation in electronics. Topics include semiconductors, diodes, transistors, MOSFETs, operational amplifiers, and power amplifiers with practical explanations.</p><p>By the end of this course, students will understand the basic components and principles of electronic circuits, preparing them for more advanced studies in electronics and electrical engineering.</p><h3>Watch the Video</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/clSC0r7rwI0\" title=\"Electronic Circuits I\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>مقدمة إلى أشباه الموصلات، النوع N والنوع P</li><br><li>الصمام الثنائي (وصلة PN)، التحيز الأمامي والعكسي وأهمية الصمامات الثنائية</li><br><li>الترانزستورات ثنائية القطبية (BJT): الهيكل، التشغيل، الخصائص، الأوضاع، أمثلة</li><br><li>MOSFET: مبدأ العمل، الأنواع، الأوضاع، الخصائص، أمثلة</li><br><li>المضخمات العملياتية (Op-Amps): التعريف، الرمز، النموذج العملي، OP-AMPs المثالية، المضخم العكسي/غير العكسي، مضخم الجمع، مضخم الفرق، متابع الجهد</li><br><li>مضخمات الطاقة: التعريف، التصنيف، الفئات، ملخص، أمثلة مضخم من الفئة A</li></ul><h3>محتوى الدورة</h3><ul><li>1_مقدمة: أشباه الموصلات من النوع N وP، الصمام الثنائي (53:06)</li><br><li>2_BJT الترانزستور ثنائي القطبية (1:12:29)</li><br><li>3_MOSFET (ترانزستور تأثير المجال لأكسيد المعادن) (1:03:14)</li><br><li>4_المضخمات العملياتية Op Amp (57:06)</li><br><li>5_مضخمات الطاقة (53:39)</li></ul><h3>وصف الدورة</h3><p>تغطي هذه الدورة مقاطع فيديو بسيطة لكنها واضحة لأساسيات الدوائر الإلكترونية، لتكوين قاعدة صلبة في دراسة المواد العلمية. تشمل الدورة أشباه الموصلات، الصمامات الثنائية، الترانزستورات، MOSFET، المضخمات العملياتية ومضخمات الطاقة مع شرح عملي.</p><p>بنهاية الدورة، سيكون لدى الطلاب فهم أساسي لمكونات ومبادئ الدوائر الإلكترونية، مما يؤهلهم لدراسة أكثر تقدماً في مجال الإلكترونيات والهندسة الكهربائية.</p><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/clSC0r7rwI0\" title=\"الدوائر الإلكترونية 1\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 7,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/bY4fp1pq/Cover.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "5h 07m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4lEjPD2EIHj4X3C42AH-X8M",
+  "video_url": "https://youtu.be/LuhczdTVaUQ",
+  "date": "2025-11-13",
+  "tags": [
+    "#ComputerArchitecture",
+    "#EmbeddedSystems",
+    "#AssemblyLanguage",
+    "#Microprocessors"
+  ],
+  "title": {
+    "en": "Computer Organization & Architecture",
+    "ar": "تنظيم الكمبيوتر وهندسته"
+  },
+  "summary": {
+    "en": "A practical introduction to computer organization, architecture, embedded systems, and assembly language programming.",
+    "ar": "مقدمة عملية لتنظيم الكمبيوتر وهندسته، والأنظمة المدمجة، وبرمجة لغة التجميع."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Basics of computer organization and architecture</li><br><li>Definition of computer architecture vs organization, examples of attributes, structure and functions, main components, Von Neumann model, instruction cycle</li><br><li>IAS Computer overview and registers in the processor</li><br><li>Computer performance, buses inside CPUs, speeding up computers</li><br><li>Introduction to embedded systems, microcontroller vs microprocessor</li><br><li>Introduction to assembly language programming, basic instructions and structure</li><br><li>JUMP, LOOP, CALL instructions, assembly mnemonics, stack and RAM structure</li></ul><h3>Course Content</h3><ul><li>1_Computer organization (Computer organization basics) (42:48)</li><br><li>2_IAS Computer (48:45)</li><br><li>3_Computer Performance & Introduction to Embedded System (1:05:58)</li><br><li>4_Introduction to Assembly language programming (1:03:11)</li><br><li>5_JUMPs & LOOPs & CALL & Assembly mnemonics & STACK RAM Structure (1:07:21)</li></ul><h3>Description</h3><p>This course gives students a solid understanding of computer organization and architecture, covering embedded systems, assembly programming, and processor operation.</p><p>Students will learn about computer structure, instruction cycles, assembly language instructions, and embedded systems fundamentals with practical examples and explanations.</p><h3>Watch the Video</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/LuhczdTVaUQ\" title=\"Computer Organization & Architecture\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات تنظيم الكمبيوتر وهندسته</li><br><li>تعريف بنية الكمبيوتر مقابل التنظيم، أمثلة على السمات، الهيكل والوظائف، المكونات الرئيسية، نموذج فون نيومان، دورة التعليمات</li><br><li>نظرة عامة على حاسوب IAS والسجلات داخل المعالج</li><br><li>أداء الكمبيوتر، الحافلات داخل وحدات المعالجة المركزية، تسريع الكمبيوتر</li><br><li>مقدمة إلى الأنظمة المدمجة، الميكروكونترولر مقابل المعالج الدقيق</li><br><li>مقدمة في برمجة لغة التجميع، التعليمات الأساسية والبنية</li><br><li>تعليمات JUMP و LOOP و CALL، رموز لغة التجميع، المكدس وبنية RAM</li></ul><h3>محتوى الدورة</h3><ul><li>1_تنظيم الكمبيوتر (أساسيات تنظيم الكمبيوتر) (42:48)</li><br><li>2_حاسوب IAS (48:45)</li><br><li>3_أداء الكمبيوتر ومقدمة للأنظمة المدمجة (1:05:58)</li><br><li>4_مقدمة لبرمجة لغة التجميع (1:03:11)</li><br><li>5_تعليمات JUMP و LOOP و CALL و Assembly mnemonics و بنية STACK RAM (1:07:21)</li></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة للطلاب فهمًا قويًا لتنظيم الكمبيوتر وهندسته، وتشمل الأنظمة المدمجة، برمجة لغة التجميع، وتشغيل المعالج.</p><p>سيتعلم الطلاب عن هيكل الكمبيوتر، دورات التعليمات، تعليمات لغة التجميع، ومبادئ الأنظمة المدمجة مع أمثلة عملية وشرح مفصل.</p><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/LuhczdTVaUQ\" title=\"تنظيم الكمبيوتر وهندسته\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 8,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/L5pk3yjP/Cover.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "6h 48m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4mzR_WXVaqtn6g3O08CZPXE",
+  "video_url": "https://youtu.be/qXGtZp8Id7w",
+  "date": "2025-11-13",
+  "tags": [
+    "#DigitalControl",
+    "#StateSpace",
+    "#Sampling",
+    "#BodePlot"
+  ],
+  "title": {
+    "en": "Fundamentals of Digital Control",
+    "ar": "أساسيات التحكم الرقمي"
+  },
+  "summary": {
+    "en": "An in-depth introduction to digital control systems, covering ADC/DAC, sampling, Nyquist rate, frequency response, and state-space methods.",
+    "ar": "مقدمة متعمقة لأنظمة التحكم الرقمي، تشمل التحويل من تناظري إلى رقمي، أخذ العينات، معدل نايكويست، استجابة التردد، وطرق فضاء الحالة."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Basics of analog-to-digital conversion and digital control systems</li><br><li>Advantages and disadvantages of digital systems</li><br><li>A/D and D/A converters, hold circuits, and impulse sampling</li><br><li>Sampling process, Nyquist rate, impulse response, and frequency response</li><br><li>Bode plot and frequency analysis of systems</li><br><li>State-space concepts, components, and importance</li><br><li>Problem-solving using sampling, frequency response, and state-space techniques</li><br><li>State-space block diagrams and mechanical networks</li><br><li>Using semilog graph paper for analysis</li></ul><h3>Course Content</h3><ul><li>1_Introduction (Analog to Digital Conversion Basics) (50:02)</li><br><li>2_Sampling, Nyquist rate, Impulse Response, and Frequency Response (1:01:33)</li><br><li>3_Frequency Response (Bode plot) (22:56)</li><br><li>4_State Space (32:08)</li><br><li>5_Section problems (1:00:48)</li><br><li>6_State Space (Block Diagram & Mechanical Network) (41:52)</li><br><li>7_Semilog Graph Paper (1:28:27)</li></ul><h3>Description</h3><p>This course introduces the fundamentals of digital control systems with a practical approach. Students will understand sampling, ADC/DAC, Nyquist criteria, frequency response, Bode plots, and state-space analysis.</p><p>Practical examples and problem-solving exercises help learners apply digital control concepts and design systems effectively.</p><h3>Watch the Video</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/qXGtZp8Id7w\" title=\"Fundamentals of Digital Control\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات التحويل من التناظري إلى الرقمي وأنظمة التحكم الرقمية</li><br><li>مزايا وعيوب الأنظمة الرقمية</li><br><li>محولات A/D و D/A، دوائر التثبيت، وأخذ العينات النبضي</li><br><li>عملية أخذ العينات، معدل نايكويست، استجابة النبضة، واستجابة التردد</li><br><li>مخطط بود وتحليل التردد للأنظمة</li><br><li>مفاهيم فضاء الحالة، المكونات، وأهمية نموذج فضاء الحالة</li><br><li>حل المشكلات باستخدام أخذ العينات، استجابة التردد، وتقنيات فضاء الحالة</li><br><li>مخططات كتلة فضاء الحالة والشبكات الميكانيكية</li><br><li>استخدام ورقة الرسم شبه اللوغاريتمية للتحليل</li></ul><h3>محتوى الدورة</h3><ul><li>1_مقدمة (أساسيات التحويل من التناظري إلى الرقمي) (50:02)</li><br><li>2_أخذ العينات، معدل نايكويست، استجابة النبضة، واستجابة التردد (1:01:33)</li><br><li>3_استجابة التردد (مخطط بود) (22:56)</li><br><li>4_فضاء الحالة (32:08)</li><br><li>5_حل المشكلات (1:00:48)</li><br><li>6_فضاء الحالة (مخطط كتلة وشبكة ميكانيكية) (41:52)</li><br><li>7_ورقة الرسم شبه اللوغاريتمية (1:28:27)</li></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة أساسيات أنظمة التحكم الرقمي بطريقة عملية. سيتعلم الطلاب أخذ العينات، التحويل من تناظري إلى رقمي، معايير نايكويست، استجابة التردد، مخططات بود، وتحليل فضاء الحالة.</p><p>أمثلة عملية وتمارين حل المشكلات تساعد المتعلمين على تطبيق مفاهيم التحكم الرقمي وتصميم الأنظمة بفاعلية.</p><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/qXGtZp8Id7w\" title=\"أساسيات التحكم الرقمي\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 10,
+  "type": "course",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/SsMFMKft/STATISTICS.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": "",
+  "students": "",
+  "duration": "2h 18m",
+  "price": {
+    "current": "Free",
+    "original": ""
+  },
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4nNzsq56u1hEWtv2euRALZI",
+  "date": "2025-11-10",
+  "tags": ["#Statistics", "#Nursing", "#Healthcare"],
+  "title": {
+    "en": "STATISTICS (NURSING)",
+    "ar": "الإحصاء (التمريض)"
+  },
+  "summary": {
+    "en": "Comprehensive statistics course for nursing, covering central tendency, correlation coefficients, and frequency distributions.",
+    "ar": "دورة إحصاء شاملة لطلاب التمريض، تغطي مقاييس الميل المركزي، معاملات الارتباط، وتوزيعات التكرار."
+  },
+  "description": {
+    "en": "<h3>Course Overview</h3><p>This course introduces the basics of statistics relevant to nursing, focusing on practical understanding of data analysis in healthcare settings.</p><br><h3>📊 Topics Covered</h3><ul><li>Measures of Central Tendency: Mode, Mean, Median, Range, Variance, Standard Deviation</li><br><li>Frequency Distribution Creation</li><br><li>Pearson Correlation Coefficient</li><br><li>Spearman Correlation Coefficient</li><br><li>Ranking: Rank (x) and Rank (y)</li></ul><br><h3>Course Videos</h3><ul><li>1_Basics of Statistics (Nursing) – 1:05:02</li><br><li>2_Basics of Statistics (Nursing) – 1:12:53</li></ul><br><h3>Watch the Course</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/FUmf-dLMVi0\" title=\"STATISTICS (NURSING)\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>نظرة عامة على الدورة</h3><p>تقدم هذه الدورة أساسيات الإحصاء المتعلقة بالتمريض، مع التركيز على الفهم العملي لتحليل البيانات في بيئة الرعاية الصحية.</p><br><h3>📊 المواضيع المشمولة</h3><ul><li>مقاييس الميل المركزي: الوضع، المتوسط، الوسيط، النطاق، التباين، الانحراف المعياري</li><br><li>إنشاء توزيع تكراري</li><br><li>معامل ارتباط بيرسون</li><br><li>معامل ارتباط سبيرمان</li><br><li>الترتيب: الترتيب (x) و الترتيب (y)</li></ul><br><h3>فيديوهات الدورة</h3><ul><li>1_Basics of Statistics (Nursing) – 1:05:02</li><br><li>2_Basics of Statistics (Nursing) – 1:12:53</li></ul><br><h3>شاهد الدورة</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/FUmf-dLMVi0\" title=\"الإحصاء (التمريض)\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 9,
+  "type": "seminar",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/4x7Kn6hW/Revolutionizing-Disease-Detection.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "attendees": 350,
+  "duration": "18m 49s",
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4mtfYXqBWF44JA7AmXwL3m3",
+  "video_url": "https://youtu.be/R1MtfSIr2R8",
+  "date": "2025-11-13",
+  "tags": ["#HCIA-AI", "#DeepLearning", "#PlantDiseaseDetection"],
+  "title": {
+    "en": "HCIA-AI Presentation (Revolutionizing Disease Detection)",
+    "ar": "عرض HCIA-AI (ثورة في مجال الكشف عن الأمراض)"
+  },
+  "summary": {
+    "en": "Presentation on early detection of plant diseases using deep learning, including experiments, results, and project links.",
+    "ar": "عرض حول الكشف المبكر عن أمراض النباتات باستخدام التعلم العميق، مع استعراض التجارب والنتائج وروابط المشروع."
+  },
+  "description": {
+    "en": "<h3>🌱 Graduation Project: “Revolutionizing Disease Detection”</h3><p>One of the most exciting aspects of the course was the final project, which focused on early detection of plant diseases using deep learning.</p><br><h3>📊 Dataset</h3><ul><li>Over 3GB of data</li><br><li>70,000+ training images</li><br><li>14,000+ testing images</li><br><li>Managed via Kaggle</li></ul><br><h3>🧠 Experiments & Results</h3><p>We evaluated several deep learning models, including traditional CNNs and ResNet50. The best performance was achieved using InceptionResNet V2, reaching over 96% accuracy with minimal loss.</p><p>We further improved the model by customizing and retraining it for enhanced results.</p><p>📈 We visualized and compared model performances to clearly understand the improvements and trade-offs and developed a final improved version for real-world application.</p><br><h3>🔗 Graduation Project Links</h3><ul><li>Presentation: <a href=\"https://lnkd.in/dmX6kr93\" target=\"_blank\">https://lnkd.in/dmX6kr93</a></li><br><li>GitHub Repository: <a href=\"https://lnkd.in/dABnbnAS\" target=\"_blank\">https://lnkd.in/dABnbnAS</a></li><br><li>Kaggle Models: <a href=\"https://lnkd.in/dnw6ixcw\" target=\"_blank\">https://lnkd.in/dnw6ixcw</a>, <a href=\"https://lnkd.in/dBZQd2RP\" target=\"_blank\">https://lnkd.in/dBZQd2RP</a>, <a href=\"https://lnkd.in/dnkavziz\" target=\"_blank\">https://lnkd.in/dnkavziz</a></li><br><li>PDF Report: <a href=\"https://lnkd.in/drSziKnV\" target=\"_blank\">https://lnkd.in/drSziKnV</a></li></ul><br><h3>Watch the Presentation</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/R1MtfSIr2R8\" title=\"HCIA-AI Presentation\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>🌱 مشروع التخرج: ”ثورة في مجال الكشف عن الأمراض“</h3><p>كان أحد أكثر الجوانب إثارة في الدورة هو المشروع النهائي، الذي ركز على الكشف المبكر عن أمراض النباتات باستخدام التعلم العميق.</p><br><h3>📊 مجموعة البيانات</h3><ul><li>أكثر من 3 جيجابايت من البيانات</li><br><li>أكثر من 70,000 صورة تدريب</li><br><li>أكثر من 14,000 صورة اختبار</li><br><li>تدار عبر Kaggle</li></ul><br><h3>🧠 التجارب والنتائج</h3><p>قمنا بتقييم عدة نماذج للتعلم العميق، بما في ذلك CNNs التقليدية و ResNet50. تم تحقيق أفضل أداء باستخدام InceptionResNet V2، حيث وصلت الدقة إلى أكثر من 96٪ مع خسارة ضئيلة.</p><p>قمنا بتحسين النموذج بشكل أكبر من خلال تخصيصه وإعادة تدريبه للحصول على نتائج محسنة.</p><p>📈 قمنا بتصور ومقارنة أداء النماذج لفهم التحسينات والمفاضلات بوضوح، وقمنا بتطوير نسخة نهائية محسنة للتطبيق في العالم الحقيقي.</p><br><h3>🔗 روابط المشروع</h3><ul><li>عرض مشروع التخرج: <a href=\"https://lnkd.in/dmX6kr93\" target=\"_blank\">https://lnkd.in/dmX6kr93</a></li><br><li>مستودع GitHub: <a href=\"https://lnkd.in/dABnbnAS\" target=\"_blank\">https://lnkd.in/dABnbnAS</a></li><br><li>نماذج Kaggle: <a href=\"https://lnkd.in/dnw6ixcw\" target=\"_blank\">https://lnkd.in/dnw6ixcw</a>, <a href=\"https://lnkd.in/dBZQd2RP\" target=\"_blank\">https://lnkd.in/dBZQd2RP</a>, <a href=\"https://lnkd.in/dnkavziz\" target=\"_blank\">https://lnkd.in/dnkavziz</a></li><br><li>تقرير PDF: <a href=\"https://lnkd.in/drSziKnV\" target=\"_blank\">https://lnkd.in/drSziKnV</a></li></ul><br><h3>شاهد العرض التقديمي</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/R1MtfSIr2R8\" title=\"عرض HCIA-AI\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 11,
+  "type": "seminar",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/bJjLmNhP/Optical-Communication-Systems.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "attendees": "",
+  "duration": "1h 6m",
+  "link": "https://www.youtube.com/playlist?list=PLSgFHmXREX4nJtRGjmygIgNMWYHwe5nta",
+  "date": "2025-11-13",
+  "tags": ["#5G", "#Telecommunications", "#ComputerNetworks", "#OpticalCommunications"],
+  "title": {
+    "en": "A Simple Presentation on 5G Technology",
+    "ar": "عرض بسيط عن تقنية الجيل الخامس"
+  },
+  "summary": {
+    "en": "An introduction to 5G technology and its integration with computer networks, mobile communications, and optical systems.",
+    "ar": "مقدمة عن تكنولوجيا الجيل الخامس (5G) وتكاملها مع شبكات الكمبيوتر والاتصالات المتنقلة والاتصالات الضوئية."
+  },
+  "description": {
+    "en": "<h3>Key Topics:</h3><ul><li>Optical Communication Systems: WDM reconfiguration, CWDM, DWDM, components and technologies supporting 5G</li><br><li>5G Technology Overview: Increased capacity, speed, global standards, and challenges</li><br><li>Impact on Computer Network Architecture: Integration with networks and mobile communication systems</li></ul><br><h3>Videos in this Seminar</h3><ul><li>Optical Communication Systems: Reconfiguration of WDM optical network with support to 5G – 42:52</li><br><li>Computer Communication Networks: 5G technology and its impact on Computer network architecture – 23:55</li></ul><br><h3>Watch the Seminar</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/fu6Ax5rZA28\" title=\"5G Technology\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>المواضيع الرئيسية:</h3><ul><li>أنظمة الاتصالات الضوئية: إعادة تكوين WDM، CWDM، DWDM، المكونات والتقنيات الداعمة للجيل الخامس</li><br><li>نظرة عامة على تقنية 5G: زيادة السعة، السرعة، المعايير العالمية، والتحديات</li><br><li>تأثيرها على بنية شبكات الكمبيوتر: التكامل مع الشبكات وأنظمة الاتصالات المتنقلة</li></ul><br><h3>فيديوهات هذا السيمنار</h3><ul><li>أنظمة الاتصالات الضوئية: إعادة تكوين شبكة WDM بدعم 5G – 42:52</li><br><li>شبكات اتصال الكمبيوتر: تأثير تقنية 5G على بنية شبكات الكمبيوتر – 23:55</li></ul><br><h3>شاهد السيمنار</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/fu6Ax5rZA28\" title=\"تقنية الجيل الخامس\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 12,
+  "type": "seminar",
+  "platform": "youtube",
+  "image": "https://i.postimg.cc/xT7vsTG2/photo_2024_05_22_14_57_49.jpg",
+  "instructor": "Mostafa Khalid Sallam",
+  "attendees": "120",
+  "duration": "2h",
+  "link": "https://youtu.be/DmjhwGzqkdA",
+  "date": "2025-11-11",
+  "tags": ["#IoT", "#Flutter", "#AI", "#MobileApp"],
+  "title": {
+    "en": "Full Mobile App Experience – Graduation Project",
+    "ar": "تجربة كاملة لتطبيق الهاتف – مشروع التخرج"
+  },
+  "summary": {
+    "en": "Practical demonstration of a smart irrigation system and AI-based plant disease detection mobile app using Flutter & ESP32.",
+    "ar": "عرض عملي لنظام الري الذكي وتطبيق الهاتف للكشف عن أمراض النباتات باستخدام الذكاء الاصطناعي و Flutter و ESP32."
+  },
+  "description": {
+    "en": "<h3>Key Topics:</h3><ul><li>Sensors & Microcontroller – ESP32, Soil moisture, Water level, DHT22, DC Motor, Relay Module, LCD 16*2</li><li>Firebase & FireStore – IoT, Cloud, Database, Hosting, Authentication</li><li>Full in-app AI experience – Chat with AI, Identify plant diseases using AI (Gemini AI)</li><li>Full mobile app experience – Account creation & login, sensor monitoring, AI chat & image, cloud, database, mobile app using Flutter & FlutterFlow</li><li>Smart Irrigation System – Final practical application</li><li>Create & Login Account – Authentication, Dark & Light Mode, Arabic & English</li></ul><br><h3>Watch the Video</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/DmjhwGzqkdA\" title=\"Full Mobile App Experience\" frameborder=\"0\" allowfullscreen></iframe>",
+    "ar": "<h3>المواضيع الرئيسية:</h3><ul><li>أجهزة الاستشعار والميكروكونترولر – ESP32، رطوبة التربة، مستوى المياه، DHT22، محرك DC، وحدة Relay، شاشة LCD 16*2</li><li>Firebase و FireStore – إنترنت الأشياء، السحابة، قاعدة البيانات، الاستضافة، المصادقة</li><li>تجربة كاملة للذكاء الاصطناعي داخل التطبيق – الدردشة مع AI، تحديد أمراض النباتات باستخدام الذكاء الاصطناعي (Gemini AI)</li><li>تجربة كاملة لتطبيق الهاتف – إنشاء حساب وتسجيل الدخول، مراقبة المستشعرات، دردشة وصور AI، السحابة، قاعدة البيانات، تطبيق الهاتف باستخدام Flutter و FlutterFlow</li><li>نظام الري الذكي – التطبيق العملي النهائي</li><li>إنشاء وتسجيل الدخول – المصادقة، الوضع الليلي والنهاري، اللغتين العربية والإنجليزية</li></ul><br><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/DmjhwGzqkdA\" title=\"تجربة كاملة لتطبيق الهاتف\" frameborder=\"0\" allowfullscreen></iframe>"
+  }
+},
+{
+  "id": 26,
+  "type": "coupon",
+    "couponType": "free",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/ZqmQzBYr/605750989-2800311946967214-6960421152782734672-n.jpg",
+  "couponCode": "HNY_2026_FREE",
+  "validUntil": "2026-01-05",
+  "spotsLeft": "Unlimited",
+  "price": {
+    "current": "FREE",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=HNY_2026_FREE",
+  "tags": ["#Free", "#Udemy", "#Telecommunications", "#HappyNewYear2026"],
+  "title": {
+    "en": "Telecommunication Fundamentals - New Year Free Coupon 2026 (1000)",
+    "ar": "(1000) 2026 أساسيات الاتصالات - كوبون مجاني بمناسبة رأس السنة"
+  },
+  "summary": {
+    "en": "Celebrate the New Year 2026 with free access to the Telecommunication Fundamentals course!",
+    "ar": "احتفل برأس السنة 2026 واحصل على الكورس مجانًا!"
+  },
+  "description": {
+    "en": "<p>Use code <strong>HNY_2026_FREE</strong> at checkout.</p><p>Learn telecommunication fundamentals for free to start the new year right!</p>",
+    "ar": "<p>استخدم الكود <strong>HNY_2026_FREE</strong> عند التسجيل.</p><p>تعلم أساسيات الاتصالات مجانًا لبدء السنة الجديدة بشكل ممتاز!</p>"
+  }
+},
+{
+  "id": 24,
+  "type": "coupon",
+    "couponType": "free",
+  "platform": "udemy",
+  "image": "https://media.istockphoto.com/id/497437904/photo/red-stamp-on-a-white-background-free.jpg?s=612x612&w=0&k=20&c=t_gLKOR0yyBBB3nk-DS2kswhY0hIUs8JM0ANhs9Nrzw=",
+  "couponCode": "A4DC4C73F0A940FF0110",
+  "validUntil": "2026-01-05",
+  "spotsLeft": "176 / 1000",
+  "price": {
+    "current": "FREE",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=A4DC4C73F0A940FF0110",
+  "tags": ["#Free", "#Udemy", "#Telecommunications"],
+  "title": {
+    "en": "Telecommunication Fundamentals - Free Coupon 100",
+    "ar": "100 أساسيات الاتصالات - كوبون مجاني"
+  },
+  "summary": {
+    "en": "Access the Telecommunication Fundamentals course for free using this limited-time coupon.",
+    "ar": "احصل على الكورس مجانًا باستخدام هذا الكوبون لفترة محدودة."
+  },
+  "description": {
+    "en": "<p>Use code <strong>E</strong> at checkout.</p><p>Learn telecommunication fundamentals for free!</p>",
+    "ar": "<p>استخدم الكود <strong>E</strong> عند التسجيل.</p><p>تعلم أساسيات الاتصالات مجانًا!</p>"
+  }
+},
+{
+  "id": 25,
+  "type": "coupon",
+    "couponType": "free",
+  "platform": "udemy",
+  "image": "https://media.istockphoto.com/id/497437904/photo/red-stamp-on-a-white-background-free.jpg?s=612x612&w=0&k=20&c=t_gLKOR0yyBBB3nk-DS2kswhY0hIUs8JM0ANhs9Nrzw=",
+  "couponCode": "FREE4ARAB_1000",
+  "validUntil": "2025-12-16",
+  "spotsLeft": "1000",
+  "price": {
+    "current": "FREE",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=FREE4ARAB_1000",
+  "tags": ["#Free", "#Udemy", "#Telecommunications"],
+  "title": {
+    "en": "Telecommunication Fundamentals - Free Coupon 1000",
+    "ar": "أساسيات الاتصالات - كوبون مجاني 1000"
+  },
+  "summary": {
+    "en": "Grab this free coupon to access the Telecommunication Fundamentals course for Arab students.",
+    "ar": "احصل على هذا الكوبون المجاني للوصول إلى الكورس للطلاب العرب."
+  },
+  "description": {
+    "en": "<p>Use code <strong>FREE4ARAB_1000</strong> at checkout.</p><p>Learn the fundamentals of telecommunications for free!</p>",
+    "ar": "<p>استخدم الكود <strong>FREE4ARAB_1000</strong> عند التسجيل.</p><p>تعلم أساسيات الاتصالات مجانًا!</p>"
+  }
+},
+{
+  "id": 21,
+  "type": "coupon",
+    "couponType": "free",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/tTX8W185/574953817_2747173762281033_4139802557611591461_n.jpg",
+  "couponCode": "GEM_FREE_COUPON_100",
+  "validUntil": "2025-12-02",
+  "spotsLeft": "",
+  "price": {
+    "current": "FREE",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=GEM_FREE_COUPON_100",
+  "tags": ["#Free", "#Udemy", "#Telecommunications"],
+  "title": {
+    "en": "Telecommunication Fundamentals - Free Coupon 100",
+    "ar": "أساسيات الاتصالات - كوبون مجاني 100"
+  },
+  "summary": {
+    "en": "Access the Telecommunication Fundamentals course for free using this limited-time coupon.",
+    "ar": "احصل على الكورس مجانًا باستخدام هذا الكوبون لفترة محدودة."
+  },
+  "description": {
+    "en": "<p>Use code <strong>GEM_FREE_COUPON_100</strong> at checkout.</p><p>Learn telecommunication fundamentals for free!</p>",
+    "ar": "<p>استخدم الكود <strong>GEM_FREE_COUPON_100</strong> عند التسجيل.</p><p>تعلم أساسيات الاتصالات مجانًا!</p>"
+  }
+},
+{
+  "id": 22,
+  "type": "coupon",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/tTX8W185/574953817_2747173762281033_4139802557611591461_n.jpg",
+  "couponCode": "GEM_DISCOUNT_COUPON",
+  "validUntil": "2025-12-03",
+  "spotsLeft": "",
+  "price": {
+    "current": "249.99 egp",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=GEM_DISCOUNT_COUPON",
+  "tags": ["#Discount", "#Udemy", "#Telecommunications"],
+  "title": {
+    "en": "Telecommunication Fundamentals - Discounted",
+    "ar": "أساسيات الاتصالات - خصم"
+  },
+  "summary": {
+    "en": "Get a discounted price for the Telecommunication Fundamentals course using this coupon.",
+    "ar": "احصل على الكورس بسعر مخفض باستخدام هذا الكوبون."
+  },
+  "description": {
+    "en": "<p>Use code <strong>GEM_DISCOUNT_COUPON</strong> at checkout for a discounted price.</p><p>Perfect for learning telecommunication fundamentals!</p>",
+    "ar": "<p>استخدم الكود <strong>GEM_DISCOUNT_COUPON</strong> عند الدفع للحصول على خصم.</p><p>مثالي لتعلم أساسيات الاتصالات!</p>"
+  }
+},
+{
+  "id": 23,
+  "type": "coupon",
+    "couponType": "free",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/tTX8W185/574953817_2747173762281033_4139802557611591461_n.jpg",
+  "couponCode": "GEM_FREE_COUPON",
+  "validUntil": "2025-11-07",
+  "spotsLeft": "",
+  "price": {
+    "current": "FREE",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=GEM_FREE_COUPON",
+  "tags": ["#Free", "#Udemy", "#Telecommunications"],
+  "title": {
+    "en": "Telecommunication Fundamentals - Free Coupon",
+    "ar": "أساسيات الاتصالات - كوبون مجاني"
+  },
+  "summary": {
+    "en": "Grab this free coupon to access the Telecommunication Fundamentals course for a short time.",
+    "ar": "احصل على هذا الكوبون المجاني للوصول إلى الكورس لفترة قصيرة."
+  },
+  "description": {
+    "en": "<p>Use code <strong>GEM_FREE_COUPON</strong> at checkout.</p><p>Learn the fundamentals of telecommunications for free!</p>",
+    "ar": "<p>استخدم الكود <strong>GEM_FREE_COUPON</strong> عند التسجيل.</p><p>تعلم أساسيات الاتصالات مجانًا!</p>"
+  }
+},
+{
+  "id": 20,
+  "type": "coupon",
+  "platform": "udemy",
+    "couponType": "free",
+  "image": "https://media.istockphoto.com/id/2206535786/photo/happy-birthday-neon-sign-illuminating-party-atmosphere-with-balloons.webp?a=1&b=1&s=612x612&w=0&k=20&c=PhA7YY7-1id7iRhKPH9tVut6JP31Es91Jbfnm0pHPio=",
+  "couponCode": "3C7CCBBC50DF609AD2D5",
+  "validUntil": "2025-08-30",
+  "spotsLeft": "",
+  "price": {
+    "current": "FREE",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=3C7CCBBC50DF609AD2D5",
+  "tags": ["#Free", "#Udemy", "#Telecommunications"],
+  "title": {
+    "en": "Telecommunication Fundamentals - Free Coupon",
+    "ar": "أساسيات الاتصالات - كوبون مجاني"
+  },
+  "summary": {
+    "en": "Get full access to the Telecommunication Fundamentals course for free for a limited time using the code below.",
+    "ar": "احصل على وصول كامل لكورس أساسيات الاتصالات مجانًا لفترة محدودة باستخدام الكود أدناه."
+  },
+  "description": {
+    "en": "<p>Use code <strong>3C7CCBBC50DF609AD2D5</strong> at checkout.</p><p>This course covers telecommunication fundamentals, suitable for beginners and professionals alike.</p><p>Course Link: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>Click Here</a></p>",
+    "ar": "<p>استخدم الكود <strong>3C7CCBBC50DF609AD2D5</strong> عند التسجيل.</p><p>يغطي هذا الكورس أساسيات الاتصالات للمبتدئين والمحترفين على حد سواء.</p><p>رابط الكورس: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>اضغط هنا</a></p>"
+  }
+},
+  {
+    "id": 18,
+    "type": "coupon",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/8zzFKwMd/504125786-2602466900085054-2674290369790944845-n.jpg",
+    "couponCode": "E4E5E55482DF4D5D8CD4",
+    "validUntil": "2025-07-06",
+    "spotsLeft": "",
+    "price": {
+      "current": "249.99 EGP",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=E4E5E55482DF4D5D8CD4",
+    "tags": ["#Discount", "#Udemy", "#Telecommunications"],
+    "title": {
+      "en": "Telecommunication Fundamentals - Discount Coupon",
+      "ar": "أساسيات الاتصالات - كوبون خصم"
+    },
+    "summary": {
+      "en": "Get a huge discount on the Telecommunication Fundamentals course until early July using the code below.",
+      "ar": "احصل على خصم كبير على كورس أساسيات الاتصالات حتى بداية يوليو باستخدام الكود أدناه."
+    },
+    "description": {
+      "en": "<p>Use code <strong>E4E5E55482DF4D5D8CD4</strong> at checkout.</p><p>This course covers telecommunication fundamentals, suitable for beginners and professionals alike.</p><p>Course Link: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>Click Here</a></p>",
+      "ar": "<p>استخدم الكود <strong>E4E5E55482DF4D5D8CD4</strong> عند التسجيل.</p><p>يغطي هذا الكورس أساسيات الاتصالات للمبتدئين والمحترفين على حد سواء.</p><p>رابط الكورس: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>اضغط هنا</a></p>"
+    }
+  },
+
+  {
+    "id": 19,
+    "type": "coupon",
+        "couponType": "free",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/8zzFKwMd/504125786-2602466900085054-2674290369790944845-n.jpg",
+    "couponCode": "8902E22679F9CBC24128",
+    "validUntil": "2025-06-10",
+    "spotsLeft": "",
+    "price": {
+      "current": "FREE",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=8902E22679F9CBC24128",
+    "tags": ["#Free", "#Udemy", "#Telecommunications"],
+    "title": {
+      "en": "Telecommunication Fundamentals - Free Coupon",
+      "ar": "أساسيات الاتصالات - كوبون مجاني"
+    },
+    "summary": {
+      "en": "Get full access to the Telecommunication Fundamentals course for free for 5 days or until spots last using the code below.",
+      "ar": "احصل على وصول كامل لكورس أساسيات الاتصالات مجانًا لمدة 5 أيام أو حتى نفاد الكمية باستخدام الكود أدناه."
+    },
+    "description": {
+      "en": "<p>Use code <strong>8902E22679F9CBC24128</strong> at checkout.</p><p>This course covers telecommunication fundamentals, suitable for beginners and professionals alike.</p><p>Course Link: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>Click Here</a></p>",
+      "ar": "<p>استخدم الكود <strong>8902E22679F9CBC24128</strong> عند التسجيل.</p><p>يغطي هذا الكورس أساسيات الاتصالات للمبتدئين والمحترفين على حد سواء.</p><p>رابط الكورس: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>اضغط هنا</a></p>"
+    }
+  },
+  {
+    "id": 16,
+    "type": "coupon",
+        "couponType": "free",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/CKdq1JxJ/501218650-2594808147517596-4899440515174533286-n.jpg",
+    "couponCode": "7A07778CC909A5D6D2D5",
+    "validUntil": "2025-04-03",
+    "spotsLeft": "",
+    "price": {
+      "current": "FREE",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=7A07778CC909A5D6D2D5",
+    "tags": ["#Free", "#Udemy", "#Telecommunications"],
+    "title": {
+      "en": "Telecommunication Fundamentals - Free Coupon",
+      "ar": "أساسيات الاتصالات - كوبون مجاني"
+    },
+    "summary": {
+      "en": "Get full access to the Telecommunication Fundamentals course for free for 5 days or until spots last using the code below.",
+      "ar": "احصل على وصول كامل لكورس أساسيات الاتصالات مجانًا لمدة 5 أيام أو حتى نفاد الكمية باستخدام الكود أدناه."
+    },
+    "description": {
+      "en": "<p>Use code <strong>7A07778CC909A5D6D2D5</strong> at checkout.</p><p>This course covers telecommunication fundamentals, suitable for beginners and professionals alike.</p><p>Course Link: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>Click Here</a></p>",
+      "ar": "<p>استخدم الكود <strong>7A07778CC909A5D6D2D5</strong> عند التسجيل.</p><p>يغطي هذا الكورس أساسيات الاتصالات للمبتدئين والمحترفين على حد سواء.</p><p>رابط الكورس: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>اضغط هنا</a></p>"
+    }
+  },
+  {
+    "id": 17,
+    "type": "coupon",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/CKdq1JxJ/501218650-2594808147517596-4899440515174533286-n.jpg",
+    "validUntil": "2025-04-29",
+    "spotsLeft": "",
+    "price": {
+      "current": "249.99 EGP",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=DD9E4953DF606B04FD77",
+    "tags": ["#Discount", "#Udemy", "#Telecommunications"],
+    "title": {
+      "en": "Telecommunication Fundamentals - Discount Coupon",
+      "ar": "أساسيات الاتصالات - كوبون خصم"
+    },
+    "summary": {
+      "en": "Get a huge discount on the Telecommunication Fundamentals course until the end of April using the code below.",
+      "ar": "احصل على خصم كبير على كورس أساسيات الاتصالات حتى نهاية أبريل باستخدام الكود أدناه."
+    },
+    "description": {
+      "en": "<p>Use code <strong>DD9E4953DF606B04FD77</strong> at checkout.</p><p>This course covers telecommunication fundamentals, suitable for beginners and professionals alike.</p><p>Course Link: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>Click Here</a></p>",
+      "ar": "<p>استخدم الكود <strong>DD9E4953DF606B04FD77</strong> عند التسجيل.</p><p>يغطي هذا الكورس أساسيات الاتصالات للمبتدئين والمحترفين على حد سواء.</p><p>رابط الكورس: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>اضغط هنا</a></p>"
+    }
+  },
+  {
+    "id": 14,
+    "type": "coupon",
+        "couponType": "free",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/xCJMsgrp/501124623-2594487890882955-3390403837357428360-n.jpg",
+    "couponCode": "01DBFFBF73C6E6DB55A8",
+    "validUntil": "2025-03-05",
+    "spotsLeft": "",
+    "price": {
+      "current": "FREE",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=01DBFFBF73C6E6DB55A8",
+    "tags": ["#Free", "#Udemy", "#Telecommunications", "#Ramadan", "#BeginnerFriendly"],
+    "title": {
+      "en": "Introduction to Telecommunications - Free Coupon",
+      "ar": "مقدمة في الاتصالات - كوبون مجاني"
+    },
+    "summary": {
+      "en": "Celebrate Ramadan! Get full access to the 'Telecommunication Fundamentals' course for free for 5 days or until spots last using the code below.",
+      "ar": "بمناسبة شهر رمضان، احصل على وصول كامل لكورس 'أساسيات الاتصالات' مجانًا لمدة 5 أيام أو حتى نفاد الكمية باستخدام الكود أدناه."
+    },
+    "description": {
+      "en": "<p>Use code <strong>01DBFFBF73C6E6DB55A8</strong> at checkout.</p><p>This comprehensive course covers advanced telecommunications concepts, including two newly added chapters.</p><p>Course Link: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>Click Here</a></p>",
+      "ar": "<p>استخدم الكود <strong>01DBFFBF73C6E6DB55A8</strong> عند التسجيل.</p><p>يغطي هذا الكورس الشامل أساسيات الاتصالات السلكية واللاسلكية مع فصلين جديدين تمت إضافتهما.</p><p>رابط الكورس: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>اضغط هنا</a></p>"
+    }
+  },
+  {
+    "id": 15,
+    "type": "coupon",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/xCJMsgrp/501124623-2594487890882955-3390403837357428360-n.jpg",
+    "validUntil": "2025-03-31",
+    "spotsLeft": "",
+    "price": {
+      "current": "249.99 EGP",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=A8519FD0CECE1219B5E2",
+    "tags": ["#Discount", "#Udemy", "#Telecommunications", "#Ramadan"],
+    "title": {
+      "en": "Introduction to Telecommunications - Discount Coupon",
+      "ar": "مقدمة في الاتصالات - كوبون خصم"
+    },
+    "summary": {
+      "en": "Get a huge discount on the 'Telecommunication Fundamentals' course until the end of March using the code below.",
+      "ar": "احصل على خصم كبير على كورس 'أساسيات الاتصالات' حتى نهاية مارس باستخدام الكود أدناه."
+    },
+    "description": {
+      "en": "<p>Use code <strong>A8519FD0CECE1219B5E2</strong> at checkout.</p><p>This course covers telecommunication fundamentals for beginners and professionals alike.</p><p>Course Link: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>Click Here</a></p>",
+      "ar": "<p>استخدم الكود <strong>A8519FD0CECE1219B5E2</strong> عند التسجيل.</p><p>يغطي هذا الكورس أساسيات الاتصالات للمبتدئين والمحترفين على حد سواء.</p><p>رابط الكورس: <a href='https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413'>اضغط هنا</a></p>"
+    }
+  },
+
+{
+  "id": 13,
+  "type": "coupon",
+    "couponType": "free",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/YSXzDhhd/500761933-2594399904225087-7835289597127199491-n.jpg",
+  "couponCode": "72125FF8685053908F06",
+  "validUntil": "2025-02-13",
+  "spotsLeft": "",
+  "price": {
+    "current": "Free",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/learn/lecture/48638413?couponCode=72125FF8685053908F06",
+  "tags": ["#Free", "#Udemy", "#Telecommunications", "#BeginnerFriendly"],
+  "title": {
+    "en": "Introduction to Telecommunications - Free Coupon",
+    "ar": "مقدمة في الاتصالات - كوبون مجاني"
+  },
+  "summary": {
+    "en": "Get full access to the 'Telecommunication Fundamentals' course for free using the code below. Limited time offer!",
+    "ar": "احصل على وصول كامل لكورس 'أساسيات الاتصالات' مجانًا باستخدام الكود أدناه. العرض لفترة محدودة!"
+  },
+  "description": {
+    "en": "<h3>Course Highlights:</h3><ul><li>Understanding the basics of telecommunications: definition, importance, historical evolution.</li><li>Types of networks and systems: wired vs wireless, applications in healthcare, transport, entertainment.</li><li>Core theoretical concepts: signals, systems, Fourier and Laplace transforms, bandwidth, filtering, noise reduction.</li><li>Modulation and signal processing: Analog and Digital modulation techniques, effective and reliable signal transmission.</li><li>Transition from analog to digital systems: Sampling theorem, analog-to-digital conversion.</li><li>Practical applications and preparing for the future: modern infrastructure devices and technologies.</li></ul><p>Use code <strong>72125FF8685053908F06</strong> at checkout. Limited spots!</p>",
+    "ar": "<h3>أهم النقاط التي يغطيها الكورس:</h3><ul><li>فهم أساسيات الاتصالات: التعريف، الأهمية، التطور التاريخي للأنظمة.</li><li>أنواع الشبكات والأنظمة المختلفة: السلكية مقابل اللاسلكية، التطبيقات في الرعاية الصحية، النقل، والترفيه.</li><li>المفاهيم النظرية الأساسية: الإشارات والأنظمة، تحويلات فورييه ولابلاس، عرض النطاق الترددي، مرشحات الإشارة، تقنيات تقليل الضوضاء.</li><li>تقنيات التعديل ومعالجة الإشارة: التعديل التماثلي والرقمي، ضمان إرسال الإشارات بشكل فعال وموثوق.</li><li>التحول من الأنظمة التماثلية إلى الرقمية: مبدأ أخذ العينات، التحويل من تناظري إلى رقمي.</li><li>تطبيقات عملية والاستعداد للمستقبل: الأجهزة والتقنيات التي تشكل البنية التحتية للاتصالات الحديثة.</li></ul><p>استخدم الكود <strong>72125FF8685053908F06</strong> عند التسجيل. الأماكن محدودة!</p>"
+  }
+}
+]
