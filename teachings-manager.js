@@ -149,7 +149,7 @@ function createCard(item, lang) {
             `<p style="font-size:0.9rem; color:var(--text-secondary)">${summary}</p>`
         }
             <div class="teaching-actions">
-                <a href="teaching-details.html?id=${item.id}" class="teaching-btn">
+                <a href="../teaching-details/?id=${item.id}" class="teaching-btn">
                     <i class="fas fa-info-circle"></i> ${lang === 'en' ? 'Details' : 'تفاصيل'}
                 </a>
                 <a href="${item.link}" target="_blank" class="teaching-btn teaching-btn-primary">
@@ -164,7 +164,13 @@ function createCard(item, lang) {
 /* === 5. Data Fetching === */
 async function fetchTeachings() {
     try {
-        const response = await fetch('./teachings.json');
+        let response;
+        try {
+            response = await fetch('teachings.json');
+            if (!response.ok) throw new Error();
+        } catch (e) {
+            response = await fetch('../teachings.json');
+        }
         allTeachings = await response.json();
         setMainFilter('all');
     } catch (error) {

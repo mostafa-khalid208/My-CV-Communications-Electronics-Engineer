@@ -39,7 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadArticle(id) {
     try {
-        const response = await fetch('./articles.json');
+        // Try fetching from root or parent
+        let response;
+        try {
+            response = await fetch('articles.json');
+            if (!response.ok) throw new Error();
+        } catch (e) {
+            response = await fetch('../articles.json');
+        }
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);

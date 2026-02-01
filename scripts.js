@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 4. Security Measures (Privacy)
     enableSecurity();
+    // 5. URL Cleanup (Remove index.html)
+    if (window.location.pathname.endsWith('index.html')) {
+        const newPath = window.location.pathname.replace(/index\.html$/, '');
+        window.history.replaceState(null, '', newPath);
+    }
 });
 
 /* === Language Switcher === */
@@ -138,3 +143,12 @@ function enableSecurity() {
         }
     });
 }
+
+/* === Global Click Listener for Clean URLs === */
+document.addEventListener('click', e => {
+    const link = e.target.closest('a');
+    // If the link is strictly href="#" (and not #some-id), prevent default
+    if (link && link.getAttribute('href') === '#') {
+        e.preventDefault();
+    }
+});

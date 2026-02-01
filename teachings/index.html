@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Teaching - MKS.Tech</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../teachings-style.css">
+</head>
+<body>
+    <nav class="navbar glass-effect">
+        <div class="logo">MKS<span>.Tech</span></div>
+        <div class="nav-controls">
+            <button class="icon-btn" id="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            
+            <div class="lang-switch">
+                <button onclick="changeLanguage('en')" class="lang-btn" id="btn-en">EN</button>
+                <button onclick="changeLanguage('ar')" class="lang-btn" id="btn-ar">AR</button>
+            </div>
+
+            <a href="../" class="btn-small nav-home-btn en" style="margin-left: 10px;">Home</a>
+            <a href="../" class="btn-small nav-home-btn ar hidden" style="margin-right: 10px;">الرئيسية</a>
+        </div>
+    </nav>
+
+    <div class="bg-animation"></div>
+
+    <main class="teachings-main">
+        <div class="teachings-container">
+            <div class="teachings-header" data-aos="fade-down">
+                <h1 class="en">My Teaching</h1>
+                <h1 class="ar hidden">تدريساتي</h1>
+                <p class="en">Courses, Seminars & Special Offers</p>
+                <p class="ar hidden">الدورات، الندوات والعروض الخاصة</p>
+            </div>
+
+            <div class="search-container" data-aos="fade-up">
+                <input type="text" id="teaching-search" class="search-input" placeholder="Search...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+
+            <div class="main-tabs" data-aos="fade-up">
+                <button class="main-tab active" id="tab-all" onclick="setMainFilter('all')">
+                    <span class="en">All</span>
+                    <span class="ar hidden">الكل</span>
+                </button>
+                <button class="main-tab" id="tab-course" onclick="setMainFilter('course')">
+                    <span class="en">My Courses</span>
+                    <span class="ar hidden">كورساتي</span>
+                </button>
+                <button class="main-tab" id="tab-seminar" onclick="setMainFilter('seminar')">
+                    <span class="en">Seminars</span>
+                    <span class="ar hidden">ندوات</span>
+                </button>
+                <button class="main-tab" id="tab-coupon" onclick="setMainFilter('coupon')">
+                    <span class="en">Coupons</span>
+                    <span class="ar hidden">كوبونات</span>
+                </button>
+            </div>
+
+            <div class="sub-filters" data-aos="fade-up">
+                
+                <div class="filter-group hidden" id="course-filters">
+                    <button class="filter-btn active" onclick="setPlatformFilter('all', this)">
+                        <span class="en">All</span><span class="ar hidden">الكل</span>
+                    </button>
+                    <button class="filter-btn" onclick="setPlatformFilter('udemy', this)">Udemy</button>
+                    <button class="filter-btn" onclick="setPlatformFilter('youtube', this)">YouTube</button>
+                    <button class="filter-btn" onclick="setPlatformFilter('other', this)">
+                        <span class="en">Other</span><span class="ar hidden">أخرى</span>
+                    </button>
+                </div>
+
+                <div class="filter-group hidden" id="seminar-filters">
+                    <button class="filter-btn active" onclick="setPlatformFilter('all', this)">
+                        <span class="en">All</span><span class="ar hidden">الكل</span>
+                    </button>
+                    <button class="filter-btn" onclick="setPlatformFilter('youtube', this)">YouTube</button>
+                    <button class="filter-btn" onclick="setPlatformFilter('other', this)">
+                        <span class="en">Other</span><span class="ar hidden">أخرى</span>
+                    </button>
+                </div>
+
+                <div class="filter-group hidden" id="coupon-filters">
+                    <button class="filter-btn active" onclick="setPlatformFilter('all', this)">
+                        <span class="en">All</span><span class="ar hidden">الكل</span>
+                    </button>
+                    <button class="filter-btn" onclick="setPlatformFilter('udemy', this)">Udemy</button>
+
+                    <button class="filter-btn" onclick="setPlatformFilter('other', this)">
+                        <span class="en">Other</span><span class="ar hidden">أخرى</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="teachings-grid" id="teachings-grid" data-aos="fade-up">
+                </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="en">© 2024 Mostafa Khalid Sallam. All Rights Reserved.</p>
+        <p class="ar hidden">© 2024 مصطفى خالد سلام. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    <script src="../scripts.js"></script>
+    <script src="../teachings-manager.js"></script>
+</body>
+</html>

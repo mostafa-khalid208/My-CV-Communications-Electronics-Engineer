@@ -88,7 +88,7 @@ function renderArticles(articles) {
                 <p>${summary}</p>
                 <div class="article-tags">${tagsHtml}</div>
                 
-                <a href="article.html?id=${article.id}" class="btn-small">${readMore} <i class="fas fa-arrow-right"></i></a>
+                <a href="articles/?id=${article.id}" class="btn-small">${readMore} <i class="fas fa-arrow-right"></i></a>
             </div>
         `;
 

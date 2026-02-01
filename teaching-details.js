@@ -26,7 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadTeaching(id) {
     try {
-        const response = await fetch('./teachings.json');
+        let response;
+        try {
+            response = await fetch('teachings.json');
+            if (!response.ok) throw new Error();
+        } catch (e) {
+            response = await fetch('../teachings.json');
+        }
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
         const teachings = await response.json();
