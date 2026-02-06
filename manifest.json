@@ -4,7 +4,6 @@
     "short_name": "MKS Portfolio",
     "description": "Portfolio of Eng. Mostafa Khalid Sallam - Communications & Electronics Engineer",
     "start_url": "/My-CV-Communications-Electronics-Engineer/index.html",
-    "scope": "/My-CV-Communications-Electronics-Engineer/",
     "display": "standalone",
     "background_color": "#0F2027",
     "theme_color": "#00D2D3",
@@ -12,9 +11,33 @@
     "icons": [
         {
             "src": "assets/images/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icon.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "any"
+        },
+        {
+            "src": "assets/images/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "assets/images/icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
-    ]
+    ],
+    "categories": ["portfolio", "education"],
+    "lang": "en",
+    "dir": "ltr",
+    "scope": "/My-CV-Communications-Electronics-Engineer/",
+    "screenshots": [],
+    "prefer_related_applications": false
 }
