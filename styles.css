@@ -373,6 +373,9 @@ body.dark .glow-text {
     border-radius: 12px;
     text-decoration: none;
     color: var(--text-primary);
+    text-align: center;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .contact-item i {
