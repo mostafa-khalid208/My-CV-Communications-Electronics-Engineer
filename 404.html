@@ -3,154 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>جاري التحويل... | MKS Portfolio</title>
-    <meta http-equiv="refresh" content="0; url=./">
+    <title>MKS Portfolio - Page Not Found</title>
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
+            background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
             text-align: center;
             padding: 20px;
         }
-        
         .container {
-            max-width: 400px;
-            animation: fadeIn 0.5s ease;
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(0,210,211,0.25);
+            border-radius: 20px;
+            padding: 40px 30px;
+            max-width: 480px;
+            width: 100%;
+            animation: fadeIn 0.6s ease;
         }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .icon {
-            font-size: 4rem;
-            margin-bottom: 20px;
-            animation: pulse 1.5s infinite;
-        }
-        
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-        }
-        
-        h1 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            font-weight: 600;
-            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        p {
-            font-size: 1rem;
-            opacity: 0.9;
-            margin-bottom: 25px;
-            line-height: 1.6;
-        }
-        
-        .spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid rgba(255,255,255,0.3);
-            border-top-color: #00d4ff;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-        
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .icon { font-size: 64px; margin-bottom: 16px; }
+        h1 { font-size: 28px; color: #00D2D3; margin-bottom: 8px; }
+        .code { font-size: 72px; font-weight: 900; color: rgba(0,210,211,0.3); line-height: 1; margin-bottom: 8px; }
+        p { color: #b0c4ce; font-size: 15px; line-height: 1.6; margin-bottom: 20px; }
+        .countdown { color: #00D2D3; font-weight: bold; font-size: 18px; margin-bottom: 24px; }
+        .buttons { display: flex; flex-direction: column; gap: 12px; }
         .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,212,255,0.3);
+            display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+            padding: 14px 24px; border-radius: 12px; font-size: 16px; font-weight: 600;
+            text-decoration: none; cursor: pointer; border: none;
+            transition: all 0.3s ease; width: 100%;
         }
-        
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,212,255,0.5);
+        .btn-primary {
+            background: linear-gradient(135deg, #00D2D3, #00b4d8);
+            color: #0F2027;
         }
-        
-        .note {
-            margin-top: 30px;
-            font-size: 0.85rem;
-            opacity: 0.7;
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,210,211,0.35); }
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.2);
         }
-        
-        .name {
-            margin-top: 40px;
-            font-size: 0.9rem;
-            opacity: 0.6;
-        }
+        .btn-secondary:hover { background: rgba(255,255,255,0.18); transform: translateY(-2px); }
     </style>
-    <script>
-        // Smart redirect handling for GitHub Pages + Facebook fbclid issue
-        (function() {
-            var path = window.location.pathname;
-            var search = window.location.search;
-            var hash = window.location.hash;
-            
-            // Remove fbclid and other tracking parameters
-            if (search) {
-                var cleanSearch = search.replace(/[?&]fbclid=[^&]+/g, '')
-                                        .replace(/[?&]utm_[^&]+/g, '')
-                                        .replace(/^\?&/, '?')
-                                        .replace(/^&/, '?');
-                if (cleanSearch === '?') cleanSearch = '';
-            }
-            
-            // Handle SPA-style routing for GitHub Pages
-            var repo = '/My-CV-Communications-Electronics-Engineer';
-            var basePath = path.replace(repo, '');
-            
-            // If we're at a valid subpath, try to redirect there
-            if (basePath && basePath !== '/' && basePath !== '') {
-                // Clean the path
-                var cleanPath = basePath.replace(/\.html$/, '/');
-                window.location.replace(repo + cleanPath + (cleanSearch || '') + hash);
-            } else {
-                // Default: go to homepage
-                window.location.replace(repo + '/' + hash);
-            }
-        })();
-    </script>
 </head>
 <body>
     <div class="container">
-        <div class="icon">👨‍💻</div>
-        <div class="spinner"></div>
-        <h1>جاري التحويل...</h1>
-        <p>يتم توجيهك إلى السيرة الذاتية<br>يرجى الانتظار لحظة</p>
-        <a href="./" class="btn">🏠 الصفحة الرئيسية</a>
-        <div class="note">
-            💡 للحصول على أفضل تجربة، افتح الرابط في متصفح Chrome أو Safari
-        </div>
-        <div class="name">
-            م. مصطفى خالد سلام<br>
-            Eng. Mostafa Khalid Sallam
+        <div class="code">404</div>
+        <div class="icon">🔍</div>
+        <h1>الصفحة غير موجودة</h1>
+        <p>الصفحة اللي بتدور عليها مش موجودة أو تم نقلها.<br>هيتم تحويلك تلقائياً للموقع الرئيسي.</p>
+        <div class="countdown">⏳ تحويل خلال <span id="timer">5</span> ثواني...</div>
+        <div class="buttons">
+            <a href="https://tinyurl.com/mks-portfolio" class="btn btn-primary">🏠 الذهاب للموقع الرئيسي</a>
+            <button onclick="location.reload()" class="btn btn-secondary">🔄 إعادة تحميل الصفحة</button>
         </div>
     </div>
+    <script>
+        let seconds = 5;
+        const timerEl = document.getElementById('timer');
+        const interval = setInterval(() => {
+            seconds--;
+            timerEl.textContent = seconds;
+            if (seconds <= 0) {
+                clearInterval(interval);
+                window.location.replace("https://tinyurl.com/mks-portfolio");
+            }
+        }, 1000);
+    </script>
 </body>
 </html>

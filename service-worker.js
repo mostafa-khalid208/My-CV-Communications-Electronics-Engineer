@@ -1,31 +1,35 @@
-const CACHE_NAME = 'mks-portfolio-v4';
+/**
+ * MKS Portfolio - Service Worker
+ * Enables PWA features and offline caching
+ * Strategy:
+ *   - HTML, JS, CSS, JSON → Network First (always get latest updates)
+ *   - Images, Fonts, CDNs  → Cache First  (rarely change, safe to cache)
+ */
 
-// Files to cache with Cache-First strategy (static assets that rarely change)
-const STATIC_CACHE_URLS = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/scripts.js',
-    '/assets/images/icon.png'
+const CACHE_NAME = 'mks-portfolio-v5';
+
+// Images & static assets → Cache First (rarely change)
+const CACHE_FIRST_PATTERNS = [
+    /\.(png|jpg|jpeg|gif|svg|ico|webp)$/i,
+    /\.(woff|woff2|ttf|eot)$/i,
+    /fonts\.googleapis\.com/,
+    /fonts\.gstatic\.com/,
+    /cdnjs\.cloudflare\.com/,
+    /kit\.fontawesome\.com/
 ];
 
-// Files that should NEVER be cached (always fetch fresh from network)
-const NEVER_CACHE_PATTERNS = [
-    /articles\.json/,
-    /teachings\.json/,
-    /\.json$/
-];
-
-// Install event - cache only static assets
+// Install event
 self.addEventListener('install', event => {
+    console.log('Service Worker: Installing...');
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => {
-                console.log('Opened cache');
-                return cache.addAll(STATIC_CACHE_URLS);
-            })
-            .catch(err => {
-                console.log('Cache install failed:', err);
+                console.log('Service Worker: Install complete');
+                return cache.addAll([
+                    '/',
+                    '/index.html',
+                    '/assets/images/icon.png'
+                ]).catch(() => {});
             })
     );
     self.skipWaiting();
@@ -33,61 +37,70 @@ self.addEventListener('install', event => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', event => {
+    console.log('Service Worker: Activating...');
     event.waitUntil(
         caches.keys().then(cacheNames => {
             return Promise.all(
-                cacheNames.map(cacheName => {
-                    if (cacheName !== CACHE_NAME) {
-                        console.log('Deleting old cache:', cacheName);
-                        return caches.delete(cacheName);
-                    }
-                })
+                cacheNames
+                    .filter(name => name !== CACHE_NAME)
+                    .map(name => {
+                        console.log('Service Worker: Deleting old cache', name);
+                        return caches.delete(name);
+                    })
             );
+        }).then(() => {
+            console.log('Service Worker: Activate complete');
+            return self.clients.claim();
         })
     );
-    self.clients.claim();
 });
 
-// Fetch event - Network First for JSON data, Cache First for static assets
+// Fetch event
 self.addEventListener('fetch', event => {
-    const url = event.request.url;
+    const { request } = event;
+    const url = request.url;
 
-    // Always fetch JSON files fresh from network (Network First)
-    const isNeverCache = NEVER_CACHE_PATTERNS.some(pattern => pattern.test(url));
-    if (isNeverCache) {
+    // Skip non-GET requests
+    if (request.method !== 'GET') return;
+
+    // Images, Fonts, CDNs → Cache First (safe to cache, rarely change)
+    if (CACHE_FIRST_PATTERNS.some(p => p.test(url))) {
         event.respondWith(
-            fetch(event.request, { cache: 'no-store' })
-                .catch(() => {
-                    // If network fails, try cache as fallback
-                    return caches.match(event.request);
-                })
+            caches.match(request).then(cached => {
+                if (cached) return cached;
+                return fetch(request).then(response => {
+                    if (response.ok) {
+                        const clone = response.clone();
+                        caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
+                    }
+                    return response;
+                }).catch(() => new Response('', { status: 503 }));
+            })
         );
         return;
     }
 
-    // For all other requests: Cache First with network fallback
+    // HTML, JS, CSS, JSON, and everything else → Network First
+    // Always try network first to get latest updates when online
     event.respondWith(
-        caches.match(event.request)
+        fetch(request)
             .then(response => {
-                if (response) {
-                    return response;
+                if (response.ok) {
+                    const clone = response.clone();
+                    caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
                 }
-                return fetch(event.request).then(response => {
-                    // Don't cache non-successful responses or non-GET requests
-                    if (!response || response.status !== 200 || response.type !== 'basic' || event.request.method !== 'GET') {
-                        return response;
-                    }
-                    const responseToCache = response.clone();
-                    caches.open(CACHE_NAME)
-                        .then(cache => {
-                            cache.put(event.request, responseToCache);
-                        });
-                    return response;
-                });
+                return response;
             })
             .catch(() => {
-                // Fallback for offline
-                return caches.match('/index.html');
+                // Network failed → serve from cache as offline fallback
+                return caches.match(request).then(cached => {
+                    if (cached) return cached;
+                    // Last resort: return index.html for navigation requests
+                    if (request.mode === 'navigate') {
+                        return caches.match('/index.html');
+                    }
+                    return new Response('Offline', { status: 503 });
+                });
             })
     );
 });
