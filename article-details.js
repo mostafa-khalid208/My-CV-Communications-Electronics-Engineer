@@ -133,11 +133,28 @@ function convertVideoLinksToEmbed(content) {
         '<iframe src="https://player.vimeo.com/video/$1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%; max-width:700px; height:400px; margin:20px auto; display:block; border-radius:15px;"></iframe>'
     );
 
-    // Udemy 
+    // Udemy - Protect existing <a> tags, then convert bare URLs only
+    // Step 1: Protect existing <a href="...udemy...">...</a> tags
+    const udemyProtected = [];
+    content = content.replace(/<a\b[^>]*href\s*=\s*["'][^"']*udemy\.com[^"']*["'][^>]*>[\s\S]*?<\/a>/gi, (match) => {
+        const ph = `___UDEMY_LINK_${udemyProtected.length}___`;
+        udemyProtected.push(match);
+        return ph;
+    });
+
+    // Step 2: Convert bare Udemy URLs (not inside HTML attributes)
     content = content.replace(
-        /(?:https?:\/\/)?(?:www\.)?udemy\.com\/course\/([^\/\s]+)/gi,
-        '<div style="border: 2px solid var(--accent-color); border-radius: 15px; padding: 20px; margin: 20px auto; max-width: 700px; text-align: center;"><i class="fas fa-graduation-cap" style="font-size: 3rem; color: var(--accent-color); margin-bottom: 10px;"></i><p style="margin: 10px 0;"><strong>Udemy Course</strong></p><a href="https://www.udemy.com/course/$1" target="_blank" class="btn-small" style="display: inline-block; margin-top: 10px;">View Course on Udemy</a></div>'
+        /(?:https?:\/\/)?(?:www\.)?udemy\.com\/course\/([^\s"'<>]+)/gi,
+        (match) => {
+            const fullUrl = match.startsWith('http') ? match : 'https://' + match;
+            return `<div style="border: 2px solid var(--accent-color); border-radius: 15px; padding: 20px; margin: 20px auto; max-width: 700px; text-align: center;"><i class="fas fa-graduation-cap" style="font-size: 3rem; color: var(--accent-color); margin-bottom: 10px;"></i><p style="margin: 10px 0;"><strong>Udemy Course</strong></p><a href="${fullUrl}" target="_blank" class="btn-small" style="display: inline-block; margin-top: 10px;">View Course on Udemy</a></div>`;
+        }
     );
+
+    // Step 3: Restore protected links
+    udemyProtected.forEach((original, i) => {
+        content = content.replace(`___UDEMY_LINK_${i}___`, original);
+    });
 
     return content;
 }

@@ -164,12 +164,14 @@ function createCard(item, lang) {
 /* === 5. Data Fetching === */
 async function fetchTeachings() {
     try {
+        // Add cache-busting to always get the latest teachings.json
+        const cacheBuster = `?v=${Date.now()}`;
         let response;
         try {
-            response = await fetch('teachings.json');
+            response = await fetch(`teachings.json${cacheBuster}`, { cache: 'no-store' });
             if (!response.ok) throw new Error();
         } catch (e) {
-            response = await fetch('../teachings.json');
+            response = await fetch(`../teachings.json${cacheBuster}`, { cache: 'no-store' });
         }
         allTeachings = await response.json();
         setMainFilter('all');

@@ -32,7 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
 /* === Fetch Data from JSON === */
 async function fetchArticles() {
     try {
-        const response = await fetch('articles.json');
+        // Add cache-busting to always get the latest articles.json
+        const cacheBuster = `?v=${Date.now()}`;
+        const response = await fetch(`articles.json${cacheBuster}`, { cache: 'no-store' });
         if (!response.ok) throw new Error("Could not fetch articles");
         allArticles = await response.json();
         renderArticles(allArticles);
@@ -41,6 +43,7 @@ async function fetchArticles() {
         document.getElementById('articles-grid').innerHTML = `<p style="color:red; text-align:center;">Failed to load articles.</p>`;
     }
 }
+
 
 /* === Handle Image Error === */
 function handleImageError(imgElement) {
