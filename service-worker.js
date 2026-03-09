@@ -6,7 +6,7 @@
  *   - Images, Fonts, CDNs  → Cache First  (rarely change, safe to cache)
  */
 
-const CACHE_NAME = 'mks-portfolio-v5';
+const CACHE_NAME = 'mks-portfolio-v6';
 
 // Images & static assets → Cache First (rarely change)
 const CACHE_FIRST_PATTERNS = [

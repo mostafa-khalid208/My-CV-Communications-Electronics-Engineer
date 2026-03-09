@@ -26,12 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadTeaching(id) {
     try {
+        // Add cache-busting to always get the latest teachings.json
+        const cacheBuster = `?v=${Date.now()}`;
         let response;
         try {
-            response = await fetch('teachings.json');
+            response = await fetch(`teachings.json${cacheBuster}`, { cache: 'no-store' });
             if (!response.ok) throw new Error();
         } catch (e) {
-            response = await fetch('../teachings.json');
+            response = await fetch(`../teachings.json${cacheBuster}`, { cache: 'no-store' });
         }
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 

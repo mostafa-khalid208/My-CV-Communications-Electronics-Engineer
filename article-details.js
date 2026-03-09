@@ -39,13 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadArticle(id) {
     try {
-        // Try fetching from root or parent
+        // Try fetching from root or parent with cache-busting
+        const cacheBuster = `?v=${Date.now()}`;
         let response;
         try {
-            response = await fetch('articles.json');
+            response = await fetch(`articles.json${cacheBuster}`, { cache: 'no-store' });
             if (!response.ok) throw new Error();
         } catch (e) {
-            response = await fetch('../articles.json');
+            response = await fetch(`../articles.json${cacheBuster}`, { cache: 'no-store' });
         }
 
         if (!response.ok) {
