@@ -591,6 +591,34 @@
   }
 },
 {
+  "id": 35,
+  "type": "coupon",
+  "couponType": "free",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/FHpdxxZv/Picsart_26_02_16_16_38_45_282.jpg",
+  "couponCode": "RAMADAN_100FREE",
+  "validUntil": "29-03-2026",
+  "spotsLeft": "100",
+  "price": {
+    "current": "Free",
+    "original": "Paid"
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=RAMADAN_100FREE",
+  "tags": ["#Free", "#Udemy", "#Telecommunications", "#Ramadan_Kareem"],
+  "title": {
+    "en": "Introduction to Telecommunications - 100 Free Coupons 🎁",
+    "ar": "مقدمة في الاتصالات - 100 كوبون مجاني 🎁"
+  },
+  "summary": {
+    "en": "Hurry up! 100 Free coupons are available for a limited time. Get full access for FREE. Valid for 30 days only!",
+    "ar": "سارع بالحجز! يتوفر 100 كوبون مجاني لفترة محدودة جداً. احصل على وصول كامل للكورس مجانًا لمدة 30 أيام فقط!"
+  },
+  "description": {
+    "en": "<h3>🚀 Course Highlights & Services:</h3><ul><li>🌐 <b>Master the Basics:</b> Clear definition and historical evolution of telecom systems.</li><li>📡 <b>Network Diversity:</b> Deep dive into Wired vs Wireless networks.</li><li>📊 <b>Theoretical Excellence:</b> Understand Signals, Fourier & Laplace transforms.</li><li>🎙️ <b>Signal Processing:</b> Learn Analog & Digital modulation techniques.</li><li>🔄 <b>System Transition:</b> Comprehensive guide on Analog-to-Digital conversion.</li><li>🛠️ <b>Future-Ready Skills:</b> Hands-on look at modern infrastructure.</li></ul><p>✨ Use code <strong>RAMADAN_100FREE</strong>. ⚠️ Valid for 30 days only for 100 students! 🔥</p>",
+    "ar": "<h3>🚀 أهم محتويات ومميزات الكورس:</h3><ul><li>🌐 <b>إتقان الأساسيات:</b> فهم شامل لتعريف وأهمية والتطور التاريخي لأنظمة الاتصالات.</li><li>📡 <b>تنوع الشبكات:</b> شرح تفصيلي للشبكات السلكية واللاسلكية وتطبيقاتها.</li><li>📊 <b>التميز النظري:</b> استيعاب مفاهيم الإشارات، تحويلات فورييه ولابلاس.</li><li>🎙️ <b>معالجة الإشارات:</b> تعلم تقنيات التعديل التماثلي والرقمي لضمان إرسال بيانات موثوق.</li><li>🔄 <b>التحول الرقمي:</b> شرح وافٍ لمبدأ أخذ العينات والتحول من الأنظمة التناظرية إلى الرقمية.</li><li>🛠️ <b>مهارات المستقبل:</b> نظرة عملية على الأجهزة والتقنيات الحديثة.</li></ul><p>✨ استخدم الكود <strong>RAMADAN_100FREE</strong> عند التسجيل. ⚠️ العرض متاح لـ 100 طالب لمدة 30 أيام فقط! 🔥</p>"
+  }
+},
+{
   "id": 34,
   "type": "coupon",
   "couponType": "free",
