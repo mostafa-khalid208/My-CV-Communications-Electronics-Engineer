@@ -6,7 +6,7 @@
     "image": "https://i.postimg.cc/DywLfKZk/Picsart-25-02-08-13-49-29-114.jpg",
     "instructor": "Mostafa Khalid Sallam",
     "rating": 4.9,
-    "students": 893,
+    "students": 1082,
     "duration": "12h 59m",
     "price": {
       "current": "349.99 egp",
@@ -32,6 +32,74 @@
       "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات هندسة الاتصالات وأهميتها</li><li>تاريخ وتطور أنظمة الاتصالات</li><li>أنواع شبكات الاتصالات السلكية واللاسلكية</li><li>مفاهيم الإشارات والأنظمة</li><li>تحليل الإشارات في المجالين الزمني والترددي</li><li>أنواع الفلاتر: منخفضة، عالية، ممرر نطاق، مانع نطاق</li><li>سلاسل وتحويلات فورييه، لابلاس، و Z-Transform</li><li>تقنيات التضمين التناظرية (AM, FM, PM)</li><li>تقنيات التضمين الرقمية (ASK, FSK, PSK, QAM)</li><li>الفرق بين الأنظمة والاتصالات التناظرية والرقمية</li><li>التحويل من تناظري إلى رقمي (ADC) والعكس (DAC)</li><li>أخذ العينات، التكميم، الترميز، PAM و PCM</li><li>أساسيات الاتصالات الضوئية</li><li>مصادر الضوء ونطاقات التردد وانتشار الضوء</li><li>أنظمة الألياف الضوئية وتطبيقاتها</li><li>أنظمة الاتصالات عبر الأقمار الصناعية وتطبيقاتها</li><li>تصحيح الأخطاء، التشفير، وبروتوكولات الاتصال</li></ul><h3>محتوى الدورة</h3><p>6 أقسام • 42 محاضرة • إجمالي المدة: 12 ساعة و59 دقيقة</p><h3>المتطلبات</h3><ul><li>مهارات أساسية في استخدام الكمبيوتر</li><li>معرفة أساسية بالرياضيات (الجبر، المثلثات، والتفاضل البسيط)</li><li>مفاهيم فيزيائية أساسية خاصة بالموجات والإشارات</li><li>لا يشترط وجود خبرة سابقة في هندسة الاتصالات</li><li>الرغبة في التعلم واستكشاف تقنيات الاتصالات</li></ul><h3>وصف الدورة</h3><p>تقدم هذه الدورة مقدمة شاملة ومفصلة لهندسة الاتصالات السلكية واللاسلكية، حيث تجمع بين الأسس النظرية والتطبيقات العملية. تم تصميمها خصيصًا للمبتدئين والطلاب والمهندسين الطموحين الراغبين في فهم كيفية عمل أنظمة الاتصالات الحديثة وتطورها.</p><p>تبدأ الدورة بشرح أساسيات الاتصالات ودورها في الحياة اليومية، ثم تنتقل إلى دراسة شبكات الاتصالات، والإشارات والأنظمة، والأدوات الرياضية المستخدمة في تحليل الإشارات.</p><p>بنهاية الدورة، سيكون لدى المتعلم فهم قوي لتقنيات التضمين، ومعالجة الإشارات، والاتصالات الضوئية والفضائية، مما يؤهله للدراسة المتقدمة أو العمل المهني في مجالات الاتصالات، الشبكات، ومعالجة الإشارات.</p>"
     }
   },
+{
+  "id": 36,
+  "type": "course",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/L5CG9wz8/Picsart_26_03_17_07_22_08_113.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": 0,
+  "students": 0,
+  "duration": "10h 0m",
+  "price": {
+    "current": "349.99 egp",
+    "original": ""
+  },
+  "link": "https://www.udemy.com/course/signals-systems-101mastering-signal-processingconversion/?referralCode=131828546E8851C4ADF3",
+  "date": "2026-03-19",
+  "tags": [
+    "#SignalsAndSystems",
+    "#DigitalTransformation",
+    "#DSP",
+    "#Engineering"
+  ],
+  "title": {
+    "en": "Signals & Systems 101: Mastering Signal Processing & Digital Conversion",
+    "ar": "أتقن معالجة الإشارات والتحويل الرقمي | Signals & Systems 101"
+  },
+  "summary": {
+    "en": "A complete engineering journey from analog systems to the world of digitalization (ADC & PCM).",
+    "ar": "رحلة هندسية كاملة من الأنظمة التماثلية إلى عالم الرقمنة والتحويل الرقمي."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Fundamentals of communication engineering and network types</li><li>Distinguishing between analog and digital signals and their properties</li><li>Mastering mathematical transforms: Fourier, Laplace, and Z-Transforms</li><li>Signal processing operations: Convolution, Shifting, and Scaling</li><li>Modulation and Filtering techniques (AM, FM, ASK, PSK)</li><li>In-depth study of Analog-to-Digital Conversion (ADC, Sampling, Quantization, PCM)</li><li>Advanced topics: Satellite communications, Optical fibers, and data encryption</li></ul><h3>Course Content</h3><p>4 sections • 31 lectures • Total length: 10h 0m</p><h3>Requirements</h3><ul><li>Basic computer skills</li><li>Basic math background (Algebra, Trigonometry, Calculus)</li><li>Basic physics concepts (Waves and signals)</li><li>No prior communication engineering experience required</li></ul><h3>Description</h3><p>Have you ever wondered how your voice or image is converted into data that your computer understands? If communication engineering is the 'body' that transmits data, then Signals and Systems are the 'brain' that drives and organizes all those complex processes.</p><p>This course is your comprehensive guide to mastering the language of signals and decoding their mathematical and physical secrets. Through 10 hours of focused content, you will gain essential knowledge in time and frequency domains, system engineering, and the critical transition from analog to digital worlds.</p>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات هندسة الاتصالات وأنواع الشبكات المختلفة</li><li>التمييز بين الإشارات التماثلية والرقمية وفهم خصائصهما</li><li>إتقان التحويلات الرياضية: فوريه، لابلاس، وتحويل Z</li><li>عمليات معالجة الإشارات: الالتفاف (Convolution)، الإزاحة، والتحجيم</li><li>تقنيات التعديل والفلترة (AM, FM, ASK, PSK) وتصميم المرشحات</li><li>دراسة تفصيلية للتحويل الرقمي (ADC، أخذ العينات، التكميم، و PCM)</li><li>مواضيع متقدمة: الاتصالات الفضائية، الألياف الضوئية، وتشفير البيانات</li></ul><h3>محتوى الدورة</h3><p>4 أقسام • 31 محاضرة • إجمالي المدة: 10 ساعات</p><h3>المتطلبات</h3><ul><li>مهارات الحاسوب الأساسية</li><li>خلفية رياضية بسيطة (الجبر، حساب المثلثات، التفاضل والتكامل)</li><li>مبادئ الفيزياء الأساسية (فهم الموجات وسلوك الإشارات)</li><li>لا يشترط وجود خبرة سابقة في هندسة الاتصالات</li></ul><h3>وصف الدورة</h3><p>هل تساءلت يوماً كيف يتحول صوتك أو صورتك إلى بيانات يفهمها حاسوبك؟ إذا كانت هندسة الاتصالات هي \"الجسد\" الذي ينقل البيانات، فإن الإشارات والأنظمة هي \"العقل\" المحرك والمنظم لكل تلك العمليات المعقدة.</p><p>هذه الدورة هي دليلك الشامل لإتقان لغة الإشارات وفك شفراتها الرياضية والفيزيائية. من خلال 10 ساعات من المحتوى المركز، ستكتسب المعارف الأساسية في مجالات الزمن والتردد، هندسة الأنظمة، والتحول الجذري من العالم التماثلي إلى الرقمي.</p>"
+  }
+},
+{
+  "id": 37,
+  "type": "course",
+  "platform": "udemy",
+  "image": "https://i.postimg.cc/ZnK1h4yb/Picsart_26_03_17_06_49_51_716.png",
+  "instructor": "Mostafa Khalid Sallam",
+  "rating": 0,
+  "students": 0,
+  "duration": "8h 0m",
+  "price": {
+    "current": "349.99 egp",
+    "original": ""
+  },
+  "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?referralCode=F62C4C8E618017AF4D3B",
+  "date": "2026-03-19",
+  "tags": [
+    "#Telecommunications",
+    "#OpticalFiber",
+    "#SatelliteCommunication",
+    "#Engineering"
+  ],
+  "title": {
+    "en": "Telecommunications 101: From Signals to Optical & Satellites",
+    "ar": "هندسة الاتصالات 101 | من الإشارات إلى الألياف والأقمار الصناعية"
+  },
+  "summary": {
+    "en": "A comprehensive engineering guide to mastering signal analysis, digital modulation, and modern communication technologies.",
+    "ar": "الدليل الهندسي الشامل لإتقان تحليل الإشارات، التضمين الرقمي، وتقنيات الاتصال الحديثة."
+  },
+  "description": {
+    "en": "<h3>What you'll learn</h3><ul><li>Engineering fundamentals: History and evolution of communication systems</li><li>Signal and System analysis: Understanding analog and digital signal behavior</li><li>Advanced mathematical tools: Fourier, Laplace, and Z-Transforms for frequency analysis</li><li>Modulation techniques: From analog (AM, FM) to advanced digital (QAM, PSK)</li><li>Optical Fiber engineering: Light propagation, cable types, and network design</li><li>Satellite communications: Components, orbits, and satellite protocols</li><li>Security and Encryption: Introduction to protecting communication systems</li></ul><h3>Course Content</h3><p>4 sections • 26 lectures • Total length: 8h 0m</p><h3>Requirements</h3><ul><li>Basic computer skills</li><li>Basic math background (Algebra, Trigonometry, and Calculus)</li><li>Basic knowledge of physics (specifically wave concepts)</li><li>No prior experience required: Designed for beginners to pros</li></ul><h3>Description</h3><p>Have you ever wondered how your data travels across continents in fractions of a second? This course is your gateway to understanding the hidden engine of the digital world.</p><p>From the mathematical foundations of signal analysis to optical fiber technology and the secrets of satellite communications, we take you on an engineering journey that blends deep theory with field application. You will master frequency analysis, advanced digital modulation, and the technical infrastructure that powers modern global connectivity.</p>",
+    "ar": "<h3>ما ستتعلمه</h3><ul><li>أساسيات الهندسة: فهم تاريخ وتطور أنظمة الاتصالات وأهميتها</li><li>تحليل الإشارات والأنظمة: إتقان التعامل مع الإشارات التماثلية والرقمية</li><li>التحويلات الرياضية المتقدمة: التمكن من أدوات Fourier و Laplace و Z-Transform</li><li>تقنيات التضمين (Modulation): التعديل التماثلي (AM, FM) والرقمي (QAM, PSK)</li><li>هندسة الألياف البصرية: دراسة انتشار الضوء، أنواع الكابلات، وتصميم الشبكات</li><li>الاتصالات الفضائية: فهم مكونات الأقمار الصناعية، مداراتها، وبروتوكولاتها</li><li>الأمن والتشفير: مقدمة في حماية نظم الاتصالات وتشفير البيانات</li></ul><h3>محتوى الدورة</h3><p>4 أقسام • 26 محاضرة • إجمالي المدة: 8 ساعات</p><h3>المتطلبات</h3><ul><li>مهارات الحاسوب الأساسية</li><li>خلفية رياضية أولية (الجبر، حساب المثلثات، ومبادئ التفاضل والتكامل)</li><li>إلمام بسيط بالفيزياء (خاصة مفاهيم الموجات)</li><li>لا يشترط خبرة سابقة: نبدأ معك من الصفر</li></ul><h3>وصف الدورة</h3><p>هل تساءلت يوماً كيف تنتقل بياناتك عبر القارات في أجزاء من الثانية؟ هذه الدورة هي بوابتك لفهم المحرك الخفي للعالم الرقمي.</p><p>من القواعد الرياضية لتحليل الإشارات وصولاً إلى تكنولوجيا الألياف البصرية وأسرار الأقمار الصناعية، سنأخذك في رحلة هندسية تجمع بين النظرية العميقة والتطبيق الميداني. ستتعلم كيفية تحليل الترددات، والتعامل مع أحدث تقنيات التعديل الرقمي، وفهم البنية التحتية التي تربط العالم اليوم.</p>"
+  }
+},
 {
   "id": 2,
   "type": "course",
