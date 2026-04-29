@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Eng. Mostafa Khalid Sallam - Communications & Electronics Engineer">
-    <meta name="theme-color" content="#00D2D3">
+    <meta name="theme-color" content="#00ffff">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="assets/images/icon.png">
     <link rel="apple-touch-icon" href="assets/images/icon.png">
@@ -24,7 +24,7 @@
 
 <body>
 
-    <div class="bg-animation"></div>
+    <div class="bg-animation" id="webgl-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
 
     <nav class="navbar glass-effect">
         <div class="logo">MKS<span>.Tech</span></div>
@@ -36,7 +36,11 @@
                 <button onclick="changeLanguage('en')" class="lang-btn active-lang" id="btn-en">EN</button>
                 <button onclick="changeLanguage('ar')" class="lang-btn" id="btn-ar">AR</button>
             </div>
-            <button class="mobile-menu-btn" onclick="toggleMobileMenu()"><i class="fas fa-bars"></i></button>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
@@ -50,6 +54,10 @@
 
                 <li class="en"><a href="#" onclick="showSection('about')"><i class="fas fa-user"></i> About</a></li>
                 <li class="ar hidden"><a href="#" onclick="showSection('about')"><i class="fas fa-user"></i> عني</a>
+                </li>
+
+                <li class="en"><a href="#" onclick="showSection('specializations')"><i class="fas fa-star"></i> Specializations</a></li>
+                <li class="ar hidden"><a href="#" onclick="showSection('specializations')"><i class="fas fa-star"></i> التخصصات</a>
                 </li>
 
                 <li class="en"><a href="#" onclick="showSection('work-experiences')"><i class="fas fa-briefcase"></i>
@@ -351,6 +359,45 @@
                 </div>
             </section>
 
+            <!-- NEW SPECIALIZATIONS SECTION -->
+            <section id="specializations" class="hidden content-card glass-effect" data-aos="fade-up">
+                <h2 class="section-title en">Core Specializations</h2>
+                <h2 class="section-title ar hidden">التخصصات الأساسية</h2>
+                
+                <div class="specialization-grid">
+                    <div class="specialization-card" data-aos="zoom-in">
+                        <i class="fas fa-broadcast-tower"></i>
+                        <h3 class="en">Communications</h3>
+                        <h3 class="ar hidden">الاتصالات</h3>
+                        <p class="en" style="font-size: 0.9rem; margin-top: 10px;">GSM, UMTS, LTE, 5G NR</p>
+                    </div>
+                    <div class="specialization-card" data-aos="zoom-in" style="animation-delay: 0.1s;">
+                        <i class="fas fa-microchip"></i>
+                        <h3 class="en">Electronics</h3>
+                        <h3 class="ar hidden">الإلكترونيات</h3>
+                        <p class="en" style="font-size: 0.9rem; margin-top: 10px;">ESP32, Arduino, IoT</p>
+                    </div>
+                    <div class="specialization-card" data-aos="zoom-in" style="animation-delay: 0.2s;">
+                        <i class="fas fa-code"></i>
+                        <h3 class="en">Software</h3>
+                        <h3 class="ar hidden">البرمجيات</h3>
+                        <p class="en" style="font-size: 0.9rem; margin-top: 10px;">Python, C++, Dart, Flutter</p>
+                    </div>
+                    <div class="specialization-card" data-aos="zoom-in" style="animation-delay: 0.3s;">
+                        <i class="fas fa-network-wired"></i>
+                        <h3 class="en">Networks</h3>
+                        <h3 class="ar hidden">الشبكات</h3>
+                        <p class="en" style="font-size: 0.9rem; margin-top: 10px;">CCNA, Routing, Switching</p>
+                    </div>
+                    <div class="specialization-card" data-aos="zoom-in" style="animation-delay: 0.4s;">
+                        <i class="fas fa-brain"></i>
+                        <h3 class="en">Artificial Intelligence</h3>
+                        <h3 class="ar hidden">الذكاء الاصطناعي</h3>
+                        <p class="en" style="font-size: 0.9rem; margin-top: 10px;">ML, Deep Learning, HCIA-AI</p>
+                    </div>
+                </div>
+            </section>
+
             <section id="work-experiences" class="hidden content-card glass-effect" data-aos="fade-up">
                 <h2 class="section-title en">Work Experiences</h2>
                 <h2 class="section-title ar hidden">خبرات العمل</h2>
@@ -457,30 +504,37 @@
                         <i class="fas fa-search search-icon"></i>
                     </div>
 
-                    <div class="filter-container">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="telecommunications">Telecom(General)</button>
-                        <button class="filter-btn" data-filter="4G">4G</button>
-                        <button class="filter-btn" data-filter="5G">5G</button>
-                        <button class="filter-btn" data-filter="6G">6G</button>
-                        <button class="filter-btn" data-filter="data_science">Data Science</button>
-                        <button class="filter-btn" data-filter="microwaves">Microwaves</button>
-                        <button class="filter-btn" data-filter="transmission">Transmission</button>
-                        <button class="filter-btn" data-filter="networks">Networks</button>
-                        <button class="filter-btn" data-filter="optical">Optical</button>
-                        <button class="filter-btn" data-filter="ai">AI</button>
-                        <button class="filter-btn" data-filter="programming">Programming</button>
-                        <button class="filter-btn" data-filter="technology">Technology</button>
-                        <button class="filter-btn" data-filter="cyber_security">Security</button>
-                        <button class="filter-btn" data-filter="satellite">Satellite</button>
-                        <button class="filter-btn" data-filter="political_economic">Pol/Eco</button>
-                        <button class="filter-btn" data-filter="tips_warnings">Tips / Warnings</button>
-                        <button class="filter-btn" data-filter="astronomy_space">Astronomy / Space</button>
-                        <button class="filter-btn" data-filter="science">Science</button>
-                        <button class="filter-btn" data-filter="historical">Historical</button>
-                        <button class="filter-btn" data-filter="religious">Religious</button>
-
-                        <button class="filter-btn" data-filter="other">Other</button>
+                    <div class="filter-dropdown">
+                        <button class="btn-outline" id="filter-dropdown-btn" onclick="document.getElementById('filter-dropdown-content').classList.toggle('hidden')" style="margin-bottom: 10px;">
+                            <i class="fas fa-filter"></i>
+                            <span class="en">Categories</span>
+                            <span class="ar hidden">التصنيفات</span>
+                            <i class="fas fa-chevron-down" style="margin-left: 5px;"></i>
+                        </button>
+                        <div class="filter-container hidden" id="filter-dropdown-content">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="telecommunications">Telecom(General)</button>
+                            <button class="filter-btn" data-filter="4G">4G</button>
+                            <button class="filter-btn" data-filter="5G">5G</button>
+                            <button class="filter-btn" data-filter="6G">6G</button>
+                            <button class="filter-btn" data-filter="data_science">Data Science</button>
+                            <button class="filter-btn" data-filter="microwaves">Microwaves</button>
+                            <button class="filter-btn" data-filter="transmission">Transmission</button>
+                            <button class="filter-btn" data-filter="networks">Networks</button>
+                            <button class="filter-btn" data-filter="optical">Optical</button>
+                            <button class="filter-btn" data-filter="ai">AI</button>
+                            <button class="filter-btn" data-filter="programming">Programming</button>
+                            <button class="filter-btn" data-filter="technology">Technology</button>
+                            <button class="filter-btn" data-filter="cyber_security">Security</button>
+                            <button class="filter-btn" data-filter="satellite">Satellite</button>
+                            <button class="filter-btn" data-filter="political_economic">Pol/Eco</button>
+                            <button class="filter-btn" data-filter="tips_warnings">Tips / Warnings</button>
+                            <button class="filter-btn" data-filter="astronomy_space">Astronomy / Space</button>
+                            <button class="filter-btn" data-filter="science">Science</button>
+                            <button class="filter-btn" data-filter="historical">Historical</button>
+                            <button class="filter-btn" data-filter="religious">Religious</button>
+                            <button class="filter-btn" data-filter="other">Other</button>
+                        </div>
                     </div>
                 </div>
 
@@ -739,9 +793,13 @@
                             <small>2025</small>
                         </span>
 
-                        <a href="https://drive.google.com/file/d/1N3XyRdsflW424ToNiiOry8QSJgx1Iddq/view" target="_blank"
-                            class="en">View</a>
+                        <a href="https://drive.google.com/file/d/1N3XyRdsflW424ToNiiOry8QSJgx1Iddq/view" target="_blank" class="btn-outline" style="padding: 5px 15px; font-size: 0.85rem; border-radius: 15px;">
+                            <span class="en">View</span>
+                            <span class="ar hidden">عرض</span>
+                        </a>
                     </div>
+
+
 
                     <div class="cert-card">
                         <i class="fas fa-certificate"></i>
@@ -758,8 +816,10 @@
                             <small>2025</small>
                         </span>
 
-                        <a href="https://drive.google.com/file/d/1pyP6hgKeWUrDzYPT8MzxpC1pHQdFWkST/view" target="_blank"
-                            class="en">View</a>
+                        <a href="https://drive.google.com/file/d/1pyP6hgKeWUrDzYPT8MzxpC1pHQdFWkST/view" target="_blank" class="btn-outline" style="padding: 5px 15px; font-size: 0.85rem; border-radius: 15px;">
+                            <span class="en">View</span>
+                            <span class="ar hidden">عرض</span>
+                        </a>
                     </div>
 
                     <div class="cert-card">
@@ -777,8 +837,10 @@
                             <small>2024</small>
                         </span>
 
-                        <a href="https://drive.google.com/file/d/1rIGoV_gi1LCeWBuLEclC2f-QxGcViedk/view?usp=drive_link"
-                            target="_blank" class="en">View</a>
+                        <a href="https://drive.google.com/file/d/1rIGoV_gi1LCeWBuLEclC2f-QxGcViedk/view?usp=drive_link" target="_blank" class="btn-outline" style="padding: 5px 15px; font-size: 0.85rem; border-radius: 15px;">
+                            <span class="en">View</span>
+                            <span class="ar hidden">عرض</span>
+                        </a>
                     </div>
 
                     <div class="cert-card">
@@ -796,8 +858,10 @@
                             <small>2023</small>
                         </span>
 
-                        <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view" target="_blank"
-                            class="en">View</a>
+                        <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view" target="_blank" class="btn-outline" style="padding: 5px 15px; font-size: 0.85rem; border-radius: 15px;">
+                            <span class="en">View</span>
+                            <span class="ar hidden">عرض</span>
+                        </a>
                     </div>
 
                     <div class="cert-card">
@@ -815,8 +879,10 @@
                             <small>2023</small>
                         </span>
 
-                        <a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view" target="_blank"
-                            class="en">View</a>
+                        <a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view" target="_blank" class="btn-outline" style="padding: 5px 15px; font-size: 0.85rem; border-radius: 15px;">
+                            <span class="en">View</span>
+                            <span class="ar hidden">عرض</span>
+                        </a>
                     </div>
 
                     <div class="cert-card">
@@ -834,8 +900,10 @@
                             <small>2022</small>
                         </span>
 
-                        <a href="https://drive.google.com/file/d/19l4Pc1FtbySo5GCFcxa-T9q_adMRsmFT/view" target="_blank"
-                            class="en">View</a>
+                        <a href="https://drive.google.com/file/d/19l4Pc1FtbySo5GCFcxa-T9q_adMRsmFT/view" target="_blank" class="btn-outline" style="padding: 5px 15px; font-size: 0.85rem; border-radius: 15px;">
+                            <span class="en">View</span>
+                            <span class="ar hidden">عرض</span>
+                        </a>
                     </div>
 
                     <div class="cert-card">
@@ -853,8 +921,10 @@
                             <small>2020</small>
                         </span>
 
-                        <a href="https://drive.google.com/file/d/1zlKThV118BnG0Zp20Q9IeyPy2rT9P8RP/view" target="_blank"
-                            class="en">View</a>
+                        <a href="https://drive.google.com/file/d/1zlKThV118BnG0Zp20Q9IeyPy2rT9P8RP/view" target="_blank" class="btn-outline" style="padding: 5px 15px; font-size: 0.85rem; border-radius: 15px;">
+                            <span class="en">View</span>
+                            <span class="ar hidden">عرض</span>
+                        </a>
                     </div>
 
                 </div>
@@ -874,6 +944,8 @@
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="scripts.js"></script>
     <script src="articles-manager.js"></script>
     <script>

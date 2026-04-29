@@ -1,13 +1,14 @@
 {
-    "id": "mks-cv-portfolio-app",
-    "name": "Eng. Mostafa Khalid Sallam - Portfolio",
-    "short_name": "MKS Portfolio",
-    "description": "Portfolio of Eng. Mostafa Khalid Sallam - Communications & Electronics Engineer",
-    "start_url": "/My-CV-Communications-Electronics-Engineer/index.html",
+    "id": "mks-tech-portfolio",
+    "name": "Eng. Mostafa Khalid Sallam | MKS.Tech",
+    "short_name": "MKS.Tech",
+    "description": "Premium Digital Portfolio of Mostafa Khalid Sallam - Communications & Electronics Engineer, AI Specialist, and Software Developer. Explore projects, certifications, and technical articles.",
+    "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#0F2027",
-    "theme_color": "#00D2D3",
-    "orientation": "any",
+    "background_color": "#02040f",
+    "theme_color": "#00ffff",
+    "orientation": "portrait-primary",
+    "scope": "./",
     "icons": [
         {
             "src": "assets/images/icon.png",
@@ -34,10 +35,60 @@
             "purpose": "maskable"
         }
     ],
-    "categories": ["portfolio", "education"],
+    "categories": [
+        "portfolio",
+        "education",
+        "productivity",
+        "business",
+        "developer"
+    ],
     "lang": "en",
     "dir": "ltr",
-    "scope": "/My-CV-Communications-Electronics-Engineer/",
-    "screenshots": [],
-    "prefer_related_applications": false
+    "screenshots": [
+        {
+            "src": "assets/images/splash_dark.png",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "MKS.Tech Home Screen - Dark Mode"
+        },
+        {
+            "src": "assets/images/splash_light.png",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "MKS.Tech Home Screen - Light Mode"
+        }
+    ],
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "View Projects",
+            "short_name": "Projects",
+            "description": "Explore my engineering and software projects",
+            "url": "./index.html?section=projects",
+            "icons": [{ "src": "assets/images/icon.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Certifications",
+            "short_name": "Certificates",
+            "description": "View my professional certifications and honors",
+            "url": "./index.html?section=certificates",
+            "icons": [{ "src": "assets/images/icon.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Read Articles",
+            "short_name": "Articles",
+            "description": "Read my latest technical and engineering articles",
+            "url": "./index.html?section=articles",
+            "icons": [{ "src": "assets/images/icon.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Contact Me",
+            "short_name": "Contact",
+            "description": "Connect with me professionally",
+            "url": "./index.html?section=contact",
+            "icons": [{ "src": "assets/images/icon.png", "sizes": "192x192" }]
+        }
+    ]
 }
