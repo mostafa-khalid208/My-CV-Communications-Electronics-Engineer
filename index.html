@@ -19,7 +19,7 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=1.1">
 </head>
 
 <body>
@@ -946,7 +946,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="scripts.js?v=1.1"></script>
     <script src="articles-manager.js"></script>
     <script>
         // Register Service Worker for PWA
@@ -955,10 +955,33 @@
                 navigator.serviceWorker.register('service-worker.js')
                     .then(registration => {
                         console.log('ServiceWorker registration successful');
+                        
+                        // Check for updates
+                        registration.onupdatefound = () => {
+                            const installingWorker = registration.installing;
+                            installingWorker.onstatechange = () => {
+                                if (installingWorker.state === 'installed') {
+                                    if (navigator.serviceWorker.controller) {
+                                        // New update available, force reload
+                                        console.log('New update found! Reloading...');
+                                        window.location.reload();
+                                    }
+                                }
+                            };
+                        };
                     })
                     .catch(err => {
                         console.log('ServiceWorker registration failed: ', err);
                     });
+            });
+
+            // Listen for the controlling service worker changing (on skipWaiting)
+            let refreshing = false;
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+                if (!refreshing) {
+                    window.location.reload();
+                    refreshing = true;
+                }
             });
         }
     </script>
