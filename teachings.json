@@ -658,6 +658,90 @@
     "ar": "<h3>المواضيع الرئيسية:</h3><ul><li>أجهزة الاستشعار والميكروكونترولر – ESP32، رطوبة التربة، مستوى المياه، DHT22، محرك DC، وحدة Relay، شاشة LCD 16*2</li><li>Firebase و FireStore – إنترنت الأشياء، السحابة، قاعدة البيانات، الاستضافة، المصادقة</li><li>تجربة كاملة للذكاء الاصطناعي داخل التطبيق – الدردشة مع AI، تحديد أمراض النباتات باستخدام الذكاء الاصطناعي (Gemini AI)</li><li>تجربة كاملة لتطبيق الهاتف – إنشاء حساب وتسجيل الدخول، مراقبة المستشعرات، دردشة وصور AI، السحابة، قاعدة البيانات، تطبيق الهاتف باستخدام Flutter و FlutterFlow</li><li>نظام الري الذكي – التطبيق العملي النهائي</li><li>إنشاء وتسجيل الدخول – المصادقة، الوضع الليلي والنهاري، اللغتين العربية والإنجليزية</li></ul><br><h3>شاهد الفيديو</h3><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/DmjhwGzqkdA\" title=\"تجربة كاملة لتطبيق الهاتف\" frameborder=\"0\" allowfullscreen></iframe>"
   }
 },
+  {
+    "id": 40,
+    "type": "coupon",
+    "couponType": "free",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/tgWPffmC/708090358-122171632748739423-7863800716095305899-n.jpg",
+    "couponCode": "FREE_MAY_2026",
+    "validUntil": "31-05-2026",
+    "spotsLeft": "100",
+    "price": {
+      "current": "Free",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?couponCode=FREE_MAY_2026",
+    "tags": ["#Free", "#Udemy", "#Telecommunications", "#Engineering"],
+    "title": {
+      "en": "Introduction to Telecommunications - 100 Free Coupons 🎁",
+      "ar": "مقدمة في الاتصالات - 100 كوبون مجاني 🎁"
+    },
+    "summary": {
+      "en": "Get full FREE access to Introduction to Telecommunications for a limited time with 100 free coupons available.",
+      "ar": "احصل على وصول مجاني كامل لكورس مقدمة في الاتصالات لفترة محدودة مع 100 كوبون مجاني متاح."
+    },
+    "description": {
+      "en": "<h3>🚀 Course Highlights & Services:</h3><ul><li>🌐 <b>Telecommunications Basics:</b> Learn telecom systems and network evolution.</li><li>📡 <b>Signals & Systems:</b> Study analog & digital signals with Time & Frequency domains.</li><li>📊 <b>Mathematical Transformations:</b> Fourier, Laplace & Z-Transform explained clearly.</li><li>🎙️ <b>Modulation Techniques:</b> AM, FM, PM, ASK, FSK, PSK & QAM.</li><li>🛰️ <b>Optical & Satellite Communications:</b> Fiber optics and satellite systems fundamentals.</li><li>📚 <b>Premium Content:</b> 13 Hours • 42 Lectures • Downloadable Resources.</li></ul><p>✨ Use code <strong>FREE_MAY_2026</strong>. ⚠️ Valid for 30 days only for 100 students! 🔥</p>",
+      "ar": "<h3>🚀 أهم محتويات ومميزات الكورس:</h3><ul><li>🌐 <b>أساسيات الاتصالات:</b> تعلم أنظمة الاتصالات وتطور الشبكات.</li><li>📡 <b>الإشارات والأنظمة:</b> دراسة الإشارات التماثلية والرقمية ونطاقي الزمن والتردد.</li><li>📊 <b>التحويلات الرياضية:</b> شرح Fourier و Laplace و Z-Transform.</li><li>🎙️ <b>تقنيات التضمين:</b> تعلم AM و FM و PM و ASK و FSK و PSK و QAM.</li><li>🛰️ <b>الاتصالات الضوئية والفضائية:</b> أساسيات الألياف البصرية وأنظمة الأقمار الصناعية.</li><li>📚 <b>محتوى احترافي:</b> 13 ساعة • 42 محاضرة • موارد قابلة للتنزيل.</li></ul><p>✨ استخدم الكود <strong>FREE_MAY_2026</strong> عند التسجيل. ⚠️ العرض متاح لـ 100 طالب لمدة 30 يوم فقط! 🔥</p>"
+    }
+  },
+  {
+    "id": 39,
+    "type": "coupon",
+    "couponType": "free",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/tgWPffmC/708090358-122171632748739423-7863800716095305899-n.jpg",
+    "couponCode": "FREE_MAY_2026",
+    "validUntil": "31-05-2026",
+    "spotsLeft": "100",
+    "price": {
+      "current": "Free",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/signals-systems-101mastering-signal-processingconversion/?couponCode=FREE_MAY_2026",
+    "tags": ["#Free", "#Udemy", "#SignalsAndSystems", "#SignalProcessing"],
+    "title": {
+      "en": "Signals & Systems 101 - 100 Free Coupons 🎁",
+      "ar": "الإشارات والأنظمة 101 - 100 كوبون مجاني 🎁"
+    },
+    "summary": {
+      "en": "Master signal processing, ADC, DAC, PCM and systems analysis completely FREE for a limited time.",
+      "ar": "أتقن معالجة الإشارات و ADC و DAC و PCM وتحليل الأنظمة مجاناً بالكامل لفترة محدودة."
+    },
+    "description": {
+      "en": "<h3>🚀 Course Highlights & Services:</h3><ul><li>📈 <b>Signal Classification:</b> Continuous & discrete signal analysis.</li><li>🔄 <b>Signal Operations:</b> Shifting, Scaling & transformations.</li><li>⚙️ <b>LTI Systems:</b> Convolution and systems properties.</li><li>💻 <b>ADC & DAC:</b> Complete Analog-to-Digital Conversion journey.</li><li>📡 <b>Digital Signal Processing:</b> PAM, PCM, Quantization & Encoding.</li><li>📚 <b>Professional Training:</b> 10 Hours • 31 Lectures • Downloadable Resources.</li></ul><p>✨ Use code <strong>FREE_MAY_2026</strong>. ⚠️ Valid for 30 days only for 100 students! 🔥</p>",
+      "ar": "<h3>🚀 أهم محتويات ومميزات الكورس:</h3><ul><li>📈 <b>تصنيف الإشارات:</b> تحليل الإشارات المستمرة والمتقطعة.</li><li>🔄 <b>عمليات الإشارات:</b> الإزاحة والتحجيم والتحويلات المختلفة.</li><li>⚙️ <b>أنظمة LTI:</b> فهم الالتفاف وخصائص الأنظمة.</li><li>💻 <b>أنظمة ADC و DAC:</b> دراسة التحويل من التماثلي إلى الرقمي.</li><li>📡 <b>معالجة الإشارات الرقمية:</b> تعلم PAM و PCM والتكميم والترميز.</li><li>📚 <b>تدريب احترافي:</b> 10 ساعات • 31 محاضرة • موارد قابلة للتنزيل.</li></ul><p>✨ استخدم الكود <strong>FREE_MAY_2026</strong> عند التسجيل. ⚠️ العرض متاح لـ 100 طالب لمدة 30 يوم فقط! 🔥</p>"
+    }
+  },
+  {
+    "id": 38,
+    "type": "coupon",
+    "couponType": "free",
+    "platform": "udemy",
+    "image": "https://i.postimg.cc/tgWPffmC/708090358-122171632748739423-7863800716095305899-n.jpg",
+    "couponCode": "FREE_MAY_2026",
+    "validUntil": "31-05-2026",
+    "spotsLeft": "100",
+    "price": {
+      "current": "Free",
+      "original": "Paid"
+    },
+    "link": "https://www.udemy.com/course/telecommunications-101-from-signals-to-optical-satellites/?couponCode=FREE_MAY_2026",
+    "tags": ["#Free", "#Udemy", "#SatelliteCommunication", "#FiberOptics"],
+    "title": {
+      "en": "Telecommunications 101 - 100 Free Coupons 🎁",
+      "ar": "الاتصالات 101 - 100 كوبون مجاني 🎁"
+    },
+    "summary": {
+      "en": "Learn advanced telecommunications, optical fibers and satellite communication systems for FREE.",
+      "ar": "تعلم الاتصالات المتقدمة والألياف البصرية وأنظمة الاتصالات الفضائية مجاناً بالكامل."
+    },
+    "description": {
+      "en": "<h3>🚀 Course Highlights & Services:</h3><ul><li>📡 <b>Modern Telecommunications:</b> Connect theory with real telecom applications.</li><li>📊 <b>Mathematical Analysis:</b> Fourier, Laplace & Z-Transform techniques.</li><li>💡 <b>Advanced Modulation:</b> Modern digital communication methods.</li><li>🌐 <b>Optical Fiber Systems:</b> Fiber medium, propagation & components.</li><li>🛰️ <b>Satellite Communications:</b> Satellite systems, frequencies & error correction.</li><li>📚 <b>Comprehensive Learning:</b> 8 Hours • 26 Lectures • Downloadable Resources.</li></ul><p>✨ Use code <strong>FREE_MAY_2026</strong>. ⚠️ Valid for 30 days only for 100 students! 🔥</p>",
+      "ar": "<h3>🚀 أهم محتويات ومميزات الكورس:</h3><ul><li>📡 <b>الاتصالات الحديثة:</b> الربط بين النظريات والتطبيقات العملية.</li><li>📊 <b>التحليل الرياضي:</b> تقنيات Fourier و Laplace و Z-Transform.</li><li>💡 <b>التضمين المتقدم:</b> أحدث طرق الاتصالات الرقمية.</li><li>🌐 <b>أنظمة الألياف البصرية:</b> دراسة الوسط الضوئي ومكوناته.</li><li>🛰️ <b>الاتصالات الفضائية:</b> أنظمة الأقمار الصناعية وتصحيح الأخطاء.</li><li>📚 <b>تعلم شامل:</b> 8 ساعات • 26 محاضرة • موارد قابلة للتنزيل.</li></ul><p>✨ استخدم الكود <strong>FREE_MAY_2026</strong> عند التسجيل. ⚠️ العرض متاح لـ 100 طالب لمدة 30 يوم فقط! 🔥</p>"
+    }
+  },
 {
   "id": 35,
   "type": "coupon",
