@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=articles/">
-    <script>window.location.href = 'articles/';</script>
+    <meta charset="UTF-8">
+    <title>Redirecting to Article...</title>
+    <script>
+        window.location.replace('articles/' + window.location.search);
+    </script>
 </head>
 <body>
     <p>Redirecting to <a href="articles/">articles/</a>...</p>

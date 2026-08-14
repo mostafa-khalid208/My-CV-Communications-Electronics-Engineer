@@ -1,5 +1,5 @@
 /**
- * Teaching Details Manager - Updated with Print & Share + Fallback Image + Price for Coupons
+ * Teaching Details Manager - Updated with Rich Previews, Dynamic Meta, and Fallback Image
  */
 
 window.currentTeachingData = null;
@@ -26,14 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadTeaching(id) {
     try {
-        // Add cache-busting to always get the latest teachings.json
-        const cacheBuster = `?v=${Date.now()}`;
         let response;
         try {
-            response = await fetch(`teachings.json${cacheBuster}`, { cache: 'no-store' });
+            response = await fetch('teachings.json?v=2.0');
             if (!response.ok) throw new Error();
         } catch (e) {
-            response = await fetch(`../teachings.json${cacheBuster}`, { cache: 'no-store' });
+            response = await fetch('../teachings.json?v=2.0');
         }
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
@@ -44,6 +42,7 @@ async function loadTeaching(id) {
             window.currentTeachingData = teaching;
             const currentLang = localStorage.getItem('language') || 'en';
             renderTeachingDetails(currentLang);
+            updateTeachingMetaTags(teaching, currentLang);
         } else {
             showError("Teaching not found with ID: " + id);
         }
@@ -51,6 +50,42 @@ async function loadTeaching(id) {
         console.error("Error fetching teaching:", error);
         showError("Failed to load data.");
     }
+}
+
+function updateTeachingMetaTags(item, lang) {
+    const isAr = lang === 'ar';
+    let title = (isAr ? item.title.ar : item.title.en) || 'Teaching Details';
+    let summary = (isAr ? item.summary.ar : item.summary.en) || '';
+    
+    if (item.type === 'coupon' && item.couponCode) {
+        title = `${isAr ? '🎟️ كود خصم: ' : '🎟️ Coupon: '}${item.couponCode} - ${title}`;
+        summary = `${isAr ? 'الكود: ' : 'Code: '}${item.couponCode} | ${summary}`;
+    }
+
+    const image = (item.image && item.image !== '#') ? item.image : FALLBACK_TEACHING_IMAGE;
+    const url = window.location.href;
+
+    document.title = `${title} | MKS.Tech`;
+
+    const setMeta = (name, value, isProperty = false) => {
+        const attr = isProperty ? 'property' : 'name';
+        let meta = document.querySelector(`meta[${attr}="${name}"]`);
+        if (!meta) {
+            meta = document.createElement('meta');
+            meta.setAttribute(attr, name);
+            document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', value);
+    };
+
+    setMeta('description', summary);
+    setMeta('og:title', title, true);
+    setMeta('og:description', summary, true);
+    setMeta('og:image', image, true);
+    setMeta('og:url', url, true);
+    setMeta('twitter:title', title);
+    setMeta('twitter:description', summary);
+    setMeta('twitter:image', image);
 }
 
 function convertVideoLinksToEmbed(content) {
@@ -74,8 +109,7 @@ function convertVideoLinksToEmbed(content) {
         '<iframe src="https://player.vimeo.com/video/$1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>'
     );
 
-    // Udemy - Protect existing <a> tags, then convert bare URLs only
-    // Step 1: Protect existing <a href="...udemy...">...</a> tags
+    // Udemy
     const udemyProtected = [];
     content = content.replace(/<a\b[^>]*href\s*=\s*["'][^"']*udemy\.com[^"']*["'][^>]*>[\s\S]*?<\/a>/gi, (match) => {
         const ph = `___UDEMY_LINK_${udemyProtected.length}___`;
@@ -83,7 +117,6 @@ function convertVideoLinksToEmbed(content) {
         return ph;
     });
 
-    // Step 2: Convert bare Udemy URLs (not inside HTML attributes)
     content = content.replace(
         /(?:https?:\/\/)?(?:www\.)?udemy\.com\/course\/([^\s"'<>]+)/gi,
         (match) => {
@@ -92,7 +125,6 @@ function convertVideoLinksToEmbed(content) {
         }
     );
 
-    // Step 3: Restore protected links
     udemyProtected.forEach((original, i) => {
         content = content.replace(`___UDEMY_LINK_${i}___`, original);
     });
@@ -324,62 +356,79 @@ function renderTeachingDetails(lang) {
     if (btnAr) btnAr.classList.toggle('active-lang', isAr);
 }
 
+// === Canonical Share URL ===
+function getCanonicalShareUrl() {
+    if (!window.currentTeachingData) return window.location.href;
+    const origin = window.location.origin;
+    const path = window.location.pathname.replace(/\/teaching-details\/?.*$/, '');
+    return `${origin}${path}/teaching-details/teaching-${window.currentTeachingData.id}.html`;
+}
+
 // === Share Functions ===
-function shareOnFacebook() {
-    const url = encodeURIComponent(window.location.href);
+window.shareOnFacebook = function() {
+    const url = encodeURIComponent(getCanonicalShareUrl());
     window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
-}
+};
 
-function shareOnTwitter() {
-    const url = encodeURIComponent(window.location.href);
-    const title = encodeURIComponent(document.getElementById('detail-title').innerText);
-    window.open(`https://twitter.com/intent/tweet?url=${url}&text=${title}`, '_blank', 'width=600,height=400');
-}
+window.shareOnTwitter = function() {
+    const url = encodeURIComponent(getCanonicalShareUrl());
+    const data = window.currentTeachingData;
+    const isAr = localStorage.getItem('language') === 'ar';
+    let title = data ? (isAr ? data.title.ar : data.title.en) : document.title;
+    if (data?.type === 'coupon' && data?.couponCode) {
+        title = `🎟️ ${data.couponCode}: ${title}`;
+    }
+    window.open(`https://twitter.com/intent/tweet?url=${url}&text=${encodeURIComponent(title)}`, '_blank', 'width=600,height=400');
+};
 
-function shareOnWhatsApp() {
-    const url = encodeURIComponent(window.location.href);
-    const title = encodeURIComponent(document.getElementById('detail-title').innerText);
-    window.open(`https://wa.me/?text=${title}%20${url}`, '_blank');
-}
+window.shareOnWhatsApp = function() {
+    const url = encodeURIComponent(getCanonicalShareUrl());
+    const data = window.currentTeachingData;
+    const isAr = localStorage.getItem('language') === 'ar';
+    let title = data ? (isAr ? data.title.ar : data.title.en) : document.title;
+    if (data?.type === 'coupon' && data?.couponCode) {
+        title = `🎟️ ${data.couponCode}: ${title}`;
+    }
+    window.open(`https://wa.me/?text=${encodeURIComponent(title)}%20${url}`, '_blank');
+};
 
-function copyLink() {
-    const url = window.location.href;
+window.copyLink = function() {
+    const shareUrl = getCanonicalShareUrl();
+    const data = window.currentTeachingData;
+    const isAr = localStorage.getItem('language') === 'ar';
+    let title = data ? (isAr ? data.title.ar : data.title.en) : document.title;
+    let summary = data ? (isAr ? data.summary.ar : data.summary.en) : '';
+
+    if (data?.type === 'coupon' && data?.couponCode) {
+        title = `${isAr ? '🎟️ كود خصم: ' : '🎟️ Coupon: '}${data.couponCode} - ${title}`;
+        summary = `${isAr ? 'كود الكوبون: ' : 'Coupon Code: '}${data.couponCode} | ${summary}`;
+    }
+
+    const image = data?.image || FALLBACK_TEACHING_IMAGE;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(() => {
-            alert('✅ Link copied! / تم نسخ الرابط!');
-        }).catch(err => {
-            fallbackCopyTextToClipboard(url);
+        navigator.clipboard.writeText(shareUrl).catch(() => {});
+    }
+
+    if (typeof window.showRichShareToast === 'function') {
+        window.showRichShareToast({
+            title: title,
+            summary: summary,
+            image: image,
+            url: shareUrl
         });
     } else {
-        fallbackCopyTextToClipboard(url);
+        alert(isAr ? '✅ تم نسخ الرابط بنجاح!' : '✅ Link copied!');
     }
-}
-
-function fallbackCopyTextToClipboard(text) {
-    const textArea = document.createElement("textarea");
-    textArea.value = text;
-    textArea.style.position = "fixed";
-    textArea.style.top = "-9999px";
-    textArea.style.left = "-9999px";
-    document.body.appendChild(textArea);
-    textArea.focus();
-    textArea.select();
-
-    try {
-        document.execCommand('copy');
-        alert('✅ Link copied! / تم نسخ الرابط!');
-    } catch (err) {
-        alert('❌ Failed to copy / فشل النسخ');
-    }
-
-    document.body.removeChild(textArea);
-}
+};
 
 // Global functions
 window.changeLanguage = function (lang) {
     localStorage.setItem('language', lang);
-    renderTeachingDetails(lang);
+    if (window.currentTeachingData) {
+        renderTeachingDetails(lang);
+        updateTeachingMetaTags(window.currentTeachingData, lang);
+    }
 };
 
 window.toggleTheme = function () {

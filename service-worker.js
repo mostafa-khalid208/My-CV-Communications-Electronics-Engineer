@@ -1,14 +1,22 @@
 /**
- * MKS Portfolio - Service Worker
- * Enables PWA features and offline caching
- * Strategy:
- *   - HTML, JS, CSS, JSON → Network First (always get latest updates)
- *   - Images, Fonts, CDNs  → Cache First  (rarely change, safe to cache)
+ * MKS Portfolio - Service Worker v8
+ * Enables PWA features and offline caching with smooth background updates
  */
 
-const CACHE_NAME = 'mks-portfolio-v7';
+const CACHE_NAME = 'mks-portfolio-v8';
 
-// Images & static assets → Cache First (rarely change)
+// Static assets to pre-cache
+const PRECACHE_ASSETS = [
+    './',
+    './index.html',
+    './styles.css',
+    './scripts.js',
+    './articles-manager.js',
+    './articles-summary.json',
+    './assets/images/icon.png'
+];
+
+// Images & static assets patterns
 const CACHE_FIRST_PATTERNS = [
     /\.(png|jpg|jpeg|gif|svg|ico|webp)$/i,
     /\.(woff|woff2|ttf|eot)$/i,
@@ -20,38 +28,23 @@ const CACHE_FIRST_PATTERNS = [
 
 // Install event
 self.addEventListener('install', event => {
-    console.log('Service Worker: Installing...');
     event.waitUntil(
         caches.open(CACHE_NAME)
-            .then(cache => {
-                console.log('Service Worker: Install complete');
-                return cache.addAll([
-                    '/',
-                    '/index.html',
-                    '/assets/images/icon.png'
-                ]).catch(() => {});
-            })
+            .then(cache => cache.addAll(PRECACHE_ASSETS).catch(() => {}))
     );
     self.skipWaiting();
 });
 
 // Activate event - clean up old caches
 self.addEventListener('activate', event => {
-    console.log('Service Worker: Activating...');
     event.waitUntil(
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames
                     .filter(name => name !== CACHE_NAME)
-                    .map(name => {
-                        console.log('Service Worker: Deleting old cache', name);
-                        return caches.delete(name);
-                    })
+                    .map(name => caches.delete(name))
             );
-        }).then(() => {
-            console.log('Service Worker: Activate complete');
-            return self.clients.claim();
-        })
+        }).then(() => self.clients.claim())
     );
 });
 
@@ -69,7 +62,7 @@ self.addEventListener('fetch', event => {
             caches.match(request).then(cached => {
                 if (cached) return cached;
                 return fetch(request).then(response => {
-                    if (response.ok) {
+                    if (response && response.ok) {
                         const clone = response.clone();
                         caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
                     }
@@ -80,24 +73,21 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // HTML, JS, CSS, JSON, and everything else → Network First
-    // Always try network first to get latest updates when online
+    // HTML, JS, CSS, JSON → Stale-While-Revalidate / Network First
     event.respondWith(
         fetch(request)
             .then(response => {
-                if (response.ok) {
+                if (response && response.ok) {
                     const clone = response.clone();
                     caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
                 }
                 return response;
             })
             .catch(() => {
-                // Network failed → serve from cache as offline fallback
                 return caches.match(request).then(cached => {
                     if (cached) return cached;
-                    // Last resort: return index.html for navigation requests
                     if (request.mode === 'navigate') {
-                        return caches.match('/index.html');
+                        return caches.match('./index.html') || caches.match('/');
                     }
                     return new Response('Offline', { status: 503 });
                 });

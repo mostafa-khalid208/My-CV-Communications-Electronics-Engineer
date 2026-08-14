@@ -197,42 +197,40 @@ function updateThemeIcon(isDark) {
 
 /* === Enhanced Navigation Logic === */
 function showSection(sectionId) {
-    // Hide all sections with staggered animation
+    // Hide all sections with clean active state
     const sections = document.querySelectorAll('.content-card');
-    sections.forEach((sec, index) => {
+    sections.forEach(sec => {
         sec.classList.add('hidden');
         sec.classList.remove('active-section');
     });
 
-    // Show target section with animation
+    // Show target section with hardware-accelerated animation
     const target = document.getElementById(sectionId);
     if (target) {
         target.classList.remove('hidden');
         target.classList.add('active-section');
-        
-        // Trigger Animation refresh after a short delay
-        setTimeout(() => {
-            AOS.refresh();
-        }, 100);
     }
 
-    // Update Sidebar Active State
+    // Update Sidebar Active State for both EN and AR links
     document.querySelectorAll('.nav-links a').forEach(link => {
-        link.classList.remove('active');
+        const onclickAttr = link.getAttribute('onclick') || '';
+        if (onclickAttr.includes(`'${sectionId}'`) || onclickAttr.includes(`"${sectionId}"`)) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
     });
-
-    // Highlight current link
-    if (event && event.currentTarget) {
-        event.currentTarget.classList.add('active');
-    }
 
     // Close mobile menu if open
     const sidebar = document.getElementById('sidebar');
-    if (sidebar) {
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    if (sidebar && sidebar.classList.contains('active-mobile')) {
         sidebar.classList.remove('active-mobile');
+        if (menuBtn) menuBtn.classList.remove('active');
+        document.body.style.overflow = '';
     }
 
-    // Smooth Scroll to top
+    // Scroll to top
     window.scrollTo({ 
         top: 0, 
         behavior: 'smooth' 
@@ -261,7 +259,6 @@ function enableSecurity() {
 
     // Disable Keyboard Shortcuts for Inspector
     document.addEventListener('keydown', (e) => {
-        // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
         if (
             e.key === 'F12' ||
             (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) ||
@@ -277,9 +274,6 @@ function enableSecurity() {
             e.preventDefault();
         }
     });
-
-    // Disable text selection for security (optional - can be commented out)
-    // document.body.style.userSelect = 'none';
 }
 
 /* === Global Click Listener for Clean URLs === */
@@ -301,12 +295,17 @@ window.addEventListener('scroll', () => {
             scrollToTopBtn.style.display = 'none';
         }
     }
-});
+}, { passive: true });
 
-/* === Futuristic Background & Animations === */
+/* === Futuristic Background & Optimized Three.js Animations === */
 document.addEventListener('DOMContentLoaded', () => {
     initThreeJsBackground();
     initFuturisticAnimations();
+});
+
+let isPageVisible = true;
+document.addEventListener('visibilitychange', () => {
+    isPageVisible = !document.hidden;
 });
 
 function initThreeJsBackground() {
@@ -315,19 +314,25 @@ function initThreeJsBackground() {
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+    const renderer = new THREE.WebGLRenderer({ 
+        alpha: true, 
+        antialias: false,
+        powerPreference: 'low-power',
+        precision: 'mediump'
+    });
     
+    const pixelRatio = Math.min(window.devicePixelRatio || 1, 1.5);
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setPixelRatio(pixelRatio);
     container.appendChild(renderer.domElement);
 
     const isLightMode = localStorage.getItem('theme') !== 'dark' && !document.body.classList.contains('dark');
-    const particleColor = isLightMode ? 0x0066cc : 0x00d4d4;
+    const particleColor = isLightMode ? 0xb8860b : 0xd4af37;
 
     const particlesGeometry = new THREE.BufferGeometry();
-    let particlesCount = 1200;
-    if (window.innerWidth < 480) particlesCount = 300;
-    else if (window.innerWidth < 768) particlesCount = 600;
+    let particlesCount = 350;
+    if (window.innerWidth < 480) particlesCount = 120;
+    else if (window.innerWidth < 768) particlesCount = 200;
     
     const posArray = new Float32Array(particlesCount * 3);
 
@@ -338,10 +343,10 @@ function initThreeJsBackground() {
     particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
 
     const particlesMaterial = new THREE.PointsMaterial({
-        size: 0.02,
+        size: 0.025,
         color: particleColor,
         transparent: true,
-        opacity: 0.6,
+        opacity: isLightMode ? 0.22 : 0.55,
         blending: THREE.AdditiveBlending
     });
 
@@ -354,72 +359,157 @@ function initThreeJsBackground() {
     let mouseY = 0;
     let targetX = 0;
     let targetY = 0;
+    let animationFrameId = null;
 
-    document.addEventListener('mousemove', (event) => {
-        mouseX = (event.clientX - window.innerWidth / 2) * 0.001;
-        mouseY = (event.clientY - window.innerHeight / 2) * 0.001;
-    });
+    window.addEventListener('mousemove', (event) => {
+        mouseX = (event.clientX - window.innerWidth / 2) * 0.0005;
+        mouseY = (event.clientY - window.innerHeight / 2) * 0.0005;
+    }, { passive: true });
 
     // Handle theme toggle particle color updates
     const observer = new MutationObserver(() => {
         const light = !document.body.classList.contains('dark');
-        particlesMaterial.color.setHex(light ? 0x0066cc : 0x00d4d4);
+        particlesMaterial.color.setHex(light ? 0xb8860b : 0xd4af37);
+        particlesMaterial.opacity = light ? 0.22 : 0.55;
     });
     observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
 
     function animate() {
-        requestAnimationFrame(animate);
+        animationFrameId = requestAnimationFrame(animate);
+        
+        // Pause WebGL calculations if tab is inactive
+        if (!isPageVisible) return;
+
         targetX = mouseX * 0.5;
         targetY = mouseY * 0.5;
         
-        particlesMesh.rotation.y += 0.001;
-        particlesMesh.rotation.x += 0.001;
+        particlesMesh.rotation.y += 0.0008;
+        particlesMesh.rotation.x += 0.0005;
         
-        particlesMesh.rotation.y += 0.05 * (targetX - particlesMesh.rotation.y);
-        particlesMesh.rotation.x += 0.05 * (targetY - particlesMesh.rotation.x);
+        particlesMesh.rotation.y += 0.03 * (targetX - particlesMesh.rotation.y);
+        particlesMesh.rotation.x += 0.03 * (targetY - particlesMesh.rotation.x);
         
         renderer.render(scene, camera);
     }
 
     animate();
 
+    let resizeTimeout;
     window.addEventListener('resize', () => {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-    });
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }, 150);
+    }, { passive: true });
 }
 
 function initFuturisticAnimations() {
     if(typeof gsap === 'undefined') return;
     
-    // Add magnetic effect to specific icons and buttons
-    const magneticElements = document.querySelectorAll('.icon-btn, .contact-item i, .cert-card i');
-    
-    magneticElements.forEach(elem => {
-        elem.addEventListener('mousemove', (e) => {
-            const rect = elem.getBoundingClientRect();
-            const x = e.clientX - rect.left - rect.width / 2;
-            const y = e.clientY - rect.top - rect.height / 2;
-            
-            gsap.to(elem, {
-                x: x * 0.3,
-                y: y * 0.3,
-                duration: 0.3,
-                ease: 'power2.out'
-            });
-        });
+    // Add magnetic effect to desktop only
+    if (window.innerWidth > 768) {
+        const magneticElements = document.querySelectorAll('.icon-btn, .contact-item i, .cert-card i');
         
-        elem.addEventListener('mouseleave', () => {
-            gsap.to(elem, {
-                x: 0,
-                y: 0,
-                duration: 0.5,
-                ease: 'elastic.out(1, 0.3)'
-            });
+        magneticElements.forEach(elem => {
+            elem.addEventListener('mousemove', (e) => {
+                const rect = elem.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width / 2;
+                const y = e.clientY - rect.top - rect.height / 2;
+                
+                gsap.to(elem, {
+                    x: x * 0.2,
+                    y: y * 0.2,
+                    duration: 0.3,
+                    ease: 'power2.out'
+                });
+            }, { passive: true });
+            
+            elem.addEventListener('mouseleave', () => {
+                gsap.to(elem, {
+                    x: 0,
+                    y: 0,
+                    duration: 0.4,
+                    ease: 'power2.out'
+                });
+            }, { passive: true });
         });
-    });
+    }
 }
+
+/* === Global Rich Share Preview Toast Notification === */
+window.showRichShareToast = function({ title, summary, image, url }) {
+    const existing = document.getElementById('global-share-toast');
+    if (existing) existing.remove();
+
+    const isAr = localStorage.getItem('language') === 'ar';
+    const badgeText = isAr ? 'تم نسخ الرابط والمعلومات!' : 'Link & Info Copied!';
+    const openText = isAr ? 'فتح الرابط' : 'Open Link';
+    const shareText = isAr ? 'مشاركة' : 'Share';
+
+    const cleanTitle = title || (isAr ? 'منشور من MKS.Tech' : 'Post from MKS.Tech');
+    const cleanSummary = summary || '';
+    const cleanImage = image && image !== '#' ? image : 'https://i.postimg.cc/bJjPN3Y3/IMG_20251124_054956_985.png';
+    const cleanUrl = url || window.location.href;
+
+    const toast = document.createElement('div');
+    toast.id = 'global-share-toast';
+    toast.className = 'share-toast-overlay';
+    toast.innerHTML = `
+        <div class="share-toast-card">
+            <div class="share-toast-header">
+                <span class="share-toast-badge"><i class="fas fa-check-circle"></i> ${badgeText}</span>
+                <button class="share-toast-close" onclick="this.closest('.share-toast-overlay').remove()"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="share-toast-content">
+                <img src="${cleanImage}" alt="thumb" class="share-toast-img" onerror="this.src='https://i.postimg.cc/bJjPN3Y3/IMG_20251124_054956_985.png'">
+                <div class="share-toast-text">
+                    <div class="share-toast-title">${cleanTitle}</div>
+                    <div class="share-toast-desc">${cleanSummary}</div>
+                </div>
+            </div>
+            <div class="share-toast-actions">
+                <button class="share-toast-btn" onclick="window.triggerNativeShare('${encodeURIComponent(cleanTitle)}', '${encodeURIComponent(cleanSummary)}', '${encodeURIComponent(cleanUrl)}')">
+                    <i class="fas fa-share-alt"></i> ${shareText}
+                </button>
+                <a href="${cleanUrl}" class="share-toast-btn" target="_blank" style="text-decoration:none;">
+                    <i class="fas fa-external-link-alt"></i> ${openText}
+                </a>
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        if (toast && toast.parentNode) {
+            toast.style.opacity = '0';
+            toast.style.transform = 'translateY(20px)';
+            setTimeout(() => toast.remove(), 300);
+        }
+    }, 4500);
+};
+
+/* === Native Web Share Helper === */
+window.triggerNativeShare = function(encTitle, encSummary, encUrl) {
+    const title = decodeURIComponent(encTitle);
+    const summary = decodeURIComponent(encSummary);
+    const url = decodeURIComponent(encUrl);
+
+    if (navigator.share) {
+        navigator.share({
+            title: title,
+            text: `${title}\n${summary}`,
+            url: url
+        }).catch(() => {});
+    } else {
+        const textToCopy = `${title}\n${summary}\n${url}`;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(textToCopy);
+        }
+    }
+};
 
 /* === Holographic Data Vault for PDFs and Links === */
 document.addEventListener('DOMContentLoaded', () => {

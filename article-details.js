@@ -1,5 +1,5 @@
 /**
- * Article Details Manager - Updated with Fallback Image and MathJax Support
+ * Article Details Manager - Rich Sharing, Dynamic Meta, and High Performance
  */
 
 window.currentArticleData = null;
@@ -39,14 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function loadArticle(id) {
     try {
-        // Try fetching from root or parent with cache-busting
-        const cacheBuster = `?v=${Date.now()}`;
         let response;
         try {
-            response = await fetch(`articles.json${cacheBuster}`, { cache: 'no-store' });
+            response = await fetch('articles.json?v=2.0');
             if (!response.ok) throw new Error();
         } catch (e) {
-            response = await fetch(`../articles.json${cacheBuster}`, { cache: 'no-store' });
+            response = await fetch('../articles.json?v=2.0');
         }
 
         if (!response.ok) {
@@ -61,6 +59,7 @@ async function loadArticle(id) {
             window.currentArticleData = article;
             const currentLang = localStorage.getItem('language') || 'en';
             renderArticleContent(currentLang);
+            updateArticleMetaTags(article, currentLang);
         } else {
             setTimeout(() => {
                 if (!isArticleLoaded) {
@@ -77,6 +76,36 @@ async function loadArticle(id) {
             }
         }, 500);
     }
+}
+
+function updateArticleMetaTags(article, lang) {
+    const isAr = lang === 'ar';
+    const title = (isAr ? article.title.ar : article.title.en) || 'Article Details';
+    const summary = (isAr ? article.summary.ar : article.summary.en) || '';
+    const image = (article.image && article.image !== '#') ? article.image : FALLBACK_ARTICLE_IMAGE;
+    const url = window.location.href;
+
+    document.title = `${title} | MKS.Tech`;
+
+    const setMeta = (name, value, isProperty = false) => {
+        const attr = isProperty ? 'property' : 'name';
+        let meta = document.querySelector(`meta[${attr}="${name}"]`);
+        if (!meta) {
+            meta = document.createElement('meta');
+            meta.setAttribute(attr, name);
+            document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', value);
+    };
+
+    setMeta('description', summary);
+    setMeta('og:title', title, true);
+    setMeta('og:description', summary, true);
+    setMeta('og:image', image, true);
+    setMeta('og:url', url, true);
+    setMeta('twitter:title', title);
+    setMeta('twitter:description', summary);
+    setMeta('twitter:image', image);
 }
 
 function convertVideoLinksToEmbed(content) {
@@ -135,7 +164,6 @@ function convertVideoLinksToEmbed(content) {
     );
 
     // Udemy - Protect existing <a> tags, then convert bare URLs only
-    // Step 1: Protect existing <a href="...udemy...">...</a> tags
     const udemyProtected = [];
     content = content.replace(/<a\b[^>]*href\s*=\s*["'][^"']*udemy\.com[^"']*["'][^>]*>[\s\S]*?<\/a>/gi, (match) => {
         const ph = `___UDEMY_LINK_${udemyProtected.length}___`;
@@ -143,7 +171,6 @@ function convertVideoLinksToEmbed(content) {
         return ph;
     });
 
-    // Step 2: Convert bare Udemy URLs (not inside HTML attributes)
     content = content.replace(
         /(?:https?:\/\/)?(?:www\.)?udemy\.com\/course\/([^\s"'<>]+)/gi,
         (match) => {
@@ -152,7 +179,6 @@ function convertVideoLinksToEmbed(content) {
         }
     );
 
-    // Step 3: Restore protected links
     udemyProtected.forEach((original, i) => {
         content = content.replace(`___UDEMY_LINK_${i}___`, original);
     });
@@ -189,23 +215,23 @@ function renderArticleContent(lang) {
     if (titleEl) titleEl.innerText = isAr ? data.title.ar : data.title.en;
 
     if (dateEl) {
-        dateEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${data.date}`;
+        dateEl.innerHTML = `<i class="far fa-calendar-alt"></i> ${data.date || ''}`;
     }
 
     if (catEl) {
-        catEl.innerText = data.category.toUpperCase();
+        catEl.innerText = (data.category || '').toUpperCase();
     }
 
     if (bodyContainer) {
-        let content = isAr ? (data.content?.ar || data.summary.ar) : (data.content?.en || data.summary.en);
+        let content = isAr ? (data.content?.ar || data.summary?.ar || '') : (data.content?.en || data.summary?.en || '');
         content = convertVideoLinksToEmbed(content);
         bodyContainer.innerHTML = content;
         bodyContainer.style.direction = isAr ? 'rtl' : 'ltr';
         bodyContainer.style.textAlign = isAr ? 'right' : 'left';
         bodyContainer.style.fontFamily = isAr ? "'Cairo', sans-serif" : "'Poppins', sans-serif";
         
-        // Trigger MathJax to render equations after content is loaded
-        if (typeof MathJax !== 'undefined') {
+        // Trigger MathJax to render equations if present
+        if (typeof MathJax !== 'undefined' && MathJax.typesetPromise) {
             MathJax.typesetPromise([bodyContainer]).catch((err) => {
                 console.error('MathJax rendering error:', err);
             });
@@ -213,7 +239,7 @@ function renderArticleContent(lang) {
     }
 
     if (tagsContainer) {
-        tagsContainer.innerHTML = data.tags.map(t => `<span class="hashtag">${t}</span>`).join(' ');
+        tagsContainer.innerHTML = (data.tags || []).map(t => `<span class="hashtag">#${t}</span>`).join(' ');
     }
 
     document.body.dir = isAr ? 'rtl' : 'ltr';
@@ -227,6 +253,63 @@ function renderArticleContent(lang) {
     if (btnEn) btnEn.classList.toggle('active-lang', !isAr);
     if (btnAr) btnAr.classList.toggle('active-lang', isAr);
 }
+
+/* === Sharing & Link Copying Helpers === */
+function getCanonicalShareUrl() {
+    if (!window.currentArticleData) return window.location.href;
+    const origin = window.location.origin;
+    const path = window.location.pathname.replace(/\/articles\/?.*$/, '');
+    return `${origin}${path}/articles/article-${window.currentArticleData.id}.html`;
+}
+
+window.printArticle = function() {
+    window.print();
+};
+
+window.shareOnFacebook = function() {
+    const url = encodeURIComponent(getCanonicalShareUrl());
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
+};
+
+window.shareOnTwitter = function() {
+    const url = encodeURIComponent(getCanonicalShareUrl());
+    const data = window.currentArticleData;
+    const isAr = localStorage.getItem('language') === 'ar';
+    const title = encodeURIComponent(data ? (isAr ? data.title.ar : data.title.en) : document.title);
+    window.open(`https://twitter.com/intent/tweet?url=${url}&text=${title}`, '_blank', 'width=600,height=400');
+};
+
+window.shareOnWhatsApp = function() {
+    const url = encodeURIComponent(getCanonicalShareUrl());
+    const data = window.currentArticleData;
+    const isAr = localStorage.getItem('language') === 'ar';
+    const title = encodeURIComponent(data ? (isAr ? data.title.ar : data.title.en) : document.title);
+    window.open(`https://wa.me/?text=${title}%20${url}`, '_blank');
+};
+
+window.copyLink = function() {
+    const shareUrl = getCanonicalShareUrl();
+    const data = window.currentArticleData;
+    const isAr = localStorage.getItem('language') === 'ar';
+    const title = data ? (isAr ? data.title.ar : data.title.en) : document.title;
+    const summary = data ? (isAr ? data.summary.ar : data.summary.en) : '';
+    const image = data?.image || FALLBACK_ARTICLE_IMAGE;
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(shareUrl).catch(() => {});
+    }
+
+    if (typeof window.showRichShareToast === 'function') {
+        window.showRichShareToast({
+            title: title,
+            summary: summary,
+            image: image,
+            url: shareUrl
+        });
+    } else {
+        alert(isAr ? '✅ تم نسخ الرابط بنجاح!' : '✅ Link copied successfully!');
+    }
+};
 
 function hideLoading() {
     const loadingIndicator = document.getElementById('loading-indicator') || document.getElementById('loading');
@@ -281,10 +364,7 @@ window.changeLanguage = function (lang) {
     localStorage.setItem('language', lang);
     if (window.currentArticleData) {
         renderArticleContent(lang);
-    }
-
-    if (typeof window.updateGlobalUI === 'function') {
-        window.updateGlobalUI(lang);
+        updateArticleMetaTags(window.currentArticleData, lang);
     }
 };
 
