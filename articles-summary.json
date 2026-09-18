@@ -1,5 +1,423 @@
 [
   {
+    "id": 383,
+    "category": "microwaves",
+    "image": "https://i.postimg.cc/RFnj4CB6/795508041-3057332924598447-946257691580508780-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/1HpxJ25u5B/ | LinkedIn: https://lnkd.in/p/e_pi4ugC",
+    "date": "2026-09-17",
+    "tags": [
+      "هندسة_الاتصالات",
+      "شبكات_المحمول",
+      "مايكروويف",
+      "Telecom",
+      "MicrowaveLink",
+      "TelecomEngineering",
+      "Wireless",
+      "Huawei",
+      "OptiX"
+    ],
+    "title": {
+      "ar": "📡 شايف الطبق؟ تعرف بيعمل إيه وإزاي الـ Microwave Link بيوصل المواقع ببعض؟ 🛰️🌐",
+      "en": "📡 See That Dish? Do You Know What It Does and How Microwave Links Connect Cell Sites Together? 🛰️🌐"
+    },
+    "summary": {
+      "ar": "دليل هندسي شامل يشرح طريقة عمل وصلات المايكروويف (Microwave Link) لربط شبكات الاتصالات، ومكونات نظام الـ Split-Mount من ODU وIDU وDish وكابلات الـ IF، بالإضافة إلى شرح هندسة LOS وFresnel Zone ومفهوم RSL وكروت شاسي Huawei RTN. 📡🛰️",
+      "en": "A comprehensive engineering guide explaining how Microwave Links connect telecom sites, detailing split-mount architecture including ODU, IDU, Parabolic Dish, and IF Cables, along with Line of Sight (LOS), Fresnel Zone, RSL metrics, and Huawei RTN card configurations. 📡🛰️"
+    }
+  },
+  {
+    "id": 382,
+    "category": "telecommunications",
+    "image": "https://i.postimg.cc/NMrWBGcw/811748716-3055501694781570-235921135396206562-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/19mTmMymTJ/ | LinkedIn: https://lnkd.in/p/efnx8AcK",
+    "date": "2026-09-15",
+    "tags": [
+      "هندسة_الاتصالات",
+      "شبكات_المحمول",
+      "ابراج_المحمول",
+      "تكنولوجيا",
+      "الجيل_الرابع",
+      "مصر",
+      "Telecom",
+      "MobileNetworks",
+      "TelecomEngineering",
+      "4G",
+      "LTE",
+      "CellTower",
+      "NetworkEngineer",
+      "Egypt"
+    ],
+    "title": {
+      "ar": "📡 رحلة إشارة المحمول من الموقع إلى شاشتك: التسلسل الهرمي لشبكات الاتصالات Site, Sectors, Antennas, RRU & Cells 🏗️📱",
+      "en": "📡 The Mobile Signal Journey from Site to Screen: Telecom Network Hierarchy (Site, Sectors, Antennas, RRU & Cells) 🏗️📱"
+    },
+    "summary": {
+      "ar": "شرح هندسي تفصيلي للهيكل التنظيمي لمواقع المحمول، موضحاً الفروق الجوهرية بين الموقع (Site)، والقطاعات الجغرافية (Sectors)، والهوائيات (Antennas)، ووحدات الراديو البعيدة (RRU)، والخلايا المنطقية (Cells)، وكيفية توزيع الترددات ونقل البيانات بدقة ودون تداخل. 📡🏗️",
+      "en": "A detailed engineering breakdown of cell site architecture, explaining the essential hierarchy between Sites, Sectors, Antennas, Remote Radio Units (RRU), and logical Cells, detailing how frequency bands are allocated to deliver uninterrupted mobile coverage. 📡🏗️"
+    }
+  },
+  {
+    "id": 381,
+    "category": "telecommunications",
+    "image": "https://i.postimg.cc/bJ2KpYjW/799142871-3052456121752794-9219574272136243134-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/1Ba63DskXT/ | LinkedIn: https://lnkd.in/p/eCKK7W5G",
+    "date": "2026-09-12",
+    "tags": [
+      "هندسة_الاتصالات",
+      "شبكات_المحمول",
+      "الجيل_الخامس",
+      "تكنولوجيا",
+      "الاتصالات",
+      "Telecom",
+      "MobileNetworks",
+      "5G",
+      "RAN",
+      "Antenna",
+      "RRU",
+      "AAU",
+      "Egypt",
+      "Engineering",
+      "Technology"
+    ],
+    "title": {
+      "ar": "📡 عمرك سألت نفسك إيه الصناديق اللي فوق أبراج المحمول؟ الفرق بين Antenna و RRU و AAU 🏗️📱",
+      "en": "📡 Have You Ever Wondered What Those Boxes On Top of Cell Towers Are? The Difference Between Antenna, RRU, and AAU 🏗️📱"
+    },
+    "summary": {
+      "ar": "شرح هندسي شامل للمكونات والصناديق المختلفة الموجودة أعلى أبراج شبكات المحمول (Antenna, RRU, AAU)، وتطور شبكات الوصول الراديوي (RAN) من الأجيال القديمة بكابلات الفيدر النحاسية للتقليل من فقد الإشارة (Feeder Loss) وحتى الجيل الخامس 5G وتقنيات Massive MIMO وBeamforming. 📡🏗️",
+      "en": "A comprehensive engineering overview explaining the various equipment atop cell towers (Antenna, RRU, AAU) and the evolution of Radio Access Networks (RAN) from older generations with coaxial feeder cables to 5G technologies featuring Massive MIMO and Beamforming to minimize feeder loss. 📡🏗️"
+    }
+  },
+  {
+    "id": 380,
+    "category": "optical",
+    "image": "https://i.postimg.cc/25tPsbgH/796440045-3045152359149837-2857218769157892215-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/19MFP6woZP/ | LinkedIn: https://lnkd.in/p/egXc_8Cu",
+    "date": "2026-09-05",
+    "tags": [
+      "شبكات_المحمول",
+      "الألياف_الضوئية",
+      "الاتصالات",
+      "الجيل_الخامس",
+      "هندسة_الاتصالات",
+      "Telecom",
+      "FiberOptics",
+      "5G",
+      "OpticalTransceiver",
+      "SFP"
+    ],
+    "title": {
+      "ar": "📡 العصب الحيوي لأبراج المحمول: السر في كسر الثانية SFP.. إزاي إشارة الموبايل بتوصلك في غمضة عين؟ ⚡⚡",
+      "en": "📡 The Vital Backbone of Mobile Towers: The Split-Second Secret of SFPs.. How Does Your Mobile Signal Reach You in the Blink of an Eye? ⚡⚡"
+    },
+    "summary": {
+      "ar": "دليل شامل يوضح دور وحدات التحويل الضوئي (Optical Transceivers) كعصب حيوي لأبراج المحمول وشبكات الجيل الرابع 4G والجيل الخامس 5G NR، واستعراض رحلة تطورها من SFP إلى OSFP بقدرة 800G، وكيفية ربط BBU بـ RRU عبر الفايبر مع تقنيات BiDi وDWDM لتقليل الكابلات وتحسين الأداء. 📡⚡",
+      "en": "A comprehensive overview of Optical Transceivers as the essential backbone of mobile towers and 4G/5G NR networks. Explores their evolution from standard SFPs to 800G OSFP, connecting BBU to RRU via fronthaul fiber, and utilizing BiDi and DWDM technologies for efficient high-speed data transmission. 📡⚡"
+    }
+  },
+  {
+    "id": 379,
+    "category": "other",
+    "image": "https://i.postimg.cc/N0nW39ZD/785600109-3042641949400878-8200477928416678598-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/1CfeZkKd6r/",
+    "date": "2026-09-03",
+    "tags": [
+      "الهروب_النفسي",
+      "Psychology",
+      "الصحة_النفسية",
+      "MentalHealth",
+      "علم_النفس",
+      "Escapism",
+      "الوعي_الذاتي",
+      "SelfAwareness",
+      "الضغط_النفسي",
+      "StressManagement",
+      "دوبامين",
+      "Dopamine"
+    ],
+    "title": {
+      "ar": "🧠 سيكولوجية التفاهة: ليه مخك بيختار المحتوى البسيط بعد يوم طويل؟ 🎬🛋️",
+      "en": "🧠 The Psychology of Triviality: Why Your Brain Chooses Simple Content After a Long Day 🎬🛋️"
+    },
+    "summary": {
+      "ar": "تحليل علمي ونفسي لظاهرة اختيار المحتوى الخفيف والهروب النفسي الإيجابي (Positive Escapism) بعد الإرهاق الإدراكي (Cognitive Exhaustion) لقشرة الجبهة الأمامية (Prefrontal Cortex)؛ يوضح الفرق بين الاستراحة الصحية (Recovery) والتجنب التجريبي (Experiential Avoidance) الخطير. 🧠",
+      "en": "A psychological analysis explaining why the brain seeks simple entertainment after cognitive exhaustion in the prefrontal cortex. Differentiates between healthy recovery via positive escapism and risky experiential avoidance. 🧠"
+    }
+  },
+  {
+    "id": 378,
+    "category": "telecommunications",
+    "image": "https://i.postimg.cc/R0Yjk62R/784226801-3031186483879758-1303242638178440594-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/19hQe5u61x/ | LinkedIn: https://lnkd.in/p/ePpaBZVE",
+    "date": "2026-08-22",
+    "tags": [
+      "هندسة_الاتصالات",
+      "أبراج_المحمول",
+      "صيانة_الشبكات",
+      "Telecom",
+      "VSWR",
+      "CM_Engineer",
+      "RF_Engineering",
+      "SiteMaster"
+    ],
+    "title": {
+      "ar": "📡 السر وراء إنذار الـ VSWR في أبراج المحمول و مين بيحلها ⚡🔍",
+      "en": "📡 The Secret Behind VSWR Alarms in Cell Towers and Who Fixes Them ⚡🔍"
+    },
+    "summary": {
+      "ar": "دليل هندسي وفحص ميداني شامل لمعيار نسبة الموجة الموقوفة للجهد (VSWR) في مسار الترددات الراديوية (RF Path) بأبراج المحمول؛ يشمل الفيزيائية وسبب الطاقة المرتدة، خطوات التشخيص المكتبي لمهندس الصيانة العلاجية بأوامر MML، آلية القياس الميداني بجهاز Site Master وتقنية DTF، ومعايير عزم الربط (Torque Values) والعزل البيئي لحماية مضخم القدرة. 📡",
+      "en": "A complete RF engineering guide to Voltage Standing Wave Ratio (VSWR) alarms on cellular sites. Covers impedance mismatch physics, power amplifier heat protection, desktop MML diagnostics by CM Engineers, Site Master DTF field testing, connector torque specifications, and weatherproofing protocols. 📡"
+    }
+  },
+  {
+    "id": 377,
+    "category": "tips_warnings",
+    "image": "https://i.postimg.cc/8cRsYVXF/768284868-3015851382079935-1354696458326908820-n.jpg",
+    "link": "Facebook: https://www.facebook.com/Mostafa.Khalid208/posts/pfbid0KGxX7a73pMKveD5VHKzNkU1K1pwfFBSXMGYwJwNXbzb6XZVCmYxeJ6jSTuLWSM1Dl",
+    "date": "2026-08-07",
+    "tags": [
+      "قضية_التارجت",
+      "عمرو_عبدالحكيم",
+      "عمرو_عمارة",
+      "الرقم_القومي",
+      "حماية_البيانات",
+      "شرائح_المحمول",
+      "تطبيق_NTRA",
+      "وعي_قانوني",
+      "MyNTRA",
+      "SIMCard",
+      "NationalID",
+      "EgyptTelecom",
+      "CyberSecurity",
+      "NTRA"
+    ],
+    "title": {
+      "ar": "⚠️ كابوس شريحة الموبايل.. قصة قضية \"التارجت\" بين الحقيقة والترند! 🚨📱",
+      "en": "⚠️ The SIM Card Nightmare: The 'Target Case' Story Between Fact and Trend! 🚨📱"
+    },
+    "summary": {
+      "ar": "تحليل قانوني وتقني وإجراءات حماية شاملة لواقعة طالب الحاسبات المتورط في حكم غيابي بسبب تسجيل خطوط اتصالات باسمه لتغطية \"التارجت\"؛ مع قراءة نقدية قانونية للثغرات، ودليل استخدام تطبيق My NTRA لمعرفة الأرقام والمحافظ المسجلة بالرقم القومي، ومقررات الجهاز القومي لتنظيم الاتصالات لإيقاف الخطوط غير المحدثة وتطبيق بصمة الوجه. 📱",
+      "en": "A comprehensive legal, technical, and protective analysis of the student SIM card 'Target' case involving a life sentence in absentia. Features legal critiques, a step-by-step guide to the My NTRA app for checking registered numbers and digital wallets via National ID, and NTRA's mandatory data verification updates. 📱"
+    }
+  },
+  {
+    "id": 376,
+    "category": "telecommunications",
+    "image": "https://i.postimg.cc/wMX3rd4j/763861604-3013644722300601-2798534190208442006-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/1DcfWvWpY6/ | LinkedIn: https://lnkd.in/p/e6fia_pB",
+    "date": "2026-08-05",
+    "tags": [
+      "كبينة_الاتصالات",
+      "هندسة_الاتصالات",
+      "شبكات_المحمول",
+      "صيانة_الشبكات",
+      "TelecomCabinet",
+      "TelecomEngineering",
+      "MobileNetworks",
+      "BBU",
+      "5G"
+    ],
+    "title": {
+      "ar": "📦 سر الصندوق الغامض تحت برج المحمول! إيه اللي بيحصل جوه كبينة الاتصالات؟ 🎛️⚡",
+      "en": "📦 The Mystery Box Beneath the Cell Tower: What Happens Inside a Telecom Cabinet? 🎛️⚡"
+    },
+    "summary": {
+      "ar": "تشريح هندسي وشامل للمكونات الداخلية لكبينة الاتصالات (Telecom Outdoor Cabinet) عند قاعدة برج المحمول؛ يشمل وحدات توزيع الطاقة AC/DC والمقومات (Rectifiers)، وقطع الجهد المنخفض (LLVD/BLVD)، ووحدة المعالجة (BBU) والمايكروويف (IDU/RTN)، وبطاريات الليثيوم، ووحدات المراقبة البيئية (EMU) والتبريد المغلق. 📦",
+      "en": "A detailed technical breakdown of cellular site outdoor telecom cabinets. Covers power distribution (PDU, Rectifiers, DDU), Low Voltage Disconnect protection (LLVD, BLVD), baseband processing (BBU), microwave transmission (IDU/RTN), lithium-ion battery backups, environmental monitoring (PMU, EMU), and IP55/IP66 closed-loop cooling systems. 📦"
+    }
+  },
+  {
+    "id": 375,
+    "category": "religious",
+    "image": "https://i.postimg.cc/vTrDKd2d/761678073-3011410999190640-6016770503761437065-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/14mZM8Apy3s/",
+    "date": "2026-08-03",
+    "tags": [
+      "زلزال",
+      "مصر",
+      "السويس",
+      "زلزال_اليوم",
+      "اطمئنوا",
+      "افيقوا",
+      "افلا_يتفكرون",
+      "Earthquake",
+      "Egypt",
+      "Suez",
+      "StaySafe"
+    ],
+    "title": {
+      "ar": "🌍 لما الأرض اتهزت تحت رجلينا... رسالة وقت الفجر محدش كان مستثنى منها! 🌋⚠️",
+      "en": "🌍 When the Earth Shook Beneath Us: A Dawn Message No One Was Exempt From! 🌋⚠️"
+    },
+    "summary": {
+      "ar": "تغطية شاملة وتحليل علمي وديني وسلامة لزلزال السويس فجر 3 أغسطس 2026 بقوة 5.7 ريختر؛ مقارنة خسائره بزلزال 1992، وتوضيح سر عمق البؤرة وموجات P-wave المسببة لتنبيهات الأندرويد، مع رد الفتن وتوجيهات السلامة وإشارات القرآن للزلازل. 🌍",
+      "en": "A comprehensive scientific, religious, and safety review of the 5.7 magnitude Suez earthquake on August 3, 2026. Compares parameters with the 1992 quake, explains epicentral depth, P-wave Android alert technology, debunks rumor myths, and provides safety rules. 🌍"
+    }
+  },
+  {
+    "id": 374,
+    "category": "telecommunications",
+    "image": "https://i.postimg.cc/8cQjwC4N/758573581-3006162443048829-1776268683135847279-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/18gDyTDHAm/ | LinkedIn: https://lnkd.in/p/ePNH2QQE",
+    "date": "2026-07-29",
+    "tags": [
+      "صيانة_الاتصالات",
+      "هندسة_الاتصالات",
+      "الشبكات",
+      "مهندس_صيانة_وقائية",
+      "مهندس_صيانة_علاجية",
+      "TelecomEngineering",
+      "PreventiveMaintenance",
+      "CorrectiveMaintenance",
+      "PMEngineer",
+      "CMEngineer"
+    ],
+    "title": {
+      "ar": "🛠️ إزاي شبكات الاتصالات شغالة بثبات؟ سر التكامل بين مهندسي الصيانة 📡⚙️",
+      "en": "🛠️ How Telecom Networks Maintain Unshakable Stability: The Synergy Between Maintenance Engineers 📡⚙️"
+    },
+    "summary": {
+      "ar": "استعراض ودراسة معيارية وفقاً للمواصفات الأوروبية (EN 13306) وتوصيات الاتحاد الدولي للاتصالات (ITU-T M.3040 & M.3042) لآليات إدارة شبكات الاتصالات، والتكامل الوظيفي بين مهندس الصيانة الوقائية (PM Engineer) ومهندس الصيانة العلاجية (CM Engineer)، والصيانة التنبؤية القائمة على مؤشر صحة الشبكة. 🛠️",
+      "en": "A detailed standards-based analysis according to European Norm EN 13306 and ITU-T recommendations (M.3040 & M.3042). Explores the operational synergy between Preventive Maintenance (PM) Engineers and Corrective Maintenance (CM) Engineers, alongside Predictive Maintenance driven by Network Health Evaluation. 🛠️"
+    }
+  },
+  {
+    "id": 373,
+    "category": "telecommunications",
+    "image": "https://i.postimg.cc/QCGHSMmG/752489181-2999581647040242-4168651289566169702-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/19YSSBh7DK/",
+    "date": "2026-07-22",
+    "tags": [
+      "شبكات_المحمول",
+      "هندسة_الاتصالات",
+      "أبراج_الاتصالات",
+      "الجيل_الخامس",
+      "تقنية_المعلومات",
+      "Telecommunications",
+      "CellTower",
+      "RF",
+      "5G",
+      "4GLTE",
+      "Wireless",
+      "Engineering"
+    ],
+    "title": {
+      "ar": "📡 إزاي الموبايل بيجيب شبكة ونت في ثانية؟ التفاصيل اللي ورا المكالمة 📲⚡",
+      "en": "📡 How Your Mobile Gets Signal & Data Instantly: The Tech Behind the Call 📲⚡"
+    },
+    "summary": {
+      "ar": "استعراض تفصيلي ودقيق لمسار الإشارة اللاسلكية داخل محطة المحمول، بدءاً من الهوائيات القطاعية (Sector Antennas) وزوايا التغطية، ووحدة الراديو (RRU) والألياف الضوئية، وشفرة ألوان الكابلات (RF, -48V DC, Fiber, Grounding, AISG)، وصولاً لوحدة المعالجة (BBU) وأنظمة التبريد والحماية من الصواعق. 📡",
+      "en": "A detailed technical breakdown of cellular signal processing: Sector Antennas beamwidths, tower-mounted RRUs, fiber optic fronthaul, site cable color codes (RF, Power, Fiber, Grounding, AISG), BBU processing, cabinet thermal management, and lightning protection. 📡"
+    }
+  },
+  {
+    "id": 372,
+    "category": "telecommunications",
+    "image": "https://i.postimg.cc/vB64WnWS/748160816-2993513387647068-1207520693441309017-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/1DE6b1P53K/ | LinkedIn: https://lnkd.in/p/eMXbM9Tm",
+    "date": "2026-07-16",
+    "tags": [
+      "ابراج_الاتصالات",
+      "هندسة_الاتصالات",
+      "الاتصالات",
+      "شبكات_المحمول",
+      "الجيل_الخامس",
+      "Telecommunications",
+      "CellTower",
+      "LatticeTower",
+      "RF",
+      "5G",
+      "4GLTE",
+      "Engineering",
+      "Wireless",
+      "MobileNetworks"
+    ],
+    "title": {
+      "ar": "🗼 البرج اللي كلنا بنستخدمه كل يوم... لكن قليل اللي يعرف بيشتغل إزاي! 📶✨",
+      "en": "🗼 The Tower We All Use Every Day... But Few Know How It Works! 📶✨"
+    },
+    "summary": {
+      "ar": "شرح هندسي مبسط وشامل لمكونات أبراج المحمول الشبكية الفولاذية (Lattice Steel Towers)، بدءاً من القواعد والتصميم الهيكلي المقاوم للصدأ والرياح، مروراً بتوزيع الهوائيات إلى قطاعات (Sectors)، ووحدات RRU وBBU، وأنظمة الطاقة والبطاريات والمولدات، وصولاً لنظم التأريض والسلامة المهنية للفنيين. 🗼",
+      "en": "A detailed technical guide explaining Lattice Steel Towers in cellular networks. Covers structural design, galvanized weather-proofing, 3-sector RF antenna coverage, RRU/BBU hardware processing, power backup systems (Rectifier, Batteries, Diesel, Solar), frequency propagation, grounding systems, and climber safety protocols. 🗼"
+    }
+  },
+  {
+    "id": 371,
+    "category": "tips_warnings",
+    "image": "https://i.postimg.cc/tJQYDg58/748385857-2992458651085875-8621950472861813515-n.jpg",
+    "link": "Facebook: https://www.facebook.com/share/p/1EbaqDTHrT/ | LinkedIn: https://www.linkedin.com/posts/mostafa-khalid208_aepaeqaesaeaaepaeaabraenaesaeraesaezaewaeuaey-share-7483106514921058306-F5f2/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADDdzi0BRNK_cwICLd0KZUpABBGEzRZIfnI&utm_campaign=copy_link",
+    "date": "2026-07-15",
+    "tags": [
+      "ابتزاز_إلكتروني",
+      "حماية_الأطفال",
+      "الألعاب_الإلكترونية",
+      "تليجرام",
+      "قانون_175",
+      "مباحث_الإنترنت",
+      "روبلوكس",
+      "ببجي",
+      "مصر",
+      "أمن_المعلومات",
+      "الرقابة_الأبوية",
+      "Sextortion",
+      "OnlineGrooming",
+      "Roblox",
+      "Telegram",
+      "PUBG",
+      "CyberSecurity",
+      "Egypt",
+      "TakeItDown",
+      "ChildSafety"
+    ],
+    "title": {
+      "ar": "🎮 خيوط أخطر شبكات اصطياد الأطفال مصيدة الشاشات: كيف تستدرج شبكات الابتزاز أطفالنا عبر الألعاب وتليجرام؟ 🛑🛡️",
+      "en": "🎮 Threads of the Most Dangerous Child Grooming Networks: How Extortion Networks Lure Children Via Games and Telegram 🛑🛡️"
+    },
+    "summary": {
+      "ar": "تحقيق واستعراض تقني ونفسي وقانوني شامل لآليات استدراج الأطفال وابتزازهم عبر منصات الألعاب التفاعلية (Roblox, PUBG, Minecraft) وتطبيقات الشات المشفرة (Telegram, Discord)، مع تشريح سيناريوهات الابتزاز الواقعية بمصر، وتنظيم 764 الدولي، وتحليل تقني لنظام الذكاء الاصطناعي Roblox Sentinel، إلى جانب بنود القانون المصري رقم 175 لسنة 2018، وأداة Take It Down لحذف المواد الحساسة. 🛡️",
+      "en": "A comprehensive technical, psychological, and legal report detailing online child grooming and sextortion across gaming platforms (Roblox, PUBG, Minecraft) and encrypted apps (Telegram, Discord). Analyzes real Egyptian case studies, the international 764 network, Roblox Sentinel AI, Egyptian Law 175 of 2018, and Take It Down reporting tools. 🛡️"
+    }
+  },
+  {
+    "id": 370,
+    "category": "historical",
+    "image": "https://i.postimg.cc/Vvq5hcZz/745488238-2990428447955562-6725871052938161981-n.jpg",
+    "link": "#",
+    "date": "2026-07-13",
+    "tags": [
+      "الفتنة_الكبرى",
+      "علي_بن_أبي_طالب",
+      "معاوية",
+      "أهل_السنة",
+      "التاريخ_الإسلامي",
+      "الحسين",
+      "يزيد",
+      "كربلاء",
+      "الخلفاء_الراشدين",
+      "المذهب_الإباضي",
+      "مصر",
+      "الأزهر",
+      "GreatFitna",
+      "AliIbnAbiTalib",
+      "Muawiyah",
+      "Sunni",
+      "IslamicHistory",
+      "Karbala",
+      "RightlyGuidedCaliphs",
+      "IbadiSect",
+      "Egypt",
+      "AhlAlSunnah"
+    ],
+    "title": {
+      "ar": "📜 حقائق التاريخ في قصة الفتنة الكبرى بين الرواية السياسية والأصل العقدي، بعيون أهل السنة والمذاهب الإسلامية ⚖️",
+      "en": "📜 Historical Truths of the Great Fitna: Between Political Narrative and Creedal Roots Across Islamic Schools ⚖️"
+    },
+    "summary": {
+      "ar": "قراءة نقدية وتاريخية مفصلة لأحداث الفتنة الكبرى (الحرب الأهلية الأولى) وتطور الموقف الفقهي والعقدي لأهل السنة والجماعة والمذهب الإباضي؛ بدءاً من استشهاد الخليفة عثمان بن عفان، معركة صفين، التحكيم، الانتقال من التثليث إلى التربيع عند الإمام أحمد، وصولاً لتحليل الفقه السياسي للأئمة الأربعة والمصادر التشريعية لأحكام البغاة. 📜",
+      "en": "A detailed critical and historical analysis of the Great Fitna (First Civil War) examining Sunni and Ibadi theological and political frameworks. Covers the martyrdom of Caliph Uthman, Siffin, arbitration, Ahmad ibn Hanbal's transition to Quadrinity, political jurisprudence of the four Imams, and the legal foundations of rebel laws. 📜"
+    }
+  },
+  {
     "id": 367,
     "category": "microwaves",
     "image": "https://i.postimg.cc/3NwQLWyh/734129517-2976265992705141-2284796311193721148-n.jpg",
@@ -11,7 +429,7 @@
       "ميكروويف",
       "اتصالات",
       "صيانة_الشبكات",
-      "أبراج_المحمول",
+      "أبرج_المحمول",
       "هوائيات",
       "إشارة_الراديو",
       "تخطيط_الشبكات",
@@ -32,8 +450,32 @@
       "en": "📡 From IDU Cards to Microwave Dish Antennas: How Cellular Base Stations Maintain Line-of-Sight Wireless Links 📶"
     },
     "summary": {
-      "ar": "شرح هندسي تفصيلي ومبسط لمنظومة وصلات الميكروويف (Microwave Links) المعتمدة في نقل داتا شبكات المحمول، بدءاً من الوحدة الداخلية (IDU) وكروتها الوظيفية، مروراً بكابل التردد الوسيط الذكي (IF Cable)، والوحدة الخارجية (ODU)، وحتى هوائي الميكروويف (MW Antenna) واشتراطات خط الرؤية المباشر (LOS).",
-      "en": "A detailed technical review of point-to-point Microwave Link architectures used in mobile network transmission. Covers In-Door Unit (IDU) card design, multiplexed IF coaxial cables carrying DC power and telemetry, Out-Door Units (ODU) for RF up-conversion, and parabolic microwave dish antennas requiring precise Line-of-Sight (LOS) alignment."
+      "ar": "شرح هندسي تفصيلي ومبسط لمنظومة وصلات الميكروويف (Microwave Links) المعتمدة في نقل داتا شبكات المحمول، بدءاً من الوحدة الداخلية (IDU) وكروتها الوظيفية، مروراً بكابل التردد الوسيط الذكي (IF Cable)، والوحدة الخارجية (ODU)، وحتى هوائي الميكروويف (MW Antenna) واشتراطات خط الرؤية المباشر (LOS). 📡",
+      "en": "A detailed technical review of point-to-point Microwave Link architectures used in mobile network transmission. Covers In-Door Unit (IDU) card design, multiplexed IF coaxial cables carrying DC power and telemetry, Out-Door Units (ODU) for RF up-conversion, and parabolic microwave dish antennas requiring precise Line-of-Sight (LOS) alignment. 📡"
+    }
+  },
+  {
+    "id": 368,
+    "category": "tips_warnings",
+    "image": "https://i.postimg.cc/D0k85zgQ/731761871-2974226299575777-2001018854809379981-n.jpg",
+    "link": "#",
+    "date": "2026-06-27",
+    "tags": [
+      "الطيبات",
+      "دكتور",
+      "نظام",
+      "مصر",
+      "الدجاج",
+      "البيض",
+      "اللبن"
+    ],
+    "title": {
+      "ar": "🏆 خير دليل على صحة اي نظام هي نتايج النظام على أرض الواقع (اللي جربوا النظام) ⚽💪",
+      "en": "🏆 The Best Proof of Any System's Validity is Its Real-World Results (Those Who Tried It) ⚽💪"
+    },
+    "summary": {
+      "ar": "خير دليل على صحة اي نظام هي نتايج النظام على أرض الواقع (اللي جربوا النظام) تعالوا نبص كده على نظام أكل محمد صلاح... الراجل ده مش ناجح بالحظ ولا ببركة \"يوم فري\" كل أسبوع، ده ناجح لأنه ملتزم التزام يخلي المنبه يحس بالتقصير. 🥗🏽",
+      "en": "The best proof of any diet's validity is its real-world results. Looking at Mohamed Salah, Cristiano Ronaldo, and Shah Rukh Khan, their success relies on science, protein, and strict avoidance of sugar and hydrogenated oils. 🥗🏽"
     }
   },
   {
@@ -77,8 +519,32 @@
       "en": "📡 From BTS to AAU: The Evolutionary Journey Transforming Cellular Network Architecture 📶"
     },
     "summary": {
-      "ar": "استعراض تفصيلي ومبسط لتطور الهيكلية الهندسية لم مواقع شبكات المحمول عبر أجيال الاتصالات (من 2G حتى 5G)، وتطور العتاد الفني من وحدات BTS الكلاسيكية وكابلات Coaxial Feeder الخاسرة للطاقة، وصولاً لنظام BBU/RRU عبر ألياف الفايبر، وحتى تقنية AAU الذكية المدعومة بتقنيات Massive MIMO وBeamforming.",
-      "en": "A detailed technical review of cellular base station architecture evolution across generations (2G to 5G). Explores the transition from classic BTS and high-loss coaxial feeders to decoupled BBU/RRU architectures using optical fronthaul, culminating in integrated 5G Active Antenna Units (AAU) powered by Massive MIMO and Beamforming."
+      "ar": "استعراض تفصيلي ومبسط لتطور الهيكلية الهندسية لمواقع شبكات المحمول عبر أجيال الاتصالات (من 2G حتى 5G)، وتطور العتاد الفني من وحدات BTS الكلاسيكية وكابلات Coaxial Feeder الخاسرة للطاقة، وصولاً لنظام BBU/RRU عبر ألياف الفايبر، وحتى تقنية AAU الذكية المدعومة بتقنيات Massive MIMO وBeamforming. 📡",
+      "en": "A detailed technical review of cellular base station architecture evolution across generations (2G to 5G). Explores the transition from classic BTS and high-loss coaxial feeders to decoupled BBU/RRU architectures using optical fronthaul, culminating in integrated 5G Active Antenna Units (AAU) powered by Massive MIMO and Beamforming. 📡"
+    }
+  },
+  {
+    "id": 369,
+    "category": "religious",
+    "image": "https://i.postimg.cc/bJ2ZQnQC/729705605-2968441440154263-8065158313694325039-n.jpg",
+    "link": "#",
+    "date": "2026-06-21",
+    "tags": [
+      "نظام",
+      "الطيبات",
+      "دكتور",
+      "إسلاميات",
+      "تفسير_السعدي",
+      "أحاديث_نبوية",
+      "فقه_الأطعمة"
+    ],
+    "title": {
+      "ar": "📖 الحلالُ بيِّنٌ فلا تُضيِّق ما وسَّعهُ اللهُ عليكَ 🌿✨",
+      "en": "📖 What is Halal is Clear: Do Not Restrict What Allah Has Made Spacious for You 🌿✨"
+    },
+    "summary": {
+      "ar": "استعراض لقوله تعالى {يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُحَرِّمُوا طَيِّبَاتِ مَا أَحَلَّ اللَّهُ لَكُمْ} مع تفسير السعدي والأحاديث النبوية الشريفة التي تؤكد أن الأصل في الأطعمة الحل، ونهي النبي صلى الله عليه وسلم عن تحريم ما أحل الله أو عيب الطعام المباح. 🌿",
+      "en": "An exploration of the Qur'anic verse prohibiting the prohibition of lawful good foods, supported by Tafsir Al-Sa'di and authentic Prophetic traditions emphasizing that all wholesome food is permissible and advising against criticizing permissible food or narrowing divine broadness. 🌿"
     }
   },
   {
