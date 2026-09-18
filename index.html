@@ -68,6 +68,12 @@
 
     <div class="container">
         <aside class="sidebar glass-effect" id="sidebar">
+            <div class="drawer-header">
+                <div class="logo">MKS<span>.Tech</span></div>
+                <button class="drawer-close-btn" onclick="toggleMobileMenu()" aria-label="Close Menu">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
             <ul class="nav-links">
                 <li class="en"><a href="#" onclick="showSection('home-section')" class="active"><i
                             class="fas fa-home"></i> Home</a></li>
@@ -1345,6 +1351,43 @@
 
         </main>
     </div>
+
+    <!-- Futuristic Mobile Floating Quick Navigation Dock -->
+    <nav class="mobile-quick-dock" id="mobile-quick-dock" aria-label="Mobile Navigation">
+        <button class="dock-item active" onclick="showSection('home-section')" title="Home">
+            <i class="fas fa-home"></i>
+            <span class="en">Home</span>
+            <span class="ar hidden">الرئيسية</span>
+        </button>
+        <button class="dock-item" onclick="showSection('projects')" title="Projects">
+            <i class="fas fa-project-diagram"></i>
+            <span class="en">Projects</span>
+            <span class="ar hidden">المشاريع</span>
+        </button>
+        <button class="dock-item" onclick="showSection('articles')" title="Articles">
+            <i class="fas fa-newspaper"></i>
+            <span class="en">Articles</span>
+            <span class="ar hidden">المقالات</span>
+        </button>
+        <a href="teachings/" class="dock-item" title="Teachings">
+            <i class="fas fa-graduation-cap"></i>
+            <span class="en">Teachings</span>
+            <span class="ar hidden">الدورات</span>
+        </a>
+        <button class="dock-item" onclick="toggleMobileMenu()" title="Full Menu">
+            <i class="fas fa-bars"></i>
+            <span class="en">Menu</span>
+            <span class="ar hidden">القائمة</span>
+        </button>
+    </nav>
+
+    <!-- Floating Scroll-To-Top Circular Progress Ring Button -->
+    <button class="scroll-top-btn" id="scroll-top-btn" onclick="scrollToTop()" title="Scroll to Top" aria-label="Scroll to top">
+        <svg class="scroll-top-progress" viewBox="0 0 44 44">
+            <circle cx="22" cy="22" r="20"></circle>
+        </svg>
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
     <footer>
         <p class="en">© 2024 Mostafa Khalid Sallam. All Rights Reserved. <br> Developed with 🤍✨ by Eng. Mostafa Khalid

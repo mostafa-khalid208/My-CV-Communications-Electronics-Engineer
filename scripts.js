@@ -48,51 +48,88 @@ function initSmoothScroll() {
     document.documentElement.style.scrollBehavior = 'smooth';
 }
 
-/* === Scroll Animations === */
+/* === Scroll Animations & Circular Progress === */
 function initScrollAnimations() {
+    const navbar = document.querySelector('.navbar');
+    const scrollTopBtn = document.getElementById('scroll-top-btn');
+    const progressCircle = document.querySelector('.scroll-top-progress circle');
+    const circumference = 126; // 2 * PI * r (r = 20)
+
     window.addEventListener('scroll', () => {
-        const navbar = document.querySelector('.navbar');
-        const scrolled = window.scrollY > 50;
+        const scrollY = window.scrollY;
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        const scrolled = scrollY > 40;
         
-        if (scrolled) {
-            navbar.style.boxShadow = 'var(--card-shadow)';
-        } else {
-            navbar.style.boxShadow = 'none';
+        if (navbar) {
+            navbar.style.boxShadow = scrolled ? 'var(--card-shadow)' : 'none';
         }
-    });
+
+        // Scroll to top button & Progress Ring
+        if (scrollTopBtn) {
+            if (scrollY > 220) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+
+            if (progressCircle && maxScroll > 0) {
+                const scrollFraction = Math.min(Math.max(scrollY / maxScroll, 0), 1);
+                const offset = circumference - (scrollFraction * circumference);
+                progressCircle.style.strokeDashoffset = offset;
+            }
+        }
+    }, { passive: true });
 }
 
-/* === Mobile Gestures === */
+window.scrollToTop = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
+
+/* === Enhanced Multi-Directional Mobile Gestures === */
 function initMobileGestures() {
     let touchStartX = 0;
+    let touchStartY = 0;
     let touchEndX = 0;
+    let touchEndY = 0;
 
     document.addEventListener('touchstart', (e) => {
         touchStartX = e.changedTouches[0].screenX;
-    }, false);
+        touchStartY = e.changedTouches[0].screenY;
+    }, { passive: true });
 
     document.addEventListener('touchend', (e) => {
         touchEndX = e.changedTouches[0].screenX;
+        touchEndY = e.changedTouches[0].screenY;
         handleSwipe();
-    }, false);
+    }, { passive: true });
 
     function handleSwipe() {
-        const threshold = 50;
-        if (touchEndX < touchStartX - threshold) {
-            // Swiped left
-            closeMobileMenu();
+        const diffX = touchEndX - touchStartX;
+        const diffY = touchEndY - touchStartY;
+        const threshold = 45;
+
+        // Check if menu is open
+        const sidebar = document.getElementById('sidebar');
+        if (sidebar && sidebar.classList.contains('active-mobile')) {
+            // Swipe Up or Swipe Left/Right to close
+            if (diffY < -threshold || Math.abs(diffX) > threshold) {
+                closeMobileMenu();
+            }
         }
     }
 
-    function closeMobileMenu() {
+    window.closeMobileMenu = function() {
         const sidebar = document.getElementById('sidebar');
         const menuBtn = document.getElementById('mobile-menu-btn');
         if (sidebar && sidebar.classList.contains('active-mobile')) {
             sidebar.classList.remove('active-mobile');
-            menuBtn?.classList.remove('active');
+            if (menuBtn) menuBtn.classList.remove('active');
             document.body.style.overflow = '';
         }
-    }
+    };
 }
 
 /* === Language Switcher === */
@@ -195,7 +232,7 @@ function updateThemeIcon(isDark) {
     }
 }
 
-/* === Enhanced Navigation Logic === */
+/* === Enhanced Navigation Logic & Quick Dock Sync === */
 function showSection(sectionId) {
     // Hide all sections with clean active state
     const sections = document.querySelectorAll('.content-card');
@@ -221,16 +258,22 @@ function showSection(sectionId) {
         }
     });
 
+    // Update Mobile Quick Dock Active Item
+    document.querySelectorAll('.mobile-quick-dock .dock-item').forEach(btn => {
+        const onclickAttr = btn.getAttribute('onclick') || '';
+        if (onclickAttr.includes(`'${sectionId}'`) || onclickAttr.includes(`"${sectionId}"`)) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
     // Close mobile menu if open
-    const sidebar = document.getElementById('sidebar');
-    const menuBtn = document.getElementById('mobile-menu-btn');
-    if (sidebar && sidebar.classList.contains('active-mobile')) {
-        sidebar.classList.remove('active-mobile');
-        if (menuBtn) menuBtn.classList.remove('active');
-        document.body.style.overflow = '';
+    if (typeof window.closeMobileMenu === 'function') {
+        window.closeMobileMenu();
     }
 
-    // Scroll to top
+    // Scroll to top smoothly
     window.scrollTo({ 
         top: 0, 
         behavior: 'smooth' 
@@ -241,12 +284,13 @@ function showSection(sectionId) {
 function toggleMobileMenu() {
     const sidebar = document.getElementById('sidebar');
     const menuBtn = document.getElementById('mobile-menu-btn');
-    if (sidebar && menuBtn) {
-        sidebar.classList.toggle('active-mobile');
-        menuBtn.classList.toggle('active');
+    if (sidebar) {
+        const isOpening = !sidebar.classList.contains('active-mobile');
+        sidebar.classList.toggle('active-mobile', isOpening);
+        if (menuBtn) menuBtn.classList.toggle('active', isOpening);
         
-        // Lock body scroll when menu is open
-        document.body.style.overflow = sidebar.classList.contains('active-mobile') ? 'hidden' : '';
+        // Lock/unlock body scroll when menu is open
+        document.body.style.overflow = isOpening ? 'hidden' : '';
     }
 }
 

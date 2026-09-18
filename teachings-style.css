@@ -319,14 +319,77 @@ body.dark .teaching-btn-primary {
     }
 }
 
-/* Responsive */
+/* === Responsive Mobile Polish === */
 @media (max-width: 768px) {
+    .teachings-main {
+        padding-top: 75px;
+        padding-bottom: max(90px, calc(var(--safe-bottom, 0px) + 80px));
+    }
+
+    .teachings-container {
+        padding: 0 12px 30px;
+    }
+
+    .teachings-header {
+        margin-bottom: 25px;
+    }
+
+    .teachings-header h1 {
+        font-size: clamp(1.6rem, 6vw, 2.3rem);
+    }
+
+    .teachings-header p {
+        font-size: 0.95rem;
+    }
+
     .main-tabs {
-        gap: 8px;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        scroll-snap-type: x mandatory;
+        gap: 8px !important;
+        padding: 4px 2px 10px !important;
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+        justify-content: flex-start !important;
+        margin-bottom: 20px;
+    }
+
+    .main-tabs::-webkit-scrollbar {
+        display: none !important;
     }
 
     .main-tab {
-        padding: 8px 18px;
-        font-size: 0.85rem;
+        flex-shrink: 0 !important;
+        scroll-snap-align: start;
+        white-space: nowrap !important;
+        padding: 8px 18px !important;
+        font-size: 0.85rem !important;
+        border-radius: 20px !important;
+    }
+
+    .teachings-grid {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr));
+        gap: 18px;
+    }
+
+    .teaching-card-content {
+        padding: 16px;
+    }
+
+    .teaching-card-content h3 {
+        font-size: 1.05rem;
+        min-height: auto;
+    }
+
+    .teaching-actions {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .teaching-btn {
+        padding: 8px 12px;
+        font-size: 0.82rem;
     }
 }
