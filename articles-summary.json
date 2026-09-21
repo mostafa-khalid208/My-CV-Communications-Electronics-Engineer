@@ -1,5 +1,42 @@
 [
   {
+    "id": 384,
+    "category": "ai",
+    "image": "https://i.postimg.cc/G3HzMgqJ/800152857-3060792850919121-1005200075374714928-n.jpg",
+    "link": "#",
+    "date": "2026-09-20",
+    "tags": [
+      "الذكاء_الاصطناعي",
+      "AI",
+      "الذكاء_العام",
+      "AGI",
+      "الذكاء_الخارق",
+      "Superintelligence",
+      "أمان_الذكاء_الاصطناعي",
+      "AISafety",
+      "Deepfake",
+      "تكنولوجيا",
+      "تزييف_الواقع",
+      "MachineLearning",
+      "DeepLearning",
+      "TechInsights",
+      "Egypt",
+      "ArtificialIntelligence",
+      "GenerativeAI",
+      "DataScience",
+      "Technology",
+      "FutureOfAI"
+    ],
+    "title": {
+      "ar": "🚀 رحلة الذكاء الاصطناعي AI: من مجرد برنامج بسيط لإحنا فين دلوقتي وخبايا المستقبل! 🧠🔮",
+      "en": "🚀 The Journey of Artificial Intelligence (AI): From Simple Code to Where We Are Today and Future Secrets! 🧠🔮"
+    },
+    "summary": {
+      "ar": "دليل واستعراض هندسي وفلسفي وأمني شامل لرحلة الذكاء الاصطناعي؛ بدءاً من اختبار تورينج ومؤتمر دارتموث وشتاء الذكاء الاصطناعي، مروراً بتقسيم الهرم التقني (AI, ML, DL, Generative AI)، والمستويات الأربعة (Weak, Strong, AGI, ASI)، والمعمارية الداخلية (Transformers, Neural Networks, RLHF)، وصولاً إلى تهديدات التزييف العميق (Deepfake)، ورؤى قادة التكنولوجيا وحوكمة أمان الذكاء الاصطناعي (AI Alignment). 🚀",
+      "en": "A comprehensive engineering, philosophical, and security overview tracing AI history from Alan Turing's test and Dartmouth to the AI Winter and modern revival. Details the technical hierarchy (AI, ML, DL, Generative AI), four capacity levels (Weak, Strong, AGI, ASI), inner mechanics (Transformers, Neural Networks, RLHF), Deepfake threats, leadership perspectives, and AI Alignment safety governance. 🚀"
+    }
+  },
+  {
     "id": 383,
     "category": "microwaves",
     "image": "https://i.postimg.cc/RFnj4CB6/795508041-3057332924598447-946257691580508780-n.jpg",
