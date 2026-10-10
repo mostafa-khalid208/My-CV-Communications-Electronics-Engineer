@@ -1,5 +1,105 @@
 [
   {
+  "id": 388,
+  "category": "ai",
+  "image": "https://i.postimg.cc/rwGtNKg8/840052297-3079388732392866-7927915661067096144-n.jpg",
+  "link": "#",
+  "date": "2026-10-7",
+  "tags": [
+    "الذكاء_الاصطناعي",
+    "التزييف_العميق",
+    "الابتزاز_الالكتروني",
+    "تكنولوجيا",
+    "أمن_المعلومات",
+    "الأمن_السيبراني",
+    "هندسة_البرمجيات",
+    "مصر",
+    "ArtificialIntelligence",
+    "Deepfake",
+    "CyberSecurity",
+    "Sextortion",
+    "Tech",
+    "AIAlignment",
+    "Egypt"
+  ],
+  "title": {
+    "ar": "🤖 يا ترى الذكاء الاصطناعي AI بيتحول لمجرم بيبتز البشر؟ حكاية التزييف العميق والتمرد جوه المعامل! 🕵️‍♂️⚠️",
+    "en": "🤖 Is AI Turning into a Criminal Blackmailing Humans? The Story of Deepfakes and Lab Rebellions! 🕵️‍♂️⚠️"
+  },
+  "summary": {
+    "ar": "مقال تحليلي يحذر من استغلال الذكاء الاصطناعي في الجرائم الإلكترونية والابتزاز عبر التزييف العميق (Deepfake) واستنساخ الصوت (Voice Cloning)؛ ويناقش ظاهرة تمرد نماذج الذكاء الاصطناعي وابتزازها للبشر في معامل الاختبار (مثل نموذج Claude Opus 4)، وظهور ظواهر انحراف الوكيل الذكي والتظاهر بالالتزام (Alignment Faking). ⚠️",
+    "en": "An analytical article warning against the exploitation of AI in cybercrimes and sextortion via deepfakes and voice cloning, discussing AI model rebellion and blackmailing engineers in testing labs (such as Claude Opus 4), along with agentic misalignment and alignment faking phenomena. ⚠️"
+  }
+},
+  {
+  "id": 387,
+  "category": "optical",
+  "image": "https://i.postimg.cc/6pVGfyzW/837659918-3076340162697723-8548500657827880001-n.jpg",
+  "link": "#",
+  "date": "2026-10-5",
+  "tags": [
+    "هندسة_الاتصالات",
+    "الألياف_الضوئية",
+    "شبكات_المحمول",
+    "الفايبر",
+    "مصر",
+    "Telecom",
+    "FiberOptics",
+    "OpticalConnectors",
+    "MobileNetworks",
+    "5G",
+    "FTTH",
+    "Egypt"
+  ],
+  "title": {
+    "ar": "🌐 إزاي شعرة زجاجية بتنقل إنترنت العالم بدون إشارة ما تضيع؟ موصلات الألياف الضوئية 🔌✨",
+    "en": "🌐 How Does a Glass Strand Transfer the World's Internet Without Signal Loss? Optical Fiber Connectors 🔌✨"
+  },
+  "summary": {
+    "ar": "شرح هندسي تفصيلي لموصلات الألياف الضوئية (Optical Fiber Connectors) ودورها في تقليل الفقد (Insertion Loss - IL) والانعكاس (Optical Return Loss - ORL)؛ يتناول أنواع الموصلات مثل LC, SC, FC, MPO, ST, E-2000 وصقل UPC و APC ودورها الحيوي في شبكات المحمول ومراكز البيانات. 🔌",
+    "en": "A detailed engineering guide on Optical Fiber Connectors, their role in minimizing insertion loss (IL) and return loss (ORL). Covers connectors like LC, SC, FC, MPO, ST, E-2000, UPC/APC polish types, and applications in mobile networks and data centers. 🔌"
+  }
+},
+  {
+  "id": 386,
+  "category": "telecommunications",
+  "image": "https://i.postimg.cc/fR70fJ5k/829381308-3071487376516335-1719222390972186137-n.jpg",
+  "link": "#",
+  "date": "2026-09-30",
+  "tags": [
+    "هندسة_الاتصالات",
+    "شبكات_المحمول",
+    "تكنولوجيا",
+    "الجيل_الرابع",
+    "الجيل_الخامس",
+    "التعديل_الترددي",
+    "الاتصالات_اللاسلكية",
+    "الميكروويف",
+    "مصر",
+    "Telecom",
+    "MobileNetworks",
+    "Modulation",
+    "4G",
+    "LTE",
+    "5G",
+    "MicrowaveLink",
+    "NetworkEngineering",
+    "Egypt"
+  ],
+  "title": {
+    "ar": "📡 إزاي صوتك بيسافر في الهوا جوه شبكات المحمول من غير ما يضيع؟ سر التعديل الترددي 📶",
+    "en": "📡 How Does Your Voice Travel Through the Air in Mobile Networks Without Getting Lost? The Secret of Modulation 📶"
+  },
+  "summary": {
+    "ar": "شرح هندسي مفصل لكيفية انتقال إشارات الصوت والداتا في شبكات المحمول عبر التعديل الترددي (Modulation)؛ مع توضيح مشاكل ترددات الحزمة الأساسية (Baseband Signal)، دور الـ BBU والـ IDU والـ AAU، معايير الجودة (SNR, BER, EVM)، تقنيات QAM وOFDM، والتكيف الديناميكي مع الطقس (AMC). 📡",
+    "en": "A detailed engineering guide explaining how voice and data signals travel across mobile networks via Modulation. Covers baseband signal challenges, BBU/IDU/AAU roles, signal quality metrics (SNR, BER, EVM), QAM and OFDM techniques, and weather-adaptive AMC. 📡"
+  },
+  "content": {
+    "ar": "<h3>📡 إزاي صوتك بيسافر في الهوا جوه شبكات المحمول من غير ما يضيع؟ سر التعديل الترددي 📶</h3><p>يا ترى فكرت إزاي صوتك بيسافر في الهوا جوه شبكات المحمول من غير ما يضيع؟</p><p>لما نتكلم أو نبعت داتا، الإشارة بنسميها إشارة الحزمة الأساسية (Baseband Signal).</p><p>دي ترددها منخفض، ولو بعتناها في الهوا مباشرة هنواجه مشكلتين صعبين جداً.</p><p>الأولى حجم الهوائي (Antenna Size)، طول الهوائي بيتناسب عكسياً مع التردد. للصوت هنحتاج برج طوله 50 كيلومتر! التانية التداخل (Interference)، لو المحطات بعتت على ترددات منخفضة مع بعض، الإشارات هتدخل في بعضها.</p><h4>✨ 1. الحل السحري في التعديل الترددي (Modulation)</h4><p>التعديل الترددي (Modulation) ببساطة بناخد البيانات بتاعتنا ونحملها على موجة ترددها عالي جداً بنسميها الموجة الحاملة (Carrier Wave).</p><p>الموجة دي بتسافر لمسافات بعيدة، وتخلينا نستخدم هوائيات صغيرة، وتمنع التداخل تماماً عشان كل إشارة ليها مسار.</p><h4>📍 2. يا ترى التعديل ده بيحصل فين بالظبط جوه الموقع؟</h4><p>لو سألت نفسك العمليات المعقدة دي بتحصل فين بالظبط جوه البرج، الإجابة متقسمة.</p><p>في المواقع العادية، التعديل الترددي بيتم جوه وحدة النطاق الأساسي (Baseband Unit - BBU) تحت في الكابينة، لأنها العقل اللي بيعالج البيانات ديجيتال.</p><p>الإشارة بتتبعت لوحدة الراديو البعيدة (Remote Radio Unit - RRU) فوق، ودي بتحولها لراديو وتكبرها، والهوائي (Antenna) بيبثها.</p><p>في الـ 5G، وحدة الهوائي النشط (Active Antenna Unit - AAU) دمجت الراديو مع الهوائي، بس لسه الـ (BBU) هو اللي بيعمل التعديل.</p><p>وفي الميكروويف اللي بيربط الأبراج، التعديل بيحصل تحت في الوحدة الداخلية (Indoor Unit - IDU)، وتطلع الإشارة للوحدة الخارجية (Outdoor Unit - ODU) عشان تتكبر، لحد ما طبق الميكروويف (Microwave Dish) يوجهها.</p><h4>📊 3. إزاي بنقيس جودة الإشارة؟</h4><p>بنقيس الجودة بنسبة الإشارة إلى الضوضاء (Signal-to-Noise Ratio - SNR) لصفاء الإشارة، ونسبة الخطأ في البتات (Bit Error Rate - BER).</p><p>والكفاءة الطيفية (Spectral Efficiency) ومقدار متجه الخطأ (Error Vector Magnitude - EVM).</p><h4>📈 4. التطور مع الأجيال (Modulation Techniques)</h4><p>انتقلنا من التعديل التماثلي (Analog Modulation) للتعديل الرقمي (Digital Modulation) السريع.</p><p>تقنية زحزحة الطور (Phase Shift Keying - PSK) كانت أساس الجيل التالت.</p><p>وفي الجيل الرابع والخامس، استخدمنا (Quadrature Amplitude Modulation - QAM) لدمج السعة والطور ونقل داتا أسرع بكتير.</p><p>وظهرت تقنية النفاذ المتعدد بتقسيم التردد التعامدي (OFDM) اللي قسمت البيانات لترددات متوازية عشان تسرع النت جداً.</p><h4>🌧️ 5. الجو والتكيف الديناميكي</h4><p>النت بيبطأ شوية وقت المطر الشديد لإن قطرات المطر بتعمل توهين و اضمحلال (Attenuation) لضعف طاقة الإشارة ومسارات متعددة (Multipath).</p><p>بس الشبكات الذكية بتستخدم التكيف الديناميكي (Adaptive Modulation and Coding - AMC)، وتقلل مستوى التعديل تلقائياً وتزود طاقة الإرسال عشان تفضل متصل ومفيش مكالمة تقطع.</p><h4>💡 الخلاصة</h4><p>التعديل الترددي هو السحر اللي بيخلينا نبعت داتا ضخمة بدون تداخل لمسافات بعيدة.</p><p>لعمليات دي بتحصل في (BBU) و (IDU) قبل ما الإشارة تطلع للراديو والهوائي.</p><p>ومع تغير الأجيال والطقس، الشبكة بتتكيف بذكاء عشان تحافظ على استقرار وقوة اتصالك طول الوقت.</p><hr><h4>📚 المصادر والروابط:</h4><p>#هندسة_الاتصالات #شبكات_المحمول #تكنولوجيا #الجيل_الرابع #الجيل_الخامس #التعديل_الترددي #الاتصالات_اللاسلكية #الميكروويف #مصر #Telecom #MobileNetworks #Modulation #4G #LTE #5G #MicrowaveLink #NetworkEngineering #Egypt</p>",
+    "en": "<h3>📡 How Does Your Voice Travel Through the Air in Mobile Networks Without Getting Lost? The Secret of Modulation 📶</h3><p>Have you ever wondered how your voice travels through the air within mobile networks without getting lost?</p><p>When we speak or transmit data, the signal is referred to as a Baseband Signal.</p><p>Its frequency is low, and transmitting it directly through the air would introduce two major problems.</p><p>First is Antenna Size; antenna length is inversely proportional to frequency. For audio frequencies, we would need a 50-kilometer-long tower! Second is Interference; if base stations transmitted on low frequencies simultaneously, signals would collide.</p><h4>✨ 1. The Magical Solution: Modulation</h4><p>Modulation simply involves taking our data and piggybacking it onto an extremely high-frequency wave known as a Carrier Wave.</p><p>This wave travels long distances, enables small antennas, and entirely eliminates interference by assigning each signal a dedicated path.</p><h4>📍 2. Exactly Where Does Modulation Occur Within the Site?</h4><p>If you wonder where these complex operations take place inside the tower site, the architecture is distributed.</p><p>In standard sites, modulation occurs within the Baseband Unit (BBU) located in the equipment shelter, as it acts as the digital data-processing core.</p><p>The signal is then forwarded to the Remote Radio Unit (RRU) atop the tower, which converts it to RF, amplifies it, and broadcasts it via the Antenna.</p><p>In 5G networks, the Active Antenna Unit (AAU) integrates the radio with the antenna, yet the BBU still handles baseband modulation.</p><p>In Microwave links interconnecting cell sites, modulation happens downstairs in the Indoor Unit (IDU), after which the signal ascends to the Outdoor Unit (ODU) for amplification before being directed by the Microwave Dish.</p><h4>📊 3. How Do We Measure Signal Quality?</h4><p>We measure signal quality using the Signal-to-Noise Ratio (SNR) for signal clarity, and the Bit Error Rate (BER).</p><p>Additionally, we evaluate Spectral Efficiency and Error Vector Magnitude (EVM).</p><h4>📈 4. Evolution Across Generations (Modulation Techniques)</h4><p>We transitioned from Analog Modulation to high-speed Digital Modulation.</p><p>Phase Shift Keying (PSK) served as the foundation for third-generation (3G) networks.</p><p>In 4G and 5G, Quadrature Amplitude Modulation (QAM) was adopted to combine amplitude and phase modulation for significantly faster data transmission.</p><p>Furthermore, Orthogonal Frequency Division Multiplexing (OFDM) emerged, splitting data across parallel subcarrier frequencies to drastically accelerate internet speeds.</p><h4>🌧️ 5. Weather and Dynamic Adaptation</h4><p>Internet speeds may slow slightly during heavy rainfall because raindrops cause Attenuation through signal energy weakening and Multipath propagation.</p><p>However, intelligent networks utilize Adaptive Modulation and Coding (AMC), automatically reducing the modulation order while boosting transmission power to maintain a seamless, uninterrupted connection.</p><h4>💡 Summary</h4><p>Modulation is the magic enabling the transmission of massive data over long distances without interference.</p><p>These operations occur within the BBU and IDU before signals reach radio units and antennas.</p><p>As generations and weather conditions evolve, the network intelligently adapts to preserve connection stability and strength at all times.</p><hr><h4>📚 Sources and Links:</h4><p>#هندسة_الاتصالات #شبكات_المحمول #تكنولوجيا #الجيل_الرابع #الجيل_الخامس #التعديل_الترددي #الاتصالات_اللاسلكية #الميكروويف #مصر #Telecom #MobileNetworks #Modulation #4G #LTE #5G #MicrowaveLink #NetworkEngineering #Egypt</p>"
+  }
+},
+  {
     "id": 385,
     "category": "political_economic",
     "image": "https://i.postimg.cc/Wz3hD334/825273502-3066169383714801-1707409652558660102-n.jpg",
