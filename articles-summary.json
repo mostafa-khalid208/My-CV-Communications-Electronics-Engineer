@@ -1,5 +1,223 @@
 [
   {
+  "id": 396,
+  "category": "cybersecurity",
+  "image": "https://i.postimg.cc/P5d3V8VV/896110087-3116503005348105-2216905800773134015-n.jpg",
+  "link": "#",
+  "date": "2026-11-08",
+  "tags": [
+    "الأمن_السيبراني",
+    "حماية_البيانات",
+    "الخصوصية",
+    "أمن_المعلومات",
+    "CyberSecurity",
+    "DataPrivacy",
+    "BadUSB",
+    "USB",
+    "IoT",
+    "NetworkSecurity"
+  ],
+  "title": {
+    "ar": "🔋 باور بانك بسعة 30 ألف؟ ولا كمبيوتر صغير بيتجسس عليك؟ 🕵️‍♂️💻",
+    "en": "🔋 A 30,000mAh Power Bank? Or a Mini Computer Spying on You? 🕵️‍♂️💻"
+  },
+  "summary": {
+    "ar": "تحليل أمني وتقني لواقعة الباور بانك المشبوه الذي يعمل ككمبيوتر صغير لنقل البيانات، مع استعراض مخاطر BadUSB، وChoiceJacking، وBadPower، ونصائح عملية لتأمين الأجهزة والشبكات المنزلية ضد الهجمات الخفية. 🛡️",
+    "en": "A security and technical analysis of a suspicious power bank acting as a mini computer for data transfer, reviewing risks like BadUSB, ChoiceJacking, and BadPower, alongside practical tips to secure devices and home networks against hidden attacks. 🛡️"
+  }
+},
+  {
+  "id": 395,
+  "category": "telecommunications",
+  "image": "https://i.postimg.cc/VkzGZbZG/885084216-3110613039270435-1816212284049102144-n.jpg",
+  "link": "#",
+  "date": "2026-11-04",
+  "tags": [
+    "هندسة_الاتصالات",
+    "شبكات_المحمول",
+    "5G",
+    "NSA",
+    "SA",
+    "5GCore",
+    "Telecom",
+    "NetworkEngineering"
+  ],
+  "title": {
+    "ar": "🌐 الجيل الخامس 5G NSA وSA.. إيه الفرق بينهم؟ وهل كل شبكة 5G بتقدم إمكانيات الجيل الخامس الكاملة؟ 📶",
+    "en": "🌐 5G NSA and SA: What's the Difference? And Does Every 5G Network Deliver Full 5G Capabilities? 📶"
+  },
+  "summary": {
+    "ar": "دليل هندسي مقارن يوضح الفرق بين شبكات الجيل الخامس غير المستقلة (NSA) والمستقلة (SA)، مع شرح معماريات النواة (EPC vs 5GC)، استخدامات eMBB وURLLC وmMTC، مكونات الموقع (AAU)، وتقنيات Network Slicing وLatency. 🌐",
+    "en": "A comparative engineering guide explaining the difference between Non-Standalone (NSA) and Standalone (SA) 5G networks, detailing core architectures (EPC vs 5GC), eMBB, URLLC, mMTC use cases, site components (AAU), Network Slicing, and Latency. 🌐"
+  }
+},
+  {
+  "id": 394,
+  "category": "science",
+  "image": "https://i.postimg.cc/8zTKXrXy/876407050-3107215279610211-7537201188094186659-n.jpg",
+  "link": "#",
+  "date": "2026-11-01",
+  "tags": [
+    "النوم",
+    "الدماغ",
+    "علم_الأعصاب",
+    "الصحة",
+    "HypnicJerks",
+    "SleepScience",
+    "Neuroscience",
+    "HumanBrain",
+    "SleepDisorders"
+  ],
+  "title": {
+    "ar": "💤 ليه فجأة بتحس إنك بتقع من مكان مش موجود وأنت لسه بتنام؟ وهل المخ بيحاول ينقذك من الموت؟ 🛌🧠",
+    "en": "💤 Why Do You Suddenly Feel Like You're Falling From Nowhere While Falling Asleep? And Is the Brain Trying to Save You From Death? 🛌🧠"
+  },
+  "summary": {
+    "ar": "مقال علمي تفصيلي يناقش ظاهرة النفضات النومية (Hypnic Jerks) والإحساس بالسقوط عند بداية النوم؛ يوضح المرحلة الانتقالية للمخ (Hypnagogic State)، دور الأجهزة الحسية والتوازن، ويكذب الاعتقاد الشائع حول إنقاذ القلب من التوقف. 💤",
+    "en": "A detailed scientific article discussing Hypnic Jerks and the falling sensation at sleep onset. Explains the hypnagogic state, sensory and balance systems, and debunks the common myth about saving the heart from stopping. 💤"
+  }
+},
+  {
+  "id": 393,
+  "category": "transmission",
+  "image": "https://i.postimg.cc/wTX4kk2w/870468783-3105904789741260-6538045385614557241-n.jpg",
+  "link": "#",
+  "date": "2026-10-31",
+  "tags": [
+    "Microwave",
+    "Telecom",
+    "Transmission",
+    "Protection",
+    "HSB",
+    "XPIC",
+    "FrequencyDiversity",
+    "SpaceDiversity"
+  ],
+  "title": {
+    "ar": "📡 إزاي نختار الـ Protection المناسب في Microwave Link؟ دليل هندسي متكامل 📶",
+    "en": "📡 How Do We Choose the Appropriate Protection in a Microwave Link? A Comprehensive Engineering Guide 📶"
+  },
+  "summary": {
+    "ar": "دليل هندسي مفصل لاختيار نظام الحماية (Protection) المناسب لروابط الميكروويف؛ يوضح الفرق بين تكوينات 1+0، 1+1 (HSB, FD, SD)، وتكوينات السعة العالية 2+0 XPIC، و2+2 HSB وHSB-SD، ومعايير اتخاذ القرار الهندسي بناءً على الموثوقية والميزانية والمسار. 📡",
+    "en": "A detailed engineering guide on selecting the proper protection schemes for microwave links. Explains 1+0, 1+1 (HSB, FD, SD) configurations, high-capacity 2+0 XPIC, 2+2 HSB and HSB-SD options, and criteria for engineering decisions based on reliability, budget, and path profiles. 📡"
+  }
+},
+  {
+  "id": 392,
+  "category": "microwaves",
+  "image": "https://i.postimg.cc/rF1Z99jj/870182260-3104615386536867-8733841419520112198-n.jpg",
+  "link": "#",
+  "date": "2026-10-29",
+  "tags": [
+    "هندسة_الاتصالات",
+    "الميكروويف",
+    "شبكات_المحمول",
+    "AntennaGain",
+    "MicrowaveLink",
+    "LinkBudget",
+    "Telecom",
+    "NetworkEngineering",
+    "5G"
+  ],
+  "title": {
+    "ar": "📡 إزاي بنختار حجم طبق المايكروويف (Microwave Dish) والتردد المناسب لنقل الداتا بين مواقع المحمول لمسافات بعيدة؟ 📶",
+    "en": "📡 How Do We Choose the Microwave Dish Size and Appropriate Frequency for Long-Distance Data Transmission Between Cell Sites? 📶"
+  },
+  "summary": {
+    "ar": "دليل هندسي مفصل لاختيار حجم طبق المايكروويف (Microwave Dish) والتردد المناسب لنقل البيانات؛ يوضح العلاقة بين التردد والطول الموجي، عوامل كسب الهوائي (Antenna Gain)، تأثير التردد على الخسائر والأمطار، ومعايير حساب ميزانية الرابط (Link Budget). 📡",
+    "en": "A detailed engineering guide on selecting microwave dish sizes and frequencies for data transmission. Explains the relationship between frequency and wavelength, antenna gain factors, rain and path loss effects, and link budget calculation criteria. 📡"
+  }
+},
+  {
+  "id": 391,
+  "category": "telecommunications",
+  "image": "https://i.postimg.cc/3JXfZZ1Z/866339677-3103070053358067-1046249842190684105-n.jpg",
+  "link": "#",
+  "date": "2026-10-28",
+  "tags": [
+    "Commulogy",
+    "Telecom",
+    "MobileNetworks",
+    "RFEngineering",
+    "DriveTest",
+    "PIM",
+    "SiteMaster",
+    "OTDR",
+    "FiberOptics",
+    "LTE",
+    "5G"
+  ],
+  "title": {
+    "ar": "🛠️ أجهزة القياس في شبكات المحمول: إزاي تكتشف العطل بدل ما تغيّر مكونات سليمة؟ 📡📶",
+    "en": "🛠️ Measurement Tools in Mobile Networks: How to Detect Faults Instead of Replacing Working Components? 📡📶"
+  },
+  "summary": {
+    "ar": "دليل هندسي شامل لأهم أجهزة القياس في شبكات المحمول وكيفية استخدامها لاكتشاف الأعطال بدقة (Site Master, Spectrum Analyzer, RF Power Meter, PIM Analyzer, OTDR, Optical Power Meter, Drive Test Tools) وتجنب تغيير المكونات السليمة. 🛠️",
+    "en": "A comprehensive engineering guide to key measurement tools in mobile networks and how to accurately diagnose faults using Site Master, Spectrum Analyzer, RF Power Meter, PIM Analyzer, OTDR, Optical Power Meter, and Drive Test Tools while avoiding unnecessary component replacements. 🛠️"
+  }
+},
+  {
+  "id": 390,
+  "category": "science",
+  "image": "https://i.postimg.cc/CLGr447N/862348117-3098707947127611-4363365876229714774-n.jpg",
+  "link": "#",
+  "date": "2026-10-24",
+  "tags": [
+    "تحويل_الزئبق_لذهب",
+    "الذهب",
+    "الفيزياء_النووية",
+    "الكيمياء",
+    "الاقتصاد",
+    "أسعار_الذهب",
+    "البنوك_المركزية",
+    "الاستثمار",
+    "العلم",
+    "التكنولوجيا",
+    "NuclearPhysics",
+    "NuclearTransmutation",
+    "Gold",
+    "Economics"
+  ],
+  "title": {
+    "ar": "🪙 هل ممكن نحول الزئبق لذهب؟ وإيه اللي هيحصل لو قدرنا نصنّع الذهب بكميات ضخمة وبتكلفة أقل من سعره في السوق؟ 🧪✨",
+    "en": "🪙 Can We Turn Mercury Into Gold? And What Happens If We Mass-Produce Gold at a Cost Lower Than Market Price? 🧪✨"
+  },
+  "summary": {
+    "ar": "بحث علمي واقتصادي متعمق حول إمكانية التحويل النووي للزئبق إلى ذهب عبر الفيزياء النووية ومصادم الهادرونات الكبير (LHC)، مع تحليل التكلفة الفلكية للإنتاج، طبيعة النظائر المشعة ومعدلات الأمان، تأثير الإنتاج الضخم على المعروض العالمي، وتداعيات ذلك على شركات التعدين واحتياطيات البنوك المركزية والدول. 🪙",
+    "en": "An in-depth scientific and economic study on the nuclear transmutation of mercury into gold using nuclear physics and the Large Hadron Collider (LHC). Analyzes astronomical production costs, radioactive isotopes and safety measures, the impact of mass production on global supply, and consequences for mining companies and central bank reserves. 🪙"
+  }
+},
+  {
+  "id": 389,
+  "category": "data_science",
+  "image": "https://i.postimg.cc/yYmpTTjS/858121270-3096036277394778-7261085178199830466-n.jpg",
+  "link": "#",
+  "date": "2026-10-22",
+  "tags": [
+    "وهم_الأرقام",
+    "الخداع_الإحصائي",
+    "الإحصاء",
+    "الوعي_الرقمي",
+    "التفكير_النقدي",
+    "الاقتصاد",
+    "البيانات",
+    "Statistics",
+    "MisleadingStatistics",
+    "DataLiteracy",
+    "CriticalThinking",
+    "DataAnalysis",
+    "Economics"
+  ],
+  "title": {
+    "ar": "📊 وهم الأرقام.. إزاي الأرقام الصحيحة ممكن تضحك عليك وتخليك تشوف الحقيقة بشكل مختلف؟ 🤔",
+    "en": "📊 The Illusion of Numbers.. How Accurate Numbers Can Fool You and Make You See Reality Differently? 🤔"
+  },
+  "summary": {
+    "ar": "دليل شامل حول الخداع الإحصائي (Statistical Misrepresentation) والتضليل باستخدام الأرقام؛ يستعرض أمثلة عملية حول القيم المتطرفة (Outliers)، الأرقام الكبيرة ونصيب الفرد، النسب المئوية والتغير المطلق، رباعية أنسكومب، مفارقة سيمبسون، الرسوم البيانية المضللة، تحيز العينة، والارتباط مقابل السببية. 📊",
+    "en": "A comprehensive guide on Statistical Misrepresentation and misleading statistics. Explores practical examples regarding outliers, large numbers versus per capita, percentages vs absolute change, Anscombe's quartet, Simpson's paradox, misleading graphs, sampling bias, and correlation versus causation. 📊"
+  }
+},
+  {
   "id": 388,
   "category": "ai",
   "image": "https://i.postimg.cc/rwGtNKg8/840052297-3079388732392866-7927915661067096144-n.jpg",
