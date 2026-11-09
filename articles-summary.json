@@ -1,5 +1,31 @@
 [
   {
+  "id": 397,
+  "category": "satellite",
+  "image": "https://i.postimg.cc/vT8DKvn6/897776544-3117687515229654-4426182754705447833-n.jpg",
+  "link": "#",
+  "date": "2026-11-09",
+  "tags": [
+    "Nilesat",
+    "Satellite",
+    "LNB",
+    "DVB_S2",
+    "Frequency",
+    "Polarization",
+    "SymbolRate",
+    "OFDM",
+    "Telecom"
+  ],
+  "title": {
+    "ar": "🛰️ إزاي إشارة نايل سات بتوصل من القمر لحد الرسيفر؟ وإيه معنى التردد والاستقطاب والـ Symbol Rate؟ 📡",
+    "en": "🛰️ How Does Nilesat Signal Reach from the Satellite to the Receiver? And What Do Frequency, Polarization, and Symbol Rate Mean? 📡"
+  },
+  "summary": {
+    "ar": "شرح هندسي وتقني مسار إشارة الأقمار الصناعية (نايل سات) من البث الفضائي بـ Ku-Band وحتى الاستقبال بالرسيفر؛ مع تفصيل دور طبق الدش، والـ LNB، والكابل المحوري، ومعاني التردد، الاستقطاب (V/H)، معدل الرموز (Symbol Rate)، وFEC. 🛰️",
+    "en": "An engineering and technical explanation of the satellite signal path (Nilesat) from Ku-band transmission to receiver processing. Details the role of the dish, LNB, coaxial cable, frequency, polarization (V/H), symbol rate, and FEC. 🛰️"
+  }
+},
+  {
   "id": 396,
   "category": "cybersecurity",
   "image": "https://i.postimg.cc/P5d3V8VV/896110087-3116503005348105-2216905800773134015-n.jpg",
