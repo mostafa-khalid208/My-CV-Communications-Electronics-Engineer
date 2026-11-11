@@ -1,5 +1,65 @@
 [
   {
+  "id": 399,
+  "category": "telecommunications",
+  "image": "https://i.postimg.cc/R0QQTDTF/902764809-3120051941659878-9040549311727946711-n.jpg",
+  "link": "#",
+  "date": "2026-11-11",
+  "tags": [
+    "Telecommunications",
+    "MobileNetworks",
+    "5G",
+    "6G",
+    "TDD",
+    "FDD",
+    "OFDMA",
+    "TDMA",
+    "FDMA",
+    "CDMA",
+    "WirelessCommunication",
+    "هندسة_الاتصالات",
+    "شبكات_المحمول"
+  ],
+  "title": {
+    "ar": "📡 مصطلحات بتتشابه في الاسم لكن بتختلف في الوظيفة.. افهم الفرق بين TDD وFDD وOFDMA! رحلة من 1G إلى 6G! 📶",
+    "en": "📡 Similar Names, Different Functions: Understand the Difference Between TDD, FDD, and OFDMA! A Journey from 1G to 6G! 📶"
+  },
+  "summary": {
+    "ar": "دليل هندسي مقارن يوضح الفرق الجوهري بين تقنيات الازدواج (Duplexing مثل TDD وFDD) وطرق النفاذ المتعدد (Multiple Access مثل FDMA وTDMA وCDMA وOFDMA)، مع تتبع تطورها عبر الأجيال من 1G وحتى آفاق أبحاث 6G حتى نوفمبر 2026. 📡",
+    "en": "A comparative engineering guide clarifying the fundamental difference between Duplexing techniques (like TDD and FDD) and Multiple Access methods (like FDMA, TDMA, CDMA, and OFDMA), tracing their evolution from 1G across generations up to 6G research insights as of November 2026. 📡"
+  }
+},
+  {
+  "id": 398,
+  "category": "cybersecurity",
+  "image": "https://i.postimg.cc/vmLLvNvT/900302560-3118102381854834-4805493475696282550-n.jpg",
+  "link": "#",
+  "date": "2026-11-10",
+  "tags": [
+    "CyberSecurity",
+    "CyberWarfare",
+    "CyberPhysicalSystems",
+    "SCADA",
+    "ICS",
+    "OTSecurity",
+    "CriticalInfrastructure",
+    "IndustrialCybersecurity",
+    "SmartGrid",
+    "ArtificialIntelligence",
+    "ElectronicWarfare",
+    "Technology",
+    "FutureWar"
+  ],
+  "title": {
+    "ar": "🧊 لما الثلاجة تبقى سلاح.. هل دخلنا عصر الحروب السيبرانية ضد حياة الشعوب؟ 🖥️⚡",
+    "en": "🧊 When a Refrigerator Becomes a Weapon: Have We Entered the Era of Cyber Warfare Against Public Life? 🖥️⚡"
+  },
+  "summary": {
+    "ar": "تحليل عميق لطبيعة الحروب السيبرانية الحديثة والبنية التحتية الحرجة (Critical Infrastructure)؛ يستعرض هجمات أنظمة التبريد في أوروبا، شبكات الكهرباء، محطات المياه، خطوط الوقود، والأقمار الصناعية، وكيف تحولت الأنظمة الرقمية وتكنولوجيا التشغيل (OT/ICS) لأداة حرب سيبرفيزيائية.",
+    "en": "An in-depth analysis of modern cyber warfare and critical infrastructure; examines European refrigeration cooling attacks, power grids, water plants, fuel pipelines, and satellites, exploring how digital systems and OT/ICS have turned into tools of cyber-physical conflict."
+  }
+},
+  {
   "id": 397,
   "category": "satellite",
   "image": "https://i.postimg.cc/vT8DKvn6/897776544-3117687515229654-4426182754705447833-n.jpg",
