@@ -1,5 +1,159 @@
 [
   {
+  "id": 403,
+  "category": "technology",
+  "image": "https://i.postimg.cc/0yrXfWps/906734585-3124538707877868-597642635122706506-n.jpg",
+  "link": "#",
+  "date": "2026-11-15",
+  "tags": [
+    "استهلاك_الإنترنت",
+    "استهلاك_البيانات",
+    "باقات_الإنترنت",
+    "الإنترنت_في_مصر",
+    "فيسبوك",
+    "إنستجرام",
+    "تيك_توك",
+    "يوتيوب",
+    "الإنترنت_المحمول",
+    "التحول_الرقمي",
+    "التكنولوجيا",
+    "استهلاك_الداتا",
+    "DataConsumption",
+    "DataTraffic",
+    "InternetUsage",
+    "MobileData",
+    "SocialMedia",
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "YouTubeShorts",
+    "Reels",
+    "DataUsage",
+    "DigitalTransformation",
+    "Telecommunications",
+    "InternetTraffic"
+  ],
+  "title": {
+    "ar": "📶 باقتك بتخلص أسرع من زمان؟! إزاي تطور السوشيال ميديا خلّى استهلاك الإنترنت يزيد بشكل مرعب؟ 😳",
+    "en": "📶 Your Internet Package Runs Out Faster Than Before?! How Social Media Evolution Made Internet Consumption Increase Horrifyingly? 😳"
+  },
+  "summary": {
+    "ar": "تحليل تقني شامل لسبب زيادة استهلاك الإنترنت وباقات الموبايل والإنترنت الأرضي في مصر والعالم، ودور الفيديوهات القصيرة والسوشيال ميديا في مضاعفة استهلاك البيانات، مع استعراض الأرقام والتوقعات المستقبلية حتى 2031.",
+    "en": "A comprehensive technical analysis of why internet and mobile data consumption is surging in Egypt and globally, examining the role of short videos and social media in doubling data usage, along with statistics and future forecasts up to 2031."
+  }
+},
+{
+  "id": 402,
+  "category": "science",
+  "image": "https://i.postimg.cc/zvj2d4tJ/906938469-3124416261223446-4434716832378038031-n.jpg",
+  "link": "#",
+  "date": "2026-11-15",
+  "tags": [
+    "سرطان_المريء",
+    "المشروبات_الساخنة",
+    "الشاي",
+    "القهوة",
+    "الصحة",
+    "التوعية_الصحية",
+    "منظمة_الصحة_العالمية",
+    "الأبحاث_الطبية",
+    "EsophagealCancer",
+    "HotBeverages",
+    "Tea",
+    "Coffee",
+    "HealthAwareness",
+    "WHO",
+    "IARC",
+    "MedicalResearch"
+  ],
+  "title": {
+    "ar": "65 درجة مئوية...عادة يومية بنعملها كل يوم.. هل ممكن تزود خطر الإصابة بسرطان المريء؟ ☕ ⚠️",
+    "en": "65 Degrees Celsius... A Daily Habit We Do Every Day... Can It Increase the Risk of Esophageal Cancer? ☕ ⚠️"
+  },
+  "summary": {
+    "ar": "تحليل علمي وطبي شامل حول علاقة تناول المشروبات شديدة السخونة (أعلى من 65 درجة مئوية) بخطر الإصابة بسرطان المريء، استناداً إلى تقارير منظمة الصحة العالمية والأبحاث الحديثة. المقال عام والأفضل الاستعانة بالمتخصصين.",
+    "en": "A comprehensive scientific and medical analysis of the relationship between consuming very hot beverages (above 65°C) and the risk of esophageal cancer, based on WHO reports and recent research. Note that the article is general and it is always best to consult specialists."
+  }
+},
+ {
+  "id": 401,
+  "category": "cyber_security",
+  "image": "https://i.postimg.cc/2S39wcn7/904646234-3123147688016970-435773490562672818-n.jpg",
+  "link": "#",
+  "date": "2026-11-14",
+  "tags": [
+    "CyberSecurity",
+    "CyberWarfare",
+    "ElectronicWarfare",
+    "AviationSecurity",
+    "CriticalInfrastructure",
+    "CyberPhysicalSystems",
+    "Jamming",
+    "Spoofing",
+    "FutureWar",
+    "America",
+    "USA",
+    "US",
+    "الأمن_السيبراني",
+    "الحروب_السيبرانية",
+    "الحرب_الإلكترونية",
+    "أمن_الطيران",
+    "البنية_التحتية_الحيوية",
+    "الأنظمة_السيبرانية_المادية",
+    "التشويش",
+    "التضليل_الإلكتروني",
+    "حروب_المستقبل",
+    "أمريكا",
+    "الولايات_المتحدة",
+    "تعطيل_الطيران",
+    "ترامب"
+  ],
+  "title": {
+    "ar": "✈️ أمريكا تشل حركة الطيران.. هل بدأت الحروب السيبرانية تضرب البنية التحتية؟ هل أصبحت التكنولوجيا سلاح الحروب الحديثة؟ هل يمكن شل دولة كاملة من غير إطلاق رصاصة واحدة؟ هل ده مستقبل الحروب؟",
+    "en": "✈️ America Halts Aviation: Have Cyber Warfare Began Striking Critical Infrastructure? Modern Warfare Technologies and Geopolitical Leverage."
+  },
+  "summary": {
+    "ar": "تحليل أمني وسياسي شامل لواقعة إيقاف حركة الطيران في الولايات المتحدة (Nationwide Ground Stop) في 13 نوفمبر 2026 إثر خلل في أنظمة الاتصالات والمراقبة الجوية، مع ربطها بالأعطال التقنية العالمية ومفهوم أوراق الضغط السياسية والحروب السيبرانية. المقال عام والأفضل الاستعانة بالمتخصصين. 🛡️",
+    "en": "A comprehensive security and political analysis of the nationwide ground stop in the US on November 13, 2026, due to communication and air traffic control failures; linking it to global IT outages and geopolitical pressure leverage in modern cyber warfare. Note that the article is general and it is always best to consult specialists. 🛡️"
+  }
+},
+  {
+  "id": 400,
+  "category": "telecommunications",
+  "image": "https://i.postimg.cc/9Qzgp8yN/904471742-3122490984749307-5138972289533064926-n.jpg",
+  "link": "#",
+  "date": "2026-11-13",
+  "tags": [
+    "أبراج_الاتصالات",
+    "هندسة_الاتصالات",
+    "موجات_الراديو",
+    "الإشعاع_الكهرومغناطيسي",
+    "السلامة_المهنية",
+    "المايكروويف",
+    "الاتصالات_اللاسلكية",
+    "Telecommunications",
+    "RF",
+    "RadioFrequency",
+    "BaseStations",
+    "TelecomEngineering",
+    "RFExposure",
+    "ICNIRP",
+    "5G",
+    "Microwave",
+    "StructuralSafety",
+    "OccupationalSafety"
+  ],
+  "title": {
+    "ar": "🗼 أبراج الاتصالات: خطر حقيقي ولا مجرد أوهام؟ الحقيقة الكاملة عن الإشعاع والمخاطر! 📡",
+    "en": "🗼 Telecom Towers: Real Danger or Just Illusions? The Complete Truth About Radiation and Risks! 📡"
+  },
+  "summary": {
+    "ar": "دليل هندسي وطبي شامل يتناول حقيقة أبراج الاتصالات، وموجات الراديو، ومعايير الأمان الدولية (ICNIRP)، والمخاطر الإنشائية والبيئية، مع التنويه بأن المقال عام ويُفضل دائماً الاستعانة بالمتخصصين. 🛡️",
+    "en": "A comprehensive engineering and medical guide addressing the truth about telecom towers, radio waves, international safety standards (ICNIRP), structural and environmental risks, noting that the article is general and it is always best to consult specialists. 🛡️"
+  }
+},
+  {
   "id": 399,
   "category": "telecommunications",
   "image": "https://i.postimg.cc/R0QQTDTF/902764809-3120051941659878-9040549311727946711-n.jpg",
