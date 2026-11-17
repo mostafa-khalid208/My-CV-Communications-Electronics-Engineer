@@ -1,5 +1,79 @@
 [
   {
+  "id": 405,
+  "category": "technology",
+  "image": "https://i.postimg.cc/rptsbhsM/911336973-3127385050926567-8278132205613379256-n.jpg",
+  "link": "#",
+  "date": "2026-11-17",
+  "tags": [
+    "الواي_فاي",
+    "استشعار_الواي_فاي",
+    "الأمن_السيبراني",
+    "التجسس",
+    "الخصوصية",
+    "هندسة_الاتصالات",
+    "الذكاء_الاصطناعي",
+    "تأثير_دوبلر",
+    "الرادار",
+    "المنازل_الذكية",
+    "WiFiSensing",
+    "CyberSecurity",
+    "Privacy",
+    "Surveillance",
+    "CSI",
+    "SignalProcessing",
+    "ArtificialIntelligence",
+    "DopplerEffect",
+    "IEEE80211bf",
+    "IoT"
+  ],
+  "title": {
+    "ar": "📡 هل الواي فاي WiFi ممكن يعرف مين موجود في بيتك وبيعمل إيه من غير كاميرا؟! 😳",
+    "en": "📡 Can Wi-Fi Know Who Is in Your Home and What They Are Doing Without a Camera?! 😳"
+  },
+  "summary": {
+    "ar": "تحليل تقني شامل لمجال استشعار الواي فاي (Wi-Fi Sensing)، وكيفية استغلال إشارات الراديو والذكاء الاصطناعي لمعرفة وتتبع حركة الأشخاص والأجهزة دون كاميرات، مع استعراض الاستخدامات الطبية والصناعية والمخاطر الأمنية المحتملة.",
+    "en": "A comprehensive technical analysis of Wi-Fi Sensing, exploring how radio signals and artificial intelligence are utilized to detect and track human movement and presence without cameras, alongside medical, industrial applications, and potential security risks."
+  }
+},
+  {
+  "id": 404,
+  "category": "astronomy_space",
+  "image": "https://i.postimg.cc/N0rFVNFc/911665146-3127073490957723-3601970492197163092-n.jpg",
+  "link": "#",
+  "date": "2026-11-16",
+  "tags": [
+    "الفضاء",
+    "الزمن",
+    "السفر_عبر_الزمن",
+    "سرعة_الضوء",
+    "النسبية",
+    "أينشتاين",
+    "الثقوب_الدودية",
+    "الفيزياء",
+    "الكون",
+    "علوم",
+    "Space",
+    "TimeTravel",
+    "SpeedOfLight",
+    "Relativity",
+    "Einstein",
+    "WarpDrive",
+    "Wormholes",
+    "Physics",
+    "NASA",
+    "Science"
+  ],
+  "title": {
+    "ar": "🚀 هل نقدر نشوف ماضي الأرض لو سافرنا أسرع من الضوء؟",
+    "en": "🚀 Can We See Earth's Past If We Travel Faster Than Light?"
+  },
+  "summary": {
+    "ar": "مناقشة علمية وفلكية مشوقة حول رؤية الماضي عبر الضوء، والتلسكوبات الفضائية، وإمكانية السفر أسرع من الضوء، ونظريات أينشتاين وأهم الأبحاث الفيزيائية حول الزمن والكون. 🌌",
+    "en": "An exciting scientific and astronomical discussion about seeing the past through light, space telescopes, the possibility of faster-than-light travel, Einstein's theories, and major physical research on time and the universe. 🌌"
+  }
+},
+  {
   "id": 403,
   "category": "technology",
   "image": "https://i.postimg.cc/0yrXfWps/906734585-3124538707877868-597642635122706506-n.jpg",
