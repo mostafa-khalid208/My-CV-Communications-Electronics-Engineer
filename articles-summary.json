@@ -1,5 +1,70 @@
 [
   {
+  "id": 407,
+  "category": "science",
+  "image": "https://i.postimg.cc/C5NrRg6S/916666600-3132085097123229-9016846119823575072-n.jpg",
+  "link": "#",
+  "date": "2026-11-20",
+  "tags": [
+    "الوعي_الجمعي",
+    "علم_النفس",
+    "التفكير_النقدي",
+    "الدعاية",
+    "الإعلام",
+    "الاقتصاد",
+    "الهندسة",
+    "العلوم",
+    "الذكاء_الاصطناعي",
+    "CollectiveConsciousness",
+    "SocialInfluence",
+    "CriticalThinking",
+    "Psychology",
+    "Science",
+    "Engineering",
+    "ArtificialIntelligence"
+  ],
+  "title": {
+    "ar": "🧠 الوعي الجمعي: إزاي ممكن ملايين البشر يصدقوا كذبة ويشكّوا في الحقيقة؟",
+    "en": "🧠 Collective Consciousness: How Can Millions of People Believe a Lie and Doubt the Truth?"
+  },
+  "summary": {
+    "ar": "استكشاف علمي وتحليلي لمفهوم الوعي الجمعي والتأثير الاجتماعي عبر تجربة سولومون آش، وتأثيرهما في السياسة والإعلام والاقتصاد والهندسة والعلوم والسوشيال ميديا، وأهمية التفكير النقدي والتحقق من الأدلة.",
+    "en": "A scientific and analytical exploration of collective consciousness and social influence through Solomon Asch's experiment, their impact on politics, media, economy, engineering, science, and social media, and the importance of critical thinking and evidence verification."
+  }
+},
+  {
+  "id": 406,
+  "category": "cyber_security",
+  "image": "https://i.postimg.cc/3NBfkTb3/916579811-3130583143940091-6138981246482719006-n.jpg",
+  "link": "#",
+  "date": "2026-11-19",
+  "tags": [
+    "الذكاء_الاصطناعي",
+    "الأمن_السيبراني",
+    "الاختراق_الإلكتروني",
+    "الثغرات_الأمنية",
+    "جوجل",
+    "أمن_المعلومات",
+    "CyberSecurity",
+    "AI",
+    "AIAgents",
+    "ExploitAgent",
+    "ZeroDay",
+    "NDay",
+    "Google",
+    "Mandiant",
+    "ThreatIntelligence"
+  ],
+  "title": {
+    "ar": "🤖 هل الذكاء الاصطناعي بقى قادر يخترق المواقع لوحده؟!",
+    "en": "🤖 Is Artificial Intelligence Now Able to Hack Websites on Its Own?!"
+  },
+  "summary": {
+    "ar": "تحليل معمق لنظام exploit_agent الهجومي المعتمد على وكلاء الذكاء الاصطناعي وفق تقرير Google وMandiant، والفرق بين ثغرات Zero-Day وN-Day، وحملات الاختراق المؤتمتة مثل Claude وPaperCut وأطر ARTEX، مع سبل الحماية والدفاع.",
+    "en": "An in-depth analysis of the AI-agent-driven exploit_agent system per Google and Mandiant's report, the difference between Zero-Day and N-Day vulnerabilities, automated attack campaigns like Claude, PaperCut, and ARTEX frameworks, and defensive measures."
+  }
+},
+  {
   "id": 405,
   "category": "technology",
   "image": "https://i.postimg.cc/rptsbhsM/911336973-3127385050926567-8278132205613379256-n.jpg",
